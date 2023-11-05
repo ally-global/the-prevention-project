@@ -8,11 +8,7 @@ export default function About() {
   const { palette } = useTheme();
   return (
     <PageBody>
-      <Box sx={{ backgroundColor: palette.Purple, height: "580px" }}>
-        <Typography variant="h2" color={palette.White}>
-          About Us
-        </Typography>
-      </Box>
+      <h1>About us 👷‍♀️🚧</h1>
     </PageBody>
   );
 }
