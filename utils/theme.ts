@@ -6,6 +6,7 @@ const fontFamily = "Helvetica Neue, Arial, sans-serif";
 
 declare module "@mui/material" {
   interface PaletteOptions {
+    Purple: React.CSSProperties["color"];
     Grey50: React.CSSProperties["color"];
     Grey100: React.CSSProperties["color"];
     Grey200: React.CSSProperties["color"];
@@ -95,6 +96,7 @@ declare module "@mui/material/styles" {
 }
 
 const palette = {
+  Purple: "#6E53D9",
   Grey50: "#FAFAFA",
   Grey100: "#F5F5F5",
   Grey200: "#EEEEEE",
