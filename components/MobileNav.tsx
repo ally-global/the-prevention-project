@@ -22,11 +22,11 @@ const MobileMenuItem = ({
       sx={{
         height: "64px",
         width: "100%",
-        alignItems: "stretch",
         display: "flex",
+        alignItems: "stretch",
         borderBottom: removeBorder ? "none" : "1px solid",
         borderColor: `Grey300`,
-        px: 1,
+        px: { xs: 3, sm: 6 },
         a: {
           width: "100%",
           height: "100%",
@@ -77,6 +77,7 @@ const MobileNav: FC = () => {
             {/*TODO add higher res logo*/}
             <Image src={Logo} width={96} height={40} alt="Ally global logo" />
           </Link>
+
           {open ? (
             <IconButton onClick={handleDrawerClose} sx={{ mr: -1 }}>
               <CloseIcon sx={{ color: `Grey900` }} />
@@ -94,14 +95,6 @@ const MobileNav: FC = () => {
         </Box>
       </AppBar>
       <Drawer
-        sx={{
-          width: `100%`,
-          flexShrink: 0,
-          "&.MuiDrawer-paper": {
-            width: `100%`,
-            boxSizing: "border-box",
-          },
-        }}
         variant="persistent"
         anchor="top"
         open={open}
