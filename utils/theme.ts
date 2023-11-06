@@ -1,6 +1,6 @@
 import React from "react";
 import createTheme from "@mui/material/styles/createTheme";
-import { PaletteOptions } from "@mui/material";
+import { PaletteColorOptions, PaletteOptions } from "@mui/material";
 
 const fontFamily = "Helvetica Neue, Arial, sans-serif";
 

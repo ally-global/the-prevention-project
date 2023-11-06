@@ -55,7 +55,8 @@ const MobileNav: FC = () => {
     <>
       <AppBar
         component="div"
-        color="transparent"
+        // @ts-ignore
+        color="White"
         sx={{
           boxShadow: "none",
         }}
