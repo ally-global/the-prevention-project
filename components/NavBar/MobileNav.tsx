@@ -55,8 +55,7 @@ const MobileNav: FC = () => {
     <>
       <AppBar
         component="div"
-        // @ts-ignore
-        color="White"
+        color="transparent"
         sx={{
           boxShadow: "none",
         }}
@@ -116,9 +115,6 @@ const MobileNav: FC = () => {
         </MobileMenuItem>
         <MobileMenuItem>
           <NavItem href={`/about`} text={`about`} />
-        </MobileMenuItem>
-        <MobileMenuItem>
-          <NavItem href={`/resources`} text={`adult resources`} />
         </MobileMenuItem>
         <MobileMenuItem removeBorder>
           <NavItem href={`/library`} text={`library`} />

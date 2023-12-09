@@ -1,12 +1,21 @@
 import React from "react";
 import createTheme from "@mui/material/styles/createTheme";
-import { PaletteColorOptions, PaletteOptions } from "@mui/material";
+import { PaletteOptions } from "@mui/material";
 
-const fontFamily = "Helvetica Neue, Arial, sans-serif";
+const fontFamily = "Acumin pro, Arial, sans-serif";
 
 declare module "@mui/material" {
   interface PaletteOptions {
-    Purple: React.CSSProperties["color"];
+    PrimaryPurple: React.CSSProperties["color"];
+    PrimaryBlue: React.CSSProperties["color"];
+    Blue: React.CSSProperties["color"];
+    PurpleMid: React.CSSProperties["color"];
+    PurpleDark: React.CSSProperties["color"];
+    Black: React.CSSProperties["color"];
+    White: React.CSSProperties["color"];
+    Red50: React.CSSProperties["color"];
+    Red500: React.CSSProperties["color"];
+    Red900: React.CSSProperties["color"];
     Grey50: React.CSSProperties["color"];
     Grey100: React.CSSProperties["color"];
     Grey200: React.CSSProperties["color"];
@@ -17,41 +26,6 @@ declare module "@mui/material" {
     Grey700: React.CSSProperties["color"];
     Grey800: React.CSSProperties["color"];
     Grey900: React.CSSProperties["color"];
-    Black: React.CSSProperties["color"];
-    White: React.CSSProperties["color"];
-    Blue50: React.CSSProperties["color"];
-    Blue100: React.CSSProperties["color"];
-    Blue200: React.CSSProperties["color"];
-    Blue300: React.CSSProperties["color"];
-    Blue400: React.CSSProperties["color"];
-    Blue500: React.CSSProperties["color"];
-    Blue600: React.CSSProperties["color"];
-    Blue700: React.CSSProperties["color"];
-    Blue800: React.CSSProperties["color"];
-    Blue900: React.CSSProperties["color"];
-    Green50: React.CSSProperties["color"];
-    Green100: React.CSSProperties["color"];
-    Green200: React.CSSProperties["color"];
-    Green300: React.CSSProperties["color"];
-    Green400: React.CSSProperties["color"];
-    Green500: React.CSSProperties["color"];
-    Green600: React.CSSProperties["color"];
-    Green700: React.CSSProperties["color"];
-    Green800: React.CSSProperties["color"];
-    Green900: React.CSSProperties["color"];
-    Yellow50: React.CSSProperties["color"];
-    Yellow100: React.CSSProperties["color"];
-    Yellow200: React.CSSProperties["color"];
-    Yellow300: React.CSSProperties["color"];
-    Yellow400: React.CSSProperties["color"];
-    Yellow500: React.CSSProperties["color"];
-    Yellow600: React.CSSProperties["color"];
-    Yellow700: React.CSSProperties["color"];
-    Yellow800: React.CSSProperties["color"];
-    Yellow900: React.CSSProperties["color"];
-    Red50: React.CSSProperties["color"];
-    Red500: React.CSSProperties["color"];
-    Red900: React.CSSProperties["color"];
   }
 }
 
@@ -96,7 +70,16 @@ declare module "@mui/material/styles" {
 }
 
 const palette = {
-  Purple: "#6E53D9",
+  PrimaryPurple: "#673BDC",
+  PrimaryBlue: "#00B8C5",
+  PurpleMid: "#5538B7",
+  PurpleDark: "#423591",
+  Blue: "#347AD1",
+  Black: "#000000",
+  White: "#FFFFFF",
+  Red50: "#F8E9E9",
+  Red500: `#D32F2F`,
+  Red900: "#ad0707",
   Grey50: "#FAFAFA",
   Grey100: "#F5F5F5",
   Grey200: "#EEEEEE",
@@ -107,41 +90,6 @@ const palette = {
   Grey700: "#616161",
   Grey800: "#424242",
   Grey900: "#212121",
-  Black: "#000000",
-  White: "#FFFFFF",
-  Blue50: "#E5ECFA",
-  Blue100: "#BFD1F4",
-  Blue200: "#94B2EC",
-  Blue300: "#6993E4",
-  Blue400: "#487BDF",
-  Blue500: "#2864D9",
-  Blue600: "#245CD5",
-  Blue700: "#1E52CF",
-  Blue800: "#1848CA",
-  Blue900: "#0F36C0",
-  Green50: "#E1F1E6",
-  Green100: "#B4DCC0",
-  Green200: "#82C596",
-  Green300: "#50AE6B",
-  Green400: "#2B9C4C",
-  Green500: "#058B2C",
-  Green600: "#048327",
-  Green700: "#047821",
-  Green800: "#FFD836",
-  Green900: "#015B10",
-  Yellow50: "#FFFCEA",
-  Yellow100: "#FFF7CA",
-  Yellow200: "#FFF1A7",
-  Yellow300: "#FFEB84",
-  Yellow400: "#FFE769",
-  Yellow500: "#FFE34F",
-  Yellow600: "#FFE048",
-  Yellow700: "#FFDC3F",
-  Yellow800: "#FFD836",
-  Yellow900: "#FFD026",
-  Red50: "#F8E9E9",
-  Red500: `#D32F2F`,
-  Red900: "#ad0707",
 };
 
 export const theme = createTheme({
@@ -152,7 +100,7 @@ export const theme = createTheme({
   },
   direction: "ltr",
   typography: {
-    fontFamily: "Helvetica Neue",
+    fontFamily: "Acumin Pro",
     fontSize: 14,
     fontWeightLight: 300,
     fontWeightRegular: 400,
@@ -174,8 +122,8 @@ export const theme = createTheme({
       fontWeight: "700",
       lineHeight: "77px",
       letterSpacing: "0em",
-      textAlign: "left",
-      color: palette.Grey900,
+      textAlign: "center",
+      color: palette.White,
     },
     h3: {
       fontFamily,
@@ -184,8 +132,8 @@ export const theme = createTheme({
       fontWeight: "700",
       lineHeight: "58px",
       letterSpacing: "0em",
-      textAlign: "left",
-      color: palette.Grey900,
+      textAlign: "center",
+      color: palette.White,
     },
     h4: {
       fontFamily,
@@ -285,7 +233,7 @@ export const theme = createTheme({
       fontFamily,
       fontSize: "14px",
       fontStyle: "normal",
-      fontWeight: "500",
+      fontWeight: "600",
       lineHeight: "17px",
       letterSpacing: "0em",
       textAlign: "left",

@@ -2,8 +2,8 @@
 import { FC } from "react";
 import Box from "@mui/material/Box";
 
-import MobileNav from "@/components/MobileNav";
-import DesktopNav from "@/components/DesktopNav";
+import MobileNav from "@/components/NavBar/MobileNav";
+import DesktopNav from "@/components/NavBar/DesktopNav";
 
 export const RenderOnSmallScreen = ({
   children,
@@ -49,7 +49,7 @@ export const RenderOnDesktop = ({
 
 const NavBar: FC = () => {
   return (
-    <Box height={"72px"}>
+    <Box sx={{ height: "72px", paddingTop: 1 }}>
       <RenderOnDesktop>
         <DesktopNav />
       </RenderOnDesktop>

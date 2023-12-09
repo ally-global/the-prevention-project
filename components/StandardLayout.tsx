@@ -1,15 +1,16 @@
 import * as React from "react";
 import Box from "@mui/material/Box";
+import { SxProps } from "@mui/material";
 
 const StandardLayout = ({
   children,
-  ...rest
+  sx,
 }: {
   children: React.ReactNode;
+  sx?: SxProps;
 }) => {
   return (
     <Box
-      {...rest}
       px={{
         xs: 3,
         sm: 6,
@@ -20,6 +21,7 @@ const StandardLayout = ({
       sx={{
         position: "relative",
         height: `100%`,
+        ...sx,
       }}
     >
       {children}
