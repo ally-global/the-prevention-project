@@ -1,7 +1,12 @@
 import ThemeRegistry from "@/utils/ThemeRegistry";
-import "../styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Container } from "@mui/material";
+import Box from "@mui/material/Box";
+import Stack from "@mui/material/Stack";
+
+import StandardLayout from "@/components/StandardLayout";
+import NavBar from "@/components/NavBar/NavBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +23,38 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeRegistry options={{ key: "mui-theme" }}>{children}</ThemeRegistry>
+        <Box
+          sx={{
+            maxWidth: `100%`,
+            overflowX: `hidden`,
+            // pt: "72px",
+          }}
+        >
+          <ThemeRegistry options={{ key: "mui-theme" }}>
+            <NavBar />
+            <Container
+              maxWidth="xl"
+              sx={{
+                paddingLeft: "0px !important",
+                paddingRight: "0px !important",
+              }}
+            >
+              <Stack
+                sx={{
+                  mb: 4,
+                }}
+                spacing={{
+                  xs: 10,
+                  md: 20,
+                }}
+                direction={"column"}
+              >
+                {children}
+              </Stack>
+              {/* <Footer /> */}
+            </Container>
+          </ThemeRegistry>
+        </Box>
       </body>
     </html>
   );

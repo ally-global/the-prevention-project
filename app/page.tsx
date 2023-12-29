@@ -1,37 +1,13 @@
 import AllyButton from "@/components/AllyButton";
-import NavBar from "@/components/NavBar/NavBar";
 import NumberCard, { numberCardInfo } from "@/components/NumberCard";
 import QuestionCards from "@/components/QuestionCards";
 import StandardLayout from "@/components/StandardLayout";
 import { Box, Stack, Typography } from "@mui/material";
-
-const ChooseYourGradeButton = ({
-  text,
-  color,
-}: {
-  text: string;
-  color: string;
-}) => {
-  return (
-    <AllyButton
-      sx={{
-        width: "340px",
-        height: "110px",
-        color: "White",
-        fontSize: "34px",
-        fontWeight: "700px",
-        borderRadius: "16px",
-        margin: "8px",
-      }}
-      color={color}
-      text={text}
-    />
-  );
-};
+import ChooseYourGradeSection from "@/sections/ChooseYourGradeSection";
 
 export default function Home() {
   return (
-    <Box bgcolor={"White"}>
+    <Box sx={{ bgcolor: "White" }}>
       <Box
         sx={{
           background:
@@ -39,32 +15,20 @@ export default function Home() {
           mb: 6,
         }}
       >
-        <NavBar />
-        <StandardLayout>
-          <Stack
-            display="flex"
-            flexDirection="column"
-            alignItems="center"
-            spacing={4}
-            paddingTop={10}
-          >
-            <Typography variant="h2" maxWidth={"900px"}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
-            </Typography>
-            <AllyButton text="CHOOSE YOUR GRADE TO GET STARTED" />
-          </Stack>
-          <Stack
-            direction="row"
-            justifyContent={"space-between"}
-            pt={6}
-            overflow="scroll"
-          >
-            <ChooseYourGradeButton text="Grades 3-5" color="PrimaryBlue" />
-            <ChooseYourGradeButton text="Grades 6-7" color="Blue" />
-            <ChooseYourGradeButton text="Grades 8-12" color="PrimaryPurple" />
-          </Stack>
-        </StandardLayout>
+        <Stack
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          spacing={4}
+          paddingTop={10}
+        >
+          <Typography variant="h2" maxWidth={"900px"}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </Typography>
+          <AllyButton text="CHOOSE YOUR GRADE TO GET STARTED" />
+        </Stack>
+        <ChooseYourGradeSection />
       </Box>
       <Box sx={{ backgroundColor: "PrimaryPurple", height: "512px" }}></Box>
       <Box width={"100%"} justifyContent={"center"} display="flex" padding={4}>
@@ -91,14 +55,14 @@ export default function Home() {
               />
             ))}
           </Box>
-          <Typography variant="h4" textAlign={"center"} pt={10}>
-            What if I need help right now?
-          </Typography>
-          <Typography variant="body1" textAlign={"center"} py={5}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </Typography>
         </StandardLayout>
+        <Typography variant="h4" textAlign={"center"} pt={10}>
+          What if I need help right now?
+        </Typography>
+        <Typography variant="body1" textAlign={"center"} py={5}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </Typography>
       </Box>
     </Box>
   );

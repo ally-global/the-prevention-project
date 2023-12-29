@@ -4,6 +4,8 @@ import Box from "@mui/material/Box";
 
 import MobileNav from "@/components/NavBar/MobileNav";
 import DesktopNav from "@/components/NavBar/DesktopNav";
+import StandardLayout from "@/components/StandardLayout";
+import { Container } from "@mui/material";
 
 export const RenderOnSmallScreen = ({
   children,
@@ -49,14 +51,23 @@ export const RenderOnDesktop = ({
 
 const NavBar: FC = () => {
   return (
-    <Box sx={{ height: "72px" }}>
-      <RenderOnDesktop>
-        <DesktopNav />
-      </RenderOnDesktop>
-      <RenderOnSmallScreen>
-        <MobileNav />
-      </RenderOnSmallScreen>
-    </Box>
+    <Container
+      maxWidth="xl"
+      sx={{
+        paddingLeft: "0px",
+        paddingRight: "0px",
+        backgroundColor: "Grey300",
+      }}
+    >
+      <StandardLayout sx={{ height: "72px", width: "100%" }}>
+        <RenderOnDesktop>
+          <DesktopNav />
+        </RenderOnDesktop>
+        <RenderOnSmallScreen>
+          <MobileNav />
+        </RenderOnSmallScreen>
+      </StandardLayout>
+    </Container>
   );
 };
 
