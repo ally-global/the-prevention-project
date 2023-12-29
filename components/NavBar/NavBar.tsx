@@ -49,7 +49,7 @@ export const RenderOnDesktop = ({
 
 const NavBar: FC = () => {
   return (
-    <Box sx={{ height: "72px", paddingTop: 1 }}>
+    <Box sx={{ height: "72px" }}>
       <RenderOnDesktop>
         <DesktopNav />
       </RenderOnDesktop>

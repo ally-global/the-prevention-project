@@ -5,10 +5,12 @@ import Button from "@mui/material/Button";
 const AllyButton = ({
   text,
   color,
+  wide,
   sx,
 }: {
   text: string;
   color?: string;
+  wide?: boolean;
   sx?: SxProps;
 }) => {
   return (
@@ -19,7 +21,7 @@ const AllyButton = ({
         paddingX: 2,
         borderRadius: "24px",
         height: "36px",
-        width: "max-content",
+        width: wide ? "100%" : "max-content",
         whiteSpace: "nowrap",
         minWidth: "min-content",
         "&:hover": {
