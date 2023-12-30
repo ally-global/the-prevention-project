@@ -4,34 +4,18 @@ import QuestionCards from "@/components/QuestionCards";
 import StandardLayout from "@/components/StandardLayout";
 import { Box, Stack, Typography } from "@mui/material";
 import ChooseYourGradeSection from "@/sections/ChooseYourGradeSection";
+import Hero from "@/components/Hero";
+import HomeHero from "@/sections/Heros/HomeHero";
 
 export default function Home() {
   return (
-    <Box sx={{ bgcolor: "White" }}>
-      <Box
-        sx={{
-          background:
-            "linear-gradient(to bottom, transparent, 90%, white), linear-gradient(to right, #673BDC, #00B8C5)",
-          mb: 6,
-        }}
-      >
-        <Stack
-          display="flex"
-          flexDirection="column"
-          alignItems="center"
-          spacing={4}
-          paddingTop={10}
-        >
-          <Typography variant="h2" maxWidth={"900px"}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
-          </Typography>
-          <AllyButton text="CHOOSE YOUR GRADE TO GET STARTED" />
-        </Stack>
-        <ChooseYourGradeSection />
-      </Box>
+    <>
+      <HomeHero />
       <Box sx={{ backgroundColor: "PrimaryPurple", height: "512px" }}></Box>
-      <Box width={"100%"} justifyContent={"center"} display="flex" padding={4}>
+    </>
+  );
+  {
+    /* <Box width={"100%"} justifyContent={"center"} display="flex" padding={4}>
         <QuestionCards />
       </Box>
       <Box
@@ -63,7 +47,6 @@ export default function Home() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </Typography>
-      </Box>
-    </Box>
-  );
+      </Box> */
+  }
 }

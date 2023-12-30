@@ -27,7 +27,7 @@ export default function RootLayout({
           sx={{
             maxWidth: `100%`,
             overflowX: `hidden`,
-            // pt: "72px",
+            pt: "72px",
           }}
         >
           <ThemeRegistry options={{ key: "mui-theme" }}>
@@ -43,10 +43,7 @@ export default function RootLayout({
                 sx={{
                   mb: 4,
                 }}
-                spacing={{
-                  xs: 10,
-                  md: 20,
-                }}
+                spacing={10}
                 direction={"column"}
               >
                 {children}

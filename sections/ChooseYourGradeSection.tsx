@@ -1,39 +1,52 @@
 import AllyButton from "@/components/AllyButton";
-import StandardLayout from "@/components/StandardLayout";
+import { RenderOn } from "@/utils/deviceUtils";
 import { Stack } from "@mui/material";
 
-const ChooseYourGrade = ({ text, color }: { text: string; color: string }) => {
+const ChooseYourGrade = ({
+  text,
+  color,
+  mobile,
+}: {
+  text: string;
+  color: string;
+  mobile?: boolean;
+}) => {
   return (
     <AllyButton
       sx={{
-        width: "340px",
-        height: "110px",
+        width: mobile ? "100%" : "340px",
+        height: mobile ? "50px" : "110px",
         color: "White",
-        fontSize: "34px",
+        fontSize: mobile ? "18px" : "34px",
         fontWeight: "700px",
         borderRadius: "16px",
         margin: "8px",
       }}
       color={color}
       text={text}
+      wide={mobile}
     />
   );
 };
 
 const ChooseYourGradeSection = () => {
   return (
-    <StandardLayout>
-      <Stack
-        direction="row"
-        justifyContent={"space-between"}
-        pt={6}
-        overflow="scroll"
-      >
-        <ChooseYourGrade text="Grades 3-5" color="PrimaryBlue" />
-        <ChooseYourGrade text="Grades 6-7" color="Blue" />
-        <ChooseYourGrade text="Grades 8-12" color="PrimaryPurple" />
-      </Stack>
-    </StandardLayout>
+    <>
+      <RenderOn breakPoints={["md", "lg", "xl"]}>
+        <Stack direction="row" justifyContent={"space-between"}>
+          <ChooseYourGrade text="Grades 3-5" color="PrimaryBlue" />
+          <ChooseYourGrade text="Grades 6-7" color="Blue" />
+          <ChooseYourGrade text="Grades 8-12" color="PrimaryPurple" />
+        </Stack>
+      </RenderOn>
+      <RenderOn breakPoints={["xs", "sm"]}>
+        <Stack direction="column" spacing={3}>
+          <ChooseYourGrade text="Grades 3-5" color="PrimaryBlue" mobile />
+          <ChooseYourGrade text="Grades 6-7" color="Blue" mobile />
+          <ChooseYourGrade text="Grades 8-12" color="PrimaryPurple" mobile />
+        </Stack>
+      </RenderOn>
+    </>
   );
 };
 

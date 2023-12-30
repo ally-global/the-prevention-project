@@ -6,7 +6,6 @@ import Box from "@mui/material/Box";
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
 import IconButton from "@mui/material/IconButton";
-import Logo from "@/public/logo.png";
 import Drawer from "@mui/material/Drawer";
 import { NavItem } from "./DesktopNav";
 
@@ -20,6 +19,7 @@ const MobileMenuItem = ({
   return (
     <Box
       sx={{
+        backgroundColor: "PrimaryBlue",
         height: "64px",
         width: "100%",
         display: "flex",
@@ -74,8 +74,12 @@ const MobileNav: FC = () => {
           }}
         >
           <Link href="/">
-            {/*TODO add higher res logo*/}
-            <Image src={Logo} width={96} height={40} alt="Ally global logo" />
+            <Image
+              src={"/images/ally-exed-logo.png"}
+              width={96}
+              height={40}
+              alt="Ally exed logo"
+            />
           </Link>
 
           {open ? (
@@ -111,13 +115,13 @@ const MobileNav: FC = () => {
         }}
       >
         <MobileMenuItem>
-          <NavItem href={`/`} text={`home`} />
+          <NavItem href={`/`} text={`HOME`} />
         </MobileMenuItem>
         <MobileMenuItem>
-          <NavItem href={`/about`} text={`about`} />
+          <NavItem href={`/about`} text={`ABOUT`} />
         </MobileMenuItem>
         <MobileMenuItem removeBorder>
-          <NavItem href={`/library`} text={`library`} />
+          <NavItem href={`/library`} text={`LIBRARY`} />
         </MobileMenuItem>
       </Drawer>
     </>

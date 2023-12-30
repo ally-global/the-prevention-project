@@ -1,11 +1,12 @@
 "use client";
-import { FC } from "react";
+import { FC, useMemo } from "react";
 import Box from "@mui/material/Box";
 
 import MobileNav from "@/components/NavBar/MobileNav";
 import DesktopNav from "@/components/NavBar/DesktopNav";
 import StandardLayout from "@/components/StandardLayout";
 import { Container } from "@mui/material";
+import { useWindowScroll } from "@/hooks/useWindowScroll";
 
 export const RenderOnSmallScreen = ({
   children,
@@ -51,23 +52,35 @@ export const RenderOnDesktop = ({
 
 const NavBar: FC = () => {
   return (
-    <Container
-      maxWidth="xl"
+    <Box
       sx={{
-        paddingLeft: "0px",
-        paddingRight: "0px",
-        backgroundColor: "Grey300",
+        height: "72px",
+        zIndex: 9,
+        position: "fixed",
+        top: 0,
+        background: "linear-gradient(to right, #673BDC, #00B8C5)",
+        display: "flex",
+        alignItems: "space-between",
+        width: "100%",
       }}
     >
-      <StandardLayout sx={{ height: "72px", width: "100%" }}>
-        <RenderOnDesktop>
-          <DesktopNav />
-        </RenderOnDesktop>
-        <RenderOnSmallScreen>
-          <MobileNav />
-        </RenderOnSmallScreen>
-      </StandardLayout>
-    </Container>
+      <Container
+        maxWidth="xl"
+        sx={{
+          paddingLeft: "0px",
+          paddingRight: "0px",
+        }}
+      >
+        <StandardLayout sx={{ height: "72px", width: "100%" }}>
+          <RenderOnDesktop>
+            <DesktopNav />
+          </RenderOnDesktop>
+          <RenderOnSmallScreen>
+            <MobileNav />
+          </RenderOnSmallScreen>
+        </StandardLayout>
+      </Container>
+    </Box>
   );
 };
 

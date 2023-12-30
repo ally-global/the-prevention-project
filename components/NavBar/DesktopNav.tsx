@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
-import Logo from "@/public/logo.png";
 import AllyButton from "@/components/AllyButton";
 
 export const NavItem = ({ href, text }: { href: string; text: string }) => (
@@ -15,7 +14,7 @@ export const NavItem = ({ href, text }: { href: string; text: string }) => (
     }}
   >
     <Typography variant="button" color={`White`}>
-      {text.toUpperCase()}
+      {text}
     </Typography>
   </Link>
 );
@@ -30,13 +29,17 @@ const DesktopNav: FC = () => {
     >
       <Box mr={{ xs: 0, sm: 1, md: 2.5, lg: 2.5, xl: 2.5 }}>
         <Link href="/">
-          {/*TODO higher res logo*/}
-          <Image src={Logo} width={96} height={40} alt="Ally global logo" />
+          <Image
+            src={"/images/ally-exed-logo.png"}
+            width={96}
+            height={40}
+            alt="Ally global logo"
+          />
         </Link>
       </Box>
-      <NavItem href={"/about"} text="about us" />
-      <NavItem href={"/library"} text="library" />
-      <NavItem href={"/"} text="get help now" />
+      <NavItem href={"/about"} text="ABOUT US" />
+      <NavItem href={"/library"} text="LIBRARY" />
+      <NavItem href={"/"} text="GET HELP NOW" />
       <Box ml={{ xs: 0, sm: 1, md: 2.5, lg: 2.5, xl: 2.5 }}>
         <AllyButton text={"CHOOSE YOUR GRADE"} />
       </Box>
