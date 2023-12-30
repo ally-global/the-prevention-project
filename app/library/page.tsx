@@ -1,4 +1,3 @@
-import PageBody from "@/components/PageBody";
 import StandardLayout from "@/components/StandardLayout";
 
 export default function Library() {
