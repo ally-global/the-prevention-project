@@ -16,14 +16,13 @@ const AllyButton = ({
   return (
     <Button
       sx={{
+        height: "36px",
+        width: wide ? "100%" : "max-content",
         backgroundColor: color ?? `PrimaryPurple`,
         color: `White`,
         paddingX: 2,
         borderRadius: "24px",
-        height: "36px",
-        width: wide ? "100%" : "max-content",
         whiteSpace: "nowrap",
-        minWidth: "min-content",
         "&:hover": {
           backgroundColor: color ?? `PrimaryPurple`,
           boxShadow: 4,
