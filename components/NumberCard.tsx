@@ -1,4 +1,6 @@
 import { Box, Stack, Typography } from "@mui/material";
+import Text from "@/components/Text";
+import useDevice from "@/hooks/useDevice";
 
 export const numberCardInfo: {
   number: number;
@@ -50,13 +52,13 @@ export const numberCardInfo: {
 ];
 
 const NumberCircle = ({ number, color }: { number: number; color: string }) => {
+  const { smScreen } = useDevice();
   return (
-    <Typography
-      component="div"
+    <Text
       variant="h4"
       sx={{
-        width: "56px",
-        height: "56px",
+        width: smScreen ? "48px" : "56px",
+        height: smScreen ? "48px" : "56px",
         borderRadius: "28px",
         backgroundColor: color,
         padding: 2,
@@ -66,7 +68,7 @@ const NumberCircle = ({ number, color }: { number: number; color: string }) => {
       }}
     >
       {number}
-    </Typography>
+    </Text>
   );
 };
 
@@ -81,11 +83,12 @@ const NumberCard = ({
   statement: string;
   subtext: string;
 }) => {
+  const { smScreen } = useDevice();
   return (
     <Box
       sx={{
         width: "424px",
-        height: "336px",
+        height: smScreen ? "260px" : "336px",
         backgroundColor: "White",
         padding: 4,
         margin: 2,
@@ -97,12 +100,12 @@ const NumberCard = ({
     >
       <NumberCircle number={number} color={color} />
       <Stack spacing={2}>
-        <Typography variant="h4" color={color}>
+        <Text variant="h4" color={color}>
           {statement}
-        </Typography>
-        <Typography variant="body1" color="Grey900">
+        </Text>
+        <Text variant="body1" color="Grey900">
           {subtext}
-        </Typography>
+        </Text>
       </Stack>
     </Box>
   );

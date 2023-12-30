@@ -152,7 +152,7 @@ export const theme = createTheme({
       lineHeight: "29px",
       letterSpacing: "0em",
       textAlign: "left",
-      color: palette.Grey900,
+      color: palette.White,
     },
     h6: {
       fontFamily,
@@ -162,7 +162,7 @@ export const theme = createTheme({
       lineHeight: "22px",
       letterSpacing: "0em",
       textAlign: "left",
-      color: palette.Grey900,
+      color: palette.White,
     },
     body1: {
       fontFamily,
