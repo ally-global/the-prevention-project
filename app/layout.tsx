@@ -7,6 +7,7 @@ import Stack from "@mui/material/Stack";
 
 import StandardLayout from "@/components/StandardLayout";
 import NavBar from "@/components/NavBar/NavBar";
+import Footer from "@/sections/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -48,7 +49,9 @@ export default function RootLayout({
               >
                 {children}
               </Stack>
-              {/* <Footer /> */}
+              <StandardLayout>
+                <Footer />
+              </StandardLayout>
             </Container>
           </ThemeRegistry>
         </Box>
