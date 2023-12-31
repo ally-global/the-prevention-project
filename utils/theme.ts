@@ -183,7 +183,7 @@ export const theme = createTheme({
       letterSpacing: "0em",
       paragraphSpacing: "22px",
       textAlign: "left",
-      color: palette.Grey900,
+      color: palette.White,
     },
     body3: {
       fontFamily,
@@ -237,6 +237,7 @@ export const theme = createTheme({
       letterSpacing: "0em",
       textAlign: "left",
       textTransform: "none",
+      color: palette.White,
     },
     caption: {
       fontFamily,

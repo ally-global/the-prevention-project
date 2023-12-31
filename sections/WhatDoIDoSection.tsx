@@ -6,7 +6,7 @@ import Text from "@/components/Text";
 import useDevice from "@/hooks/useDevice";
 import { Box, Stack } from "@mui/material";
 
-const WhatDoIDoSection = () => {
+const WhatDoIDoSection = ({ overflow }: { overflow?: boolean }) => {
   const { smScreen } = useDevice();
   return (
     <StandardLayout sx={{ paddingTop: 9 }}>
@@ -19,7 +19,16 @@ const WhatDoIDoSection = () => {
           What do I do if someone tells me they are {smScreen ? "" : <br />}
           being exploited or abused?
         </Text>
-        <Box display="flex" justifyContent="center" flexWrap="wrap">
+
+        <Box
+          sx={{
+            position: "relative",
+            display: "flex",
+            justifyContent: overflow ? "flex-start" : "center",
+            flexWrap: overflow ? "nowrap" : "wrap",
+            overflowX: overflow ? "scroll" : "",
+          }}
+        >
           {numberCardInfo.map((card, i) => (
             <NumberCard
               key={i}

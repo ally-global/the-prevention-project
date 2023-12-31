@@ -88,6 +88,7 @@ const NumberCard = ({
     <Box
       sx={{
         width: "424px",
+        minWidth: "424px",
         height: smScreen ? "260px" : "336px",
         backgroundColor: "White",
         padding: 4,
