@@ -5,11 +5,11 @@ import {
   AreYouAnEducatorCard,
 } from "@/components/QuestionCards";
 import { RenderOn } from "@/utils/deviceUtils";
-import { Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 
 const QuestionCardSection = () => {
   return (
-    <>
+    <Box sx={{ paddingY: 10 }}>
       <RenderOn breakPoints={["md", "lg", "xl"]}>
         <Stack direction={"row"} justifyContent={"center"} spacing={4}>
           <AreYouAParentCard />
@@ -21,7 +21,7 @@ const QuestionCardSection = () => {
         <AreYouAParentCard wide />
         <AreYouAnEducatorCard wide />
       </RenderOn>
-    </>
+    </Box>
   );
 };
 

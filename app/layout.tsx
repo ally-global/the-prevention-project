@@ -44,7 +44,6 @@ export default function RootLayout({
                 sx={{
                   mb: 4,
                 }}
-                spacing={10}
                 direction={"column"}
               >
                 {children}

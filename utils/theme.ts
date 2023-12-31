@@ -132,7 +132,7 @@ export const theme = createTheme({
       fontWeight: "700",
       lineHeight: "58px",
       letterSpacing: "0em",
-      textAlign: "center",
+      textAlign: "left",
       color: palette.White,
     },
     h4: {
