@@ -10,13 +10,7 @@ const Hero: FC<{
   return (
     <Box
       sx={{
-        mt: {
-          xs: "-72px !important",
-          sm: "-72px !important",
-          md: "-72px !important",
-          lg: "-72px !important",
-          xl: "-72px !important",
-        },
+        mt: "-72px !important",
         position: "relative",
         ...sx,
       }}

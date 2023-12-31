@@ -1,9 +1,11 @@
+import Hero from "@/components/Hero";
 import StandardLayout from "@/components/StandardLayout";
+import GenericHero from "@/sections/Heros/GenericHero";
 
 export default function Library() {
   return (
-    <StandardLayout>
-      <h1>Library 👷‍♀️🚧</h1>
-    </StandardLayout>
+    <>
+      <GenericHero text="Quickly find the topic you're looking for." />
+    </>
   );
 }
