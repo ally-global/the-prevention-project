@@ -13,7 +13,6 @@ const HelpRightNowSection = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          alignItems: "center",
         }}
       >
         <Text

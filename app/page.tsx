@@ -1,5 +1,3 @@
-import { Box } from "@mui/material";
-
 import HomeHero from "@/sections/Heros/HomeHero";
 import QuestionCardSection from "@/sections/QuestionCardSection";
 import WhatDoIDoSection from "@/sections/WhatDoIDoSection";
