@@ -3,12 +3,13 @@ import QuestionCardSection from "@/sections/QuestionCardSection";
 import WhatDoIDoSection from "@/sections/WhatDoIDoSection";
 import HelpRightNowSection from "@/sections/HelpRightNowSection";
 import { Stack } from "@mui/material";
+import PurpleHeading from "@/sections/PurpleHeading";
 
 export default function Home() {
   return (
     <>
       <HomeHero />
-      {/* Two column with purple background section */}
+      <PurpleHeading />
       <QuestionCardSection />
       <Stack
         spacing={9}

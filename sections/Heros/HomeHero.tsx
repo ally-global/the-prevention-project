@@ -11,6 +11,7 @@ const HomeHero = () => {
       sx={{
         background:
           "linear-gradient(to bottom, transparent, 90%, white), linear-gradient(to right, #673BDC, #00B8C5)",
+        marginBottom: 9,
       }}
     >
       <RenderOn breakPoints={["md", "lg", "xl"]}>

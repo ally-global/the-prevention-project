@@ -40,7 +40,7 @@ const ChooseYourGradeSection = () => {
         </Stack>
       </RenderOn>
       <RenderOn breakPoints={["xs", "sm"]}>
-        <Stack direction="column" spacing={3}>
+        <Stack direction="column" spacing={1}>
           <ChooseYourGrade text="Grades 3-5" color="PrimaryBlue" mobile />
           <ChooseYourGrade text="Grades 6-7" color="Blue" mobile />
           <ChooseYourGrade text="Grades 8-12" color="PrimaryPurple" mobile />
