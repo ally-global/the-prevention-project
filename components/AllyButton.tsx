@@ -1,17 +1,20 @@
 "use client";
 import { SxProps } from "@mui/material";
 import Button from "@mui/material/Button";
+import { ReactNode } from "react";
 
 const AllyButton = ({
   text,
   color,
   wide,
+  children,
   sx,
 }: {
-  text: string;
+  text?: string;
   color?: string;
   wide?: boolean;
   sx?: SxProps;
+  children?: ReactNode;
 }) => {
   return (
     <Button
@@ -35,7 +38,7 @@ const AllyButton = ({
       }}
       onClick={() => {}}
     >
-      {text}
+      {text ?? children}
     </Button>
   );
 };
