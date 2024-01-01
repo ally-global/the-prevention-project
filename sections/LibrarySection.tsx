@@ -74,7 +74,7 @@ const LibrarySection = ({ section }: { section: Section }) => {
   return (
     <Box
       sx={{
-        py: 4,
+        py: 6,
         backgroundColor: `${color}`,
       }}
     >

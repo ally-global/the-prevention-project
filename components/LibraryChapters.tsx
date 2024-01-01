@@ -1,3 +1,5 @@
+"use client";
+
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import {
   Accordion,
@@ -7,6 +9,7 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
+import { useState } from "react";
 
 const Chapter = ({
   number,
@@ -17,9 +20,14 @@ const Chapter = ({
   title: string;
   content: any[];
 }) => {
+  const [fullWidth, setFullWidth] = useState<boolean>(false);
   return (
-    <Box sx={{ width: "50%" }}>
+    <Box sx={{ width: { xs: "100%", sm: fullWidth ? "100%" : "50%" } }}>
       <Accordion
+        onChange={() => {
+          setFullWidth(!fullWidth);
+        }}
+        disableGutters
         sx={{
           margin: 1,
           borderRadius: "20px !important",

@@ -1,9 +1,13 @@
-import StandardLayout from "@/components/StandardLayout";
+import GenericHero from "@/sections/Heros/GenericHero";
 
 export default function About() {
   return (
-    <StandardLayout>
-      <h1>ABOUT 👷‍♀️🚧</h1>
-    </StandardLayout>
+    <>
+      <GenericHero
+        text={
+          "Lorem ipsum dolor sit amet, consectetuer adipicing elit, sed diam nonummy nibh euismod tincuidum up laroot doloree magna aliquam"
+        }
+      />
+    </>
   );
 }
