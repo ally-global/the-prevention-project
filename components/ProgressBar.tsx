@@ -13,6 +13,7 @@ const ProgressBar = ({ display, name }: { display: string; name: string }) => {
         position: "fixed",
         display: { xs: "none", sm: `${display}` },
         zIndex: 99,
+        maxWidth: "1744px",
       }}
     >
       <Box sx={{ display: "flex" }}>
