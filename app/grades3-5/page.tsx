@@ -1,4 +1,5 @@
 import HelpRightNowSection from "@/sections/HelpRightNowSection";
+import GradeHero from "@/sections/Heros/GradeHero";
 import UpNext from "@/sections/UpNext";
 import WhatDoIDoSection from "@/sections/WhatDoIDoSection";
 import { Stack } from "@mui/material";
@@ -6,6 +7,7 @@ import { Stack } from "@mui/material";
 export default function Page() {
   return (
     <>
+      <GradeHero />
       <UpNext
         chapterName={"Consent and healthy boundaries"}
         contentTitle={"Say it Simple"}
