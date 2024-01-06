@@ -5,10 +5,12 @@ import { ReactNode } from "react";
 
 const StyledMenuItem = ({
   value,
+  divider,
   children,
 }: {
   value: number;
   children: ReactNode;
+  divider?: boolean;
 }) => {
   return (
     <MenuItem
@@ -16,15 +18,19 @@ const StyledMenuItem = ({
       sx={{
         backgroundColor: "PrimaryPurple",
         fontWeight: "bold",
+        fontSize: { xs: "14px", sm: "18px" },
         color: "White",
+        minHeight: "48px",
+        paddingY: 2,
       }}
+      divider={divider}
     >
       {children}
     </MenuItem>
   );
 };
 
-const ChapterSection = () => {
+const ChapterMenu = ({ chapters }: { chapters: string[] }) => {
   return (
     <>
       <StandardLayout>
@@ -33,38 +39,49 @@ const ChapterSection = () => {
             PaperProps: {
               sx: {
                 backgroundColor: "PrimaryPurple",
-                "& .MuiMenuItem-root": {
+                ".MuiMenuItem-root": {
                   minHeight: "48px",
-                  "&.Mui-selected": { backgroundColor: "PrimaryPurple" },
+                },
+                "& .Mui-selected": {
+                  backgroundColor: "#5538B7 !important",
+                },
+                "& .MuiMenuItem-root:hover": {
+                  backgroundColor: "#5538B7 !important",
                 },
               },
             },
           }}
-          defaultValue={1}
+          defaultValue={0}
           sx={{
             backgroundColor: "PrimaryPurple",
             color: "White",
             width: "100%",
             border: "none !important",
             fontWeight: "bold",
+            fontSize: { xs: "14px", sm: "18px" },
             borderRadius: "8px",
             ".MuiOutlinedInput-notchedOutline": {
               border: "none !important",
             },
+            ".MuiSvgIcon-root": { color: "white" },
           }}
-          disableUnderline
           IconComponent={KeyboardArrowDownIcon}
         >
-          <StyledMenuItem value={1}>
-            CHAPTER 1: Consent and Healthy Boundaries
-          </StyledMenuItem>
-          <StyledMenuItem value={2}>CHAPTER 2:</StyledMenuItem>
-          <StyledMenuItem value={3}>CHAPTER 3:</StyledMenuItem>
+          {chapters.map((chapter, index) => {
+            return (
+              <StyledMenuItem
+                key={index}
+                value={index}
+                divider={chapters.length - 1 > index}
+              >
+                {`CHAPTER ${index + 1}: ${chapter}`}
+              </StyledMenuItem>
+            );
+          })}
         </Select>
       </StandardLayout>
-      <Box height={200}></Box>
     </>
   );
 };
 
-export default ChapterSection;
+export default ChapterMenu;
