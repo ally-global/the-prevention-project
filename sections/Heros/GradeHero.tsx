@@ -15,7 +15,7 @@ const GradeHero = () => {
   function stickNavbar() {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
-      windowHeight > 400
+      windowHeight > 250
         ? setShowProgressBar("initial")
         : setShowProgressBar("none");
     }

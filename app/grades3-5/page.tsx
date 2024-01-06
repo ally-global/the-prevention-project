@@ -1,3 +1,4 @@
+import ChapterSection from "@/sections/ChapterSection";
 import HelpRightNowSection from "@/sections/HelpRightNowSection";
 import GradeHero from "@/sections/Heros/GradeHero";
 import UpNext from "@/sections/UpNext";
@@ -8,6 +9,7 @@ export default function Page() {
   return (
     <>
       <GradeHero />
+      <ChapterSection />
       <UpNext
         chapterName={"Consent and healthy boundaries"}
         contentTitle={"Say it Simple"}
