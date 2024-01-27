@@ -18,7 +18,7 @@ const TwoColumnLayout = ({
   leftCol,
   rightCol,
   columnWrapOrderOnMobile,
-
+  noGap,
   pb,
   sx,
 }: {
@@ -26,14 +26,15 @@ const TwoColumnLayout = ({
   leftCol?: number;
   rightCol?: number;
   columnWrapOrderOnMobile: ColumnWrapOrder;
+  noGap?: Boolean;
   spacing?: MuiValues;
   pb?: MuiValues;
   sx?: SxProps;
 }) => {
-  const { smScreen: isMobile } = useDevice();
+  const { xsScreen: isMobile } = useDevice();
   const left = leftCol ?? 6;
   const right = rightCol ?? 5;
-  if (left + right !== 11) {
+  if (!(left + right === 12 || left + right === 11)) {
     throw new Error(`${left} col + ${right} col must equal 12`);
   }
 
@@ -75,10 +76,10 @@ const TwoColumnLayout = ({
         }}
         item
         xs={0}
-        sm={1}
-        md={1}
-        lg={1}
-        xl={1}
+        sm={noGap ? 0 : 1}
+        md={noGap ? 0 : 1}
+        lg={noGap ? 0 : 1}
+        xl={noGap ? 0 : 1}
       />
       <Grid
         item

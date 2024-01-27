@@ -19,10 +19,8 @@ export const AreYouAParentCard = ({ wide }: { wide?: boolean }) => {
       }}
     >
       <Stack spacing={3}>
-        <Typography variant="h4" color="Grey200">
-          Are you a parent?
-        </Typography>
-        <Typography variant="body1" color="Grey200">
+        <Typography variant="h4">Are you a parent?</Typography>
+        <Typography variant="body1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra
           in arcu sit amet luctus. Aenean auctor lacus eget lectus ultricies,
           sit amet aliquam elit luctus. Phasellus eleifend quam massa, non
@@ -50,10 +48,8 @@ export const AreYouAnEducatorCard = ({ wide }: { wide?: boolean }) => {
       }}
     >
       <Stack spacing={3}>
-        <Typography variant="h4" color="Grey200">
-          Are you an educator?
-        </Typography>
-        <Typography variant="body1" color="Grey200">
+        <Typography variant="h4">Are you an educator?</Typography>
+        <Typography variant="body1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra
           in arcu sit amet luctus. Aenean auctor lacus eget lectus ultricies,
           sit amet aliquam elit luctus. Phasellus eleifend quam massa, non
