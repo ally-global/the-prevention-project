@@ -3,21 +3,22 @@
 import Box from "@mui/material/Box";
 import { RenderOn } from "@/utils/deviceUtils";
 import Typography from "@mui/material/Typography";
-import { Dispatch, SetStateAction, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 
 const MenuItem = ({
   selected,
-  setSelected,
   backgroundColor,
   title,
   index,
 }: {
   selected: boolean;
-  setSelected: Dispatch<SetStateAction<number>>;
   backgroundColor: string;
   title: string;
   index: number;
 }) => {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const chapter = searchParams.get("chapter");
   return (
     <Box
       component={"button"}
@@ -46,7 +47,7 @@ const MenuItem = ({
           : {}),
       }}
       onClick={() => {
-        setSelected(index);
+        router.push(`/grades3-5?chapter=${chapter ?? 1}&section=${index + 1}`);
       }}
     >
       <RenderOn breakPoints={["md", "lg", "xl"]}>
@@ -65,9 +66,8 @@ const MenuItem = ({
 
 const VideoMenu = ({ content }: { content: string[] }) => {
   const colors = ["#00B8C5", "#347AD1", "#673BDC", "#5538B7", "#423591"];
-  const [selected, setSelected] = useState<number>(0);
-  // content should have length less than 7
-  // lets assume 5 for now
+  const searchParams = useSearchParams();
+  const section = searchParams.get("section");
 
   return (
     <Box
@@ -78,8 +78,7 @@ const VideoMenu = ({ content }: { content: string[] }) => {
     >
       {content.map((contentTitle, index) => (
         <MenuItem
-          selected={selected === index}
-          setSelected={setSelected}
+          selected={section ? Number(section) === index + 1 : index === 0}
           key={`menu-item-${index}`}
           backgroundColor={colors[index]}
           title={contentTitle}

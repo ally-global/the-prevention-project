@@ -9,6 +9,8 @@ export const chapters3to5 = [
       { title: "Imagine This", videoURL: "" },
       { title: "Knowledge Snapshot", videoURL: "" },
     ],
+    description: "",
+    externalReferences: [{ title: "", caption: "", href: "" }],
   },
   { title: "The Internet", content: [] },
   { title: "Information Sharing Online", content: [] },

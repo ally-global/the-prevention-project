@@ -1,52 +1,53 @@
 import AllyButton from "@/components/AllyButton";
-import { RenderOn } from "@/utils/deviceUtils";
-import { Stack } from "@mui/material";
+import { Box } from "@mui/material";
+import Link from "next/link";
 
 const ChooseYourGrade = ({
   text,
   color,
   mobile,
+  href,
 }: {
   text: string;
   color: string;
+  href: string;
   mobile?: boolean;
 }) => {
   return (
-    <AllyButton
-      sx={{
-        width: mobile ? "100%" : "340px",
-        height: mobile ? "50px" : "110px",
-        color: "White",
-        fontSize: mobile ? "18px" : "34px",
-        fontWeight: "700px",
-        borderRadius: "16px",
-        margin: "8px",
-      }}
-      color={color}
-      text={text}
-      wide={mobile}
-    />
+    <Link href={href}>
+      <AllyButton
+        sx={{
+          width: "100%",
+          paddingY: { xs: 4, sm: 4, md: 6 },
+          paddingX: { xs: 2, sm: 4, md: 6 },
+          color: "White",
+          fontSize: { xs: "20px", sm: "20px", md: "34px" },
+          fontWeight: "700px",
+          borderRadius: "16px",
+        }}
+        color={color}
+        text={text}
+        wide={mobile}
+      />
+    </Link>
   );
 };
 
 const ChooseYourGradeSection = () => {
   return (
-    <>
-      <RenderOn breakPoints={["md", "lg", "xl"]}>
-        <Stack direction="row" justifyContent={"space-between"}>
-          <ChooseYourGrade text="Grades 3-5" color="PrimaryBlue" />
-          <ChooseYourGrade text="Grades 6-7" color="Blue" />
-          <ChooseYourGrade text="Grades 8-12" color="PrimaryPurple" />
-        </Stack>
-      </RenderOn>
-      <RenderOn breakPoints={["xs", "sm"]}>
-        <Stack direction="column" spacing={1}>
-          <ChooseYourGrade text="Grades 3-5" color="PrimaryBlue" mobile />
-          <ChooseYourGrade text="Grades 6-7" color="Blue" mobile />
-          <ChooseYourGrade text="Grades 8-12" color="PrimaryPurple" mobile />
-        </Stack>
-      </RenderOn>
-    </>
+    <Box sx={{ display: "flex", justifyContent: "space-evenly", gap: 2 }}>
+      <ChooseYourGrade
+        text="Grades 3-5"
+        color="PrimaryBlue"
+        href={"/grades3-5"}
+      />
+      <ChooseYourGrade text="Grades 6-7" color="Blue" href={"/grades6-7"} />
+      <ChooseYourGrade
+        text="Grades 8-12"
+        color="PrimaryPurple"
+        href={"/grades8-12"}
+      />
+    </Box>
   );
 };
 
