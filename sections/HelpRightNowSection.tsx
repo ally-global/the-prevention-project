@@ -24,11 +24,12 @@ const HelpRightNowSection = () => {
         </Text>
         <Text
           variant="body1"
-          sx={{ textAlign: "center", maxWidth: "600px" }}
+          sx={{ textAlign: "center", maxWidth: "800px" }}
           sxMobile={{ textAlign: "left" }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          If you suspect that you’re being exploited, you can report it to one
+          of the resources below. However, if you are in immediate danger, call
+          9-1-1.
         </Text>
       </Stack>
       <Stack
