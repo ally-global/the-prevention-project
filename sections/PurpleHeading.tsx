@@ -18,15 +18,22 @@ const PurpleHeading = () => {
           rightCol={5}
         >
           <TitleAndParagraph
-            title={"Heading statement"}
+            title={
+              "When so many of our social interactions happen digitally, it can be hard to know who’s safe and who isn’t."
+            }
             paragraph={
               <>
-                t enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.
+                <b>The Prevention Project</b> is a space for kids and teens to
+                feel empowered and confident in their daily connections with
+                others. We’ll look at topics like how to identify safe vs.
+                unsafe people, how to engage in the digital world and how to
+                navigate relationships. From grade 6 onwards, we’ll also begin
+                to discuss the red flags of predatory people and the topics of
+                exploitation and trafficking.
+                <br />
+                <br />
+                Together, we’ll explore not only how to protect ourselves, but
+                also how to be a good friend and safe person for others.
               </>
             }
           />

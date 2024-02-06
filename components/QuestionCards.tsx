@@ -21,10 +21,10 @@ export const AreYouAParentCard = ({ wide }: { wide?: boolean }) => {
       <Stack spacing={3}>
         <Typography variant="h4">Are you a parent?</Typography>
         <Typography variant="body1">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra
-          in arcu sit amet luctus. Aenean auctor lacus eget lectus ultricies,
-          sit amet aliquam elit luctus. Phasellus eleifend quam massa, non
-          auctor enim consequat vitae.
+          It can be hard to know where to begin with topics like
+          exploitation—especially when the online world is changing so quickly.
+          Our resources will help you learn how to navigate these conversations
+          with the young people in your life.
         </Typography>
       </Stack>
       <AllyButton text="BROWSE THE RESOURCE LIBRARY" color="PrimaryBlue" wide />
@@ -50,10 +50,10 @@ export const AreYouAnEducatorCard = ({ wide }: { wide?: boolean }) => {
       <Stack spacing={3}>
         <Typography variant="h4">Are you an educator?</Typography>
         <Typography variant="body1">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra
-          in arcu sit amet luctus. Aenean auctor lacus eget lectus ultricies,
-          sit amet aliquam elit luctus. Phasellus eleifend quam massa, non
-          auctor enim consequat vitae.
+          Helping young people understand the root causes of exploitation is the
+          best way to prevent it from happening. Our modules are designed to be
+          easily incorporated into your classroom learning, and every resource
+          can be downloaded for free.
         </Typography>
       </Stack>
       <AllyButton

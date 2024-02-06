@@ -169,7 +169,7 @@ export const theme = createTheme({
       fontSize: "20px",
       fontStyle: "normal",
       fontWeight: "400",
-      lineHeight: "22px",
+      lineHeight: "26px",
       letterSpacing: "0em",
       textAlign: "left",
       color: palette.White,

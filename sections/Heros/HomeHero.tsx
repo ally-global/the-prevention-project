@@ -23,8 +23,8 @@ const HomeHero = () => {
             spacing={4}
           >
             <Typography variant="h2" sx={{ maxWidth: "900px" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
+              Let’s learn together, so that we can create a safer world for
+              ourselves and for others — both online and face to face.
             </Typography>
             <AllyButton text="CHOOSE YOUR GRADE TO GET STARTED" />
           </Stack>
@@ -34,8 +34,8 @@ const HomeHero = () => {
       <RenderOn breakPoints={["xs", "sm"]}>
         <StandardLayout>
           <Typography variant="h4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua
+            Let’s learn together, so that we can create a safer world for
+            ourselves and for others — both online and face to face.
           </Typography>
         </StandardLayout>
       </RenderOn>
