@@ -6,8 +6,9 @@ export default function About() {
   return (
     <>
       <GenericHero
-        text={
-          "Lorem ipsum dolor sit amet, consectetuer adipicing elit, sed diam nonummy nibh euismod tincuidum up laroot doloree magna aliquam"
+        text={"About us"}
+        subtext={
+          "We believe that every young person in Canada deserves access to light-hearted, age-appropriate learning to keep themselves and others safe from exploitation."
         }
       />
       <WhoWeAreSection />

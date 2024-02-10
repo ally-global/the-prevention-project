@@ -18,20 +18,20 @@ const WhoWeAreSection = () => {
         <Stack spacing={10}>
           <Stack spacing={2} alignItems={"center"}>
             <Text
-              variant={"h3"}
+              variant={"h4"}
               color={"PrimaryPurple"}
               sx={{ textAlign: "center" }}
             >
-              Heading
+              Built in collaboration; <br />
+              backed by research.
             </Text>
             <Text
               color={"Grey900"}
               variant={"body1"}
               sx={{ textAlign: "center", maxWidth: "700px" }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. At
-              consectetur lorem donec massa sapien faucibus et molestie.
+              The Prevention Project is the result of collaboration between Ally
+              Global Foundation and Exploitation Education Institute.
             </Text>
           </Stack>
           <Stack spacing={6}>

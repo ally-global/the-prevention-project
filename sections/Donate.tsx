@@ -32,15 +32,14 @@ const Donate = () => {
           </Box>
           <Stack spacing={4} sx={{ mb: { xs: 4 } }}>
             <TitleAndParagraph
-              title={"Heading statement"}
+              title={"Partner with us to prevent the exploitation of minors."}
               paragraph={
                 <>
-                  t enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  We want to ensure that resources like The Prevention Project
+                  are accessible to all—this means keeping them free. If you
+                  would like to help support the creation and distribution of
+                  more resources like this, we invite you to make a donation
+                  through Ally Global Foundation.
                 </>
               }
             />

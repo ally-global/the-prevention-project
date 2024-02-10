@@ -22,7 +22,7 @@ const AllyGlobalTile = () => {
             padding: 4,
             display: "flex",
             justifyContent: "space-between",
-            height: "300px",
+            height: "340px",
           }}
         >
           <Stack justifyContent={"space-between"}>
@@ -31,10 +31,14 @@ const AllyGlobalTile = () => {
                 {"Ally Global Foundation"}
               </Text>
               <Text variant={"body1"} color={"Grey900"}>
-                {`
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                `}
+                Ally works to prevent human trafficking and help survivors
+                rebuild their lives. In Canada, our focus is to prevent
+                exploitation and human trafficking by empowering individuals and
+                communities with essential information about what this issue
+                looks like locally. We are working alongside organizations and
+                individuals with lived experience across Canada to expand the
+                research in this area and to develop survivor-informed
+                educational resources—like The Prevention Project.
               </Text>
             </Stack>
             <AllyButton text={"Learn more"} color={"PrimaryBlue"} />
@@ -49,7 +53,7 @@ const AllyGlobalTile = () => {
         <Box
           sx={{
             backgroundColor: "Grey800",
-            height: "300px",
+            height: "340px",
           }}
         ></Box>
       </TwoColumnLayout>

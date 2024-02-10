@@ -20,15 +20,14 @@ const LearnMore = () => {
         >
           <Stack spacing={4} sx={{ mb: { xs: 4 } }}>
             <TitleAndParagraph
-              title={"Heading statement"}
+              title={"Bring an ExEd presenter to your school or workplace."}
               paragraph={
                 <>
-                  t enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  ExEd offers a variety of presentation topics for grades 5-12
+                  students, as well as training sessions for parent advisory
+                  committees, educators, social service providers and law
+                  enforcement. Most presentations can be provided either in
+                  person or virtually, to any sized group, anywhere in Canada.
                 </>
               }
             />
