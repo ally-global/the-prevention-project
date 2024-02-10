@@ -1,6 +1,5 @@
 import { Box, Stack } from "@mui/material";
 import Text from "@/components/Text";
-import useDevice from "@/hooks/useDevice";
 import NumberCircle from "@/components/NumberCircle";
 
 export const numberCardInfo: {
@@ -63,13 +62,11 @@ const NumberCard = ({
   statement: string;
   subtext: string;
 }) => {
-  const { smScreen } = useDevice();
   return (
     <Box
       sx={{
-        width: "424px",
-        minWidth: "424px",
-        height: smScreen ? "260px" : "336px",
+        width: { sm: "350px", md: "424px" },
+        height: { sm: "280px", md: "348px" },
         backgroundColor: "White",
         padding: 4,
         margin: 2,
@@ -80,7 +77,7 @@ const NumberCard = ({
       }}
     >
       <NumberCircle number={number} backgroundColor={color} color={"White"} />
-      <Stack spacing={2}>
+      <Stack spacing={2} sx={{ pt: { xs: 2 } }}>
         <Text variant="h4" color={color}>
           {statement}
         </Text>

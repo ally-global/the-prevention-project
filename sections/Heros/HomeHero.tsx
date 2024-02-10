@@ -1,7 +1,7 @@
 import AllyButton from "@/components/AllyButton";
 import Hero from "@/components/Hero";
-import { Box, Stack, Typography } from "@mui/material";
-import ChooseYourGradeSection from "../ChooseYourGradeSection";
+import { Stack } from "@mui/material";
+import ChooseYourGradeSection from "@/sections/ChooseYourGradeSection";
 import { RenderOn } from "@/utils/deviceUtils";
 import StandardLayout from "@/components/StandardLayout";
 import Text from "@/components/Text";

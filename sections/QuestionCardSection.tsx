@@ -4,23 +4,27 @@ import {
   AreYouAParentCard,
   AreYouAnEducatorCard,
 } from "@/components/QuestionCards";
-import { RenderOn } from "@/utils/deviceUtils";
+import StandardLayout from "@/components/StandardLayout";
 import { Box, Stack } from "@mui/material";
 
 const QuestionCardSection = () => {
   return (
     <Box sx={{ paddingY: 10 }}>
-      <RenderOn breakPoints={["md", "lg", "xl"]}>
-        <Stack direction={"row"} justifyContent={"center"} spacing={4}>
+      <StandardLayout>
+        <Stack
+          sx={{
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: 4,
+          }}
+        >
           <AreYouAParentCard />
           <AreYouAnEducatorCard />
         </Stack>
-      </RenderOn>
-
-      <RenderOn breakPoints={["xs", "sm"]}>
-        <AreYouAParentCard wide />
-        <AreYouAnEducatorCard wide />
-      </RenderOn>
+      </StandardLayout>
     </Box>
   );
 };

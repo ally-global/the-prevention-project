@@ -3,18 +3,16 @@
 import { Stack, Typography } from "@mui/material";
 import AllyButton from "@/components/AllyButton";
 
-export const AreYouAParentCard = ({ wide }: { wide?: boolean }) => {
+export const AreYouAParentCard = () => {
   return (
     <Stack
       sx={{
         display: "flex",
-        width: wide ? "100%" : "428px",
-        height: wide ? "344px" : "380px",
-        borderRadius: wide ? "0px" : "16px",
+        width: { xs: "100%", sm: "100%", md: "428px" },
+        height: { sm: "380px" },
+        borderRadius: "16px",
         justifyContent: "space-between",
-        pt: 4,
-        px: 4,
-        pb: 6,
+        padding: 4,
         backgroundImage: "linear-gradient(to bottom right, #673BDC, #347AD1)",
       }}
     >
@@ -27,23 +25,26 @@ export const AreYouAParentCard = ({ wide }: { wide?: boolean }) => {
           with the young people in your life.
         </Typography>
       </Stack>
-      <AllyButton text="BROWSE THE RESOURCE LIBRARY" color="PrimaryBlue" wide />
+      <AllyButton
+        sx={{ mt: 4 }}
+        text="BROWSE THE RESOURCE LIBRARY"
+        color="PrimaryBlue"
+        wide
+      />
     </Stack>
   );
 };
 
-export const AreYouAnEducatorCard = ({ wide }: { wide?: boolean }) => {
+export const AreYouAnEducatorCard = () => {
   return (
     <Stack
       sx={{
-        width: wide ? "100%" : "428px",
-        height: wide ? "344px" : "380px",
         display: "flex",
-        borderRadius: wide ? "0px" : "16px",
+        width: { xs: "100%", sm: "100%", md: "428px" },
+        height: { sm: "380px" },
+        borderRadius: "16px",
         justifyContent: "space-between",
-        pt: 4,
-        px: 4,
-        pb: 6,
+        padding: 4,
         backgroundImage: "linear-gradient(to right, #347AD1, #00B8C5)",
       }}
     >
@@ -57,6 +58,7 @@ export const AreYouAnEducatorCard = ({ wide }: { wide?: boolean }) => {
         </Typography>
       </Stack>
       <AllyButton
+        sx={{ mt: 4 }}
         text="BROWSE THE RESOURCE LIBRARY"
         color="PrimaryPurple"
         wide
