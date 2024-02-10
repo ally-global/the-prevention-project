@@ -4,6 +4,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import ChooseYourGradeSection from "../ChooseYourGradeSection";
 import { RenderOn } from "@/utils/deviceUtils";
 import StandardLayout from "@/components/StandardLayout";
+import Text from "@/components/Text";
 
 const HomeHero = () => {
   return (
@@ -14,31 +15,25 @@ const HomeHero = () => {
         marginBottom: 9,
       }}
     >
-      <RenderOn breakPoints={["md", "lg", "xl"]}>
-        <StandardLayout>
-          <Stack
-            display="flex"
-            flexDirection="column"
-            alignItems="center"
-            spacing={4}
-          >
-            <Typography variant="h2" sx={{ maxWidth: "900px" }}>
-              Let’s learn together, so that we can create a safer world for
-              ourselves and for others — both online and face to face.
-            </Typography>
-            <AllyButton text="CHOOSE YOUR GRADE TO GET STARTED" />
-          </Stack>
-        </StandardLayout>
-      </RenderOn>
-
-      <RenderOn breakPoints={["xs", "sm"]}>
-        <StandardLayout>
-          <Typography variant="h4">
+      <StandardLayout>
+        <Stack
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+          spacing={4}
+        >
+          <Text variant="h2" sx={{ maxWidth: "900px" }}>
+            What&apos; the problem with sharing information online?
+          </Text>
+          <Text variant="body1" sx={{ maxWidth: "900px" }}>
             Let’s learn together, so that we can create a safer world for
             ourselves and for others — both online and face to face.
-          </Typography>
-        </StandardLayout>
-      </RenderOn>
+          </Text>
+          <RenderOn breakPoints={["md", "lg", "xl"]}>
+            <AllyButton text="CHOOSE YOUR GRADE TO GET STARTED" />
+          </RenderOn>
+        </Stack>
+      </StandardLayout>
 
       <StandardLayout sx={{ pt: 5 }}>
         <ChooseYourGradeSection />
