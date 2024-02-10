@@ -1,8 +1,6 @@
-import AllyButton from "@/components/AllyButton";
 import Hero from "@/components/Hero";
 import { Stack } from "@mui/material";
 import ChooseYourGradeSection from "@/sections/ChooseYourGradeSection";
-import { RenderOn } from "@/utils/deviceUtils";
 import StandardLayout from "@/components/StandardLayout";
 import Text from "@/components/Text";
 
@@ -29,13 +27,10 @@ const HomeHero = () => {
             Let’s learn together, so that we can create a safer world for
             ourselves and for others — both online and face to face.
           </Text>
-          <RenderOn breakPoints={["md", "lg", "xl"]}>
-            <AllyButton text="CHOOSE YOUR GRADE TO GET STARTED" />
-          </RenderOn>
         </Stack>
       </StandardLayout>
 
-      <StandardLayout sx={{ pt: 5 }}>
+      <StandardLayout sx={{ pt: 10 }}>
         <ChooseYourGradeSection />
       </StandardLayout>
     </Hero>

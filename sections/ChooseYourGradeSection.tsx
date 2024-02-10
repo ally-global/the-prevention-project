@@ -14,7 +14,7 @@ const ChooseYourGrade = ({
   mobile?: boolean;
 }) => {
   return (
-    <Link href={href}>
+    <Link href={href} style={{ width: "100%" }}>
       <AllyButton
         sx={{
           width: "100%",
@@ -24,6 +24,8 @@ const ChooseYourGrade = ({
           fontSize: { xs: "20px", sm: "20px", md: "34px" },
           fontWeight: "700px",
           borderRadius: "16px",
+          whiteSpace: { xs: "normal", sm: "nowrap" },
+          lineHeight: { xs: "20px", sm: "20px", md: "34px" },
         }}
         color={color}
         text={text}

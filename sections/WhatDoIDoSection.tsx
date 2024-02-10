@@ -22,11 +22,10 @@ const WhatDoIDoSection = ({ overflow }: { overflow?: boolean }) => {
 
         <Box
           sx={{
-            position: "relative",
             display: "flex",
             justifyContent: overflow ? "flex-start" : "center",
             flexWrap: overflow ? "nowrap" : "wrap",
-            overflowX: overflow ? "scroll" : "",
+            overflowX: overflow ? "scroll" : "auto",
           }}
         >
           {numberCardInfo.map((card, i) => (
@@ -36,6 +35,7 @@ const WhatDoIDoSection = ({ overflow }: { overflow?: boolean }) => {
               color={card.color}
               statement={card.statement}
               subtext={card.subtext}
+              maxContent={!overflow}
             />
           ))}
         </Box>

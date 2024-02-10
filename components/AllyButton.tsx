@@ -19,6 +19,7 @@ const AllyButton = ({
   return (
     <Button
       sx={{
+        textAlign: "center",
         height: "36px",
         width: wide ? "100%" : "max-content",
         backgroundColor: color ?? `PrimaryPurple`,

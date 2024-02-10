@@ -56,24 +56,33 @@ const NumberCard = ({
   color,
   statement,
   subtext,
+  maxContent,
 }: {
   number: number;
   color: string;
   statement: string;
   subtext: string;
+  maxContent: boolean;
 }) => {
   return (
     <Box
       sx={{
-        width: { sm: "350px", md: "424px" },
-        height: { sm: "280px", md: "348px" },
+        display: "flex",
+        position: "relative",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        ...(maxContent
+          ? {}
+          : {
+              minWidth: "424px",
+              minHeight: { xs: "280px", sm: "280px", md: "348px" },
+            }),
+        width: { xs: "max-content", sm: "350px", md: "424px" },
+        height: { xs: "max-content", sm: "280px", md: "348px" },
         backgroundColor: "White",
         padding: 4,
         margin: 2,
         borderRadius: "16px",
-        flexDirection: "column",
-        justifyContent: "space-between",
-        display: "flex",
       }}
     >
       <NumberCircle number={number} backgroundColor={color} color={"White"} />
