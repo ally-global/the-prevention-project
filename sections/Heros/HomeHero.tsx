@@ -23,7 +23,7 @@ const HomeHero = () => {
           spacing={4}
         >
           <Text variant="h2" sx={{ maxWidth: "900px" }}>
-            What&apos; the problem with sharing information online?
+            What&apos;s the problem with sharing information online?
           </Text>
           <Text variant="body1" sx={{ maxWidth: "900px" }}>
             Let’s learn together, so that we can create a safer world for
