@@ -11,13 +11,13 @@ export type Chapter = {
   }[];
 };
 
-export const chapters3to5 = [
+export const chapters3to5: Chapter[] = [
   {
     title: "Introduction",
     content: [
       {
         title: "Grades 3-5",
-        vimeoId: "908739159",
+        vimeoId: "908739053",
         description: (
           <>
             Hey there! Welcome to The Prevention Project, where we&apos;re about
@@ -46,7 +46,7 @@ export const chapters3to5 = [
     content: [
       {
         title: "What's the Big Deal?",
-        vimeoId: "908740111",
+        vimeoId: "908739159",
         description: (
           <>
             In this first chapter, we&apos;re diving into a topic called Consent
@@ -83,7 +83,7 @@ export const chapters3to5 = [
       },
       {
         title: "True or False",
-        vimeoId: "",
+        vimeoId: "908740111",
         description: (
           <>
             Ever wondered about the subtle signals and body language that convey
@@ -148,9 +148,68 @@ export const chapters3to5 = [
   { title: "Being a Safe Person", content: [] },
 ];
 
-export const chapters6to7 = [
-  { title: "Introduction", content: [] },
-  { title: "Consent and Healthy Boundaries", content: [] },
+export const chapters6to7: Chapter[] = [
+  {
+    title: "Introduction",
+    content: [
+      {
+        title: "Grades 6-7",
+        vimeoId: "908806931",
+        description: (
+          <>
+            Hello and welcome to The Prevention Project—an exciting journey
+            designed just for you! Here, we&apos;ll explore important topics
+            that touch on friendships and relationships, both in-person and
+            online. Our goal is to challenge your thinking about everyday
+            situations connected to sexual exploitation and encourage you to
+            apply what you learn in your personal life. We&apos;re here to talk
+            about things that might be a bit awkward but don&apos;t worry,
+            we&apos;ll keep it fun and light. Let&apos;s dive in!
+            <br />
+            <br />
+            If you ever feel uncertain or encounter something that doesn&apos;t
+            seem right, reach out to a trusted adult or explore the resources on
+            our website. Together, we can contribute to creating a safer online
+            and offline world for everyone. Ready to get started?
+            <br />
+            <br />
+            Click on a chapter below to begin!
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    title: "Consent and Healthy Boundaries",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "908753527",
+        externalLinks: [
+          { name: "Resource name", caption: "Caption", href: "" },
+        ],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "908752727",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
   { title: "Sexual Exploitation", content: [] },
   { title: "Sexting and Peer Exploitation", content: [] },
   { title: "About the Internet and Information Sharing", content: [] },
@@ -159,9 +218,48 @@ export const chapters6to7 = [
   { title: "Human Trafficking", content: [] },
 ];
 
-export const chapters8to12 = [
-  { title: "Introduction", content: [] },
-  { title: "Consent and Healthy Boundaries", content: [] },
+export const chapters8to12: Chapter[] = [
+  {
+    title: "Introduction",
+    content: [
+      {
+        title: "Grades 8-12",
+        vimeoId: "908705285",
+        description: <>Welcome!</>,
+      },
+    ],
+  },
+  {
+    title: "Consent and Healthy Boundaries",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "908705427",
+        externalLinks: [
+          { name: "Resource name", caption: "Caption", href: "" },
+        ],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "908743419",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
   { title: "Sexual Exploitation", content: [] },
   { title: "Sexting and Peer Exploitation", content: [] },
   { title: "Exploiters and Predators", content: [] },

@@ -3,10 +3,11 @@
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { MenuItem } from "@mui/material";
 import Select from "@mui/material/Select";
-import { useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 const ChapterMenu = ({ chapters }: { chapters: string[] }) => {
   const router = useRouter();
+  const pathname = usePathname();
   const searchParams = useSearchParams();
   const chapter = searchParams.get("chapter");
 
@@ -30,7 +31,7 @@ const ChapterMenu = ({ chapters }: { chapters: string[] }) => {
       }}
       value={chapter ? Number(chapter) - 1 : 0}
       onChange={(e) => {
-        router.push(`/grades3-5?chapter=${Number(e.target.value) + 1}`);
+        router.push(`${pathname}?chapter=${Number(e.target.value) + 1}`);
       }}
       sx={{
         backgroundColor: "PrimaryPurple",

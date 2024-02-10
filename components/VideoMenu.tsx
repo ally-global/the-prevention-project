@@ -3,7 +3,7 @@
 import Box from "@mui/material/Box";
 import { RenderOn } from "@/utils/deviceUtils";
 import Typography from "@mui/material/Typography";
-import { useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 const MenuItem = ({
   selected,
@@ -17,6 +17,7 @@ const MenuItem = ({
   index: number;
 }) => {
   const router = useRouter();
+  const pathname = usePathname();
   const searchParams = useSearchParams();
   const chapter = searchParams.get("chapter");
   return (
@@ -47,7 +48,7 @@ const MenuItem = ({
           : {}),
       }}
       onClick={() => {
-        router.push(`/grades3-5?chapter=${chapter ?? 1}&section=${index + 1}`);
+        router.push(`${pathname}?chapter=${chapter ?? 1}&section=${index + 1}`);
       }}
     >
       <RenderOn breakPoints={["md", "lg", "xl"]}>

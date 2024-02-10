@@ -22,7 +22,6 @@ const TitleAndParagraph = ({
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        alignItems: "center",
         textAlign: "center",
         p: 0,
         mb: { xs: 4 },

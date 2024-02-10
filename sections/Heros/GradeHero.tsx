@@ -54,7 +54,7 @@ const GradeHero = ({
       >
         <StandardLayout>
           <TwoColumnLayout
-            columnWrapOrderOnMobile={ColumnWrapOrder.NORMAL}
+            columnWrapOrderOnMobile={ColumnWrapOrder.REVERSE}
             leftCol={6}
             rightCol={5}
           >
@@ -66,6 +66,7 @@ const GradeHero = ({
                 iframe: {
                   borderRadius: "16px",
                 },
+                mb: { xs: 4, sm: 0 },
               }}
             >
               <VideoPlayer vimeoId={vimeoId} autoplay />
