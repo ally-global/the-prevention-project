@@ -26,7 +26,9 @@ export default function Page() {
           />
         </Suspense>
       </StandardLayout>
-      <ContentSection chapters={chapters3to5} />
+      <Suspense>
+        <ContentSection chapters={chapters3to5} />
+      </Suspense>
       <UpNext
         chapterName={"Consent and healthy boundaries"}
         contentTitle={"Say it Simple"}

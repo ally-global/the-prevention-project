@@ -6,7 +6,6 @@ import VideoMenu from "./VideoMenu";
 import { useSearchParams } from "next/navigation";
 import { Chapter } from "@/app/content/chapters";
 import ExternalLinkTile from "./ExternalLinkTile";
-import TitleAndParagraph from "./TitleAndParagraph";
 import Text from "./Text";
 
 const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
@@ -24,11 +23,10 @@ const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
       <Box sx={{ backgroundColor: "White", pb: { xs: 4, sm: 10, md: 20 } }}>
         <StandardLayout>
           <Stack spacing={2} sx={{ pt: 2 }}>
-            <Suspense>
-              <VideoMenu
-                content={chapters[chapter].content.map((c) => c.title)}
-              />
-            </Suspense>
+            <VideoMenu
+              content={chapters[chapter].content.map((c) => c.title)}
+            />
+
             <VideoPlayer vimeoId={selectedChapterSection.vimeoId} />
           </Stack>
           <Box
