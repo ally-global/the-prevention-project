@@ -35,47 +35,60 @@ const ExternalLinkTile = ({
   name,
   caption,
   href,
+  light,
 }: {
   name: string;
   caption: string;
   href: string;
+  light?: boolean;
 }) => {
   return (
-    <Link
-      href={href}
-      style={{ textDecoration: "none", margin: "8px" }}
-      target="_blank"
+    <Box
+      sx={{
+        width: { xs: "100%", sm: "328px" },
+        height: "112px",
+        backgroundColor: light ? "Grey300" : "PrimaryPurple",
+        borderRadius: "16px",
+      }}
     >
-      <Box
-        sx={{
-          width: "328px",
-          height: "112px",
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-between",
-          backgroundColor: "PrimaryPurple",
-          padding: 2,
-          borderRadius: "16px",
-        }}
-      >
-        <Stack
+      <Link href={href} style={{ textDecoration: "none" }} target="_blank">
+        <Box
           sx={{
+            width: "100%",
+            height: "100%",
             display: "flex",
-            flexDirection: "column",
+            flexDirection: "row",
             justifyContent: "space-between",
+            padding: 3,
           }}
         >
-          <Typography variant={"h6"}>{name}</Typography>
-          <Typography variant={"caption"} color={"PrimaryBlue"}>
-            {caption}
-          </Typography>
-        </Stack>
-        <ArrowOutwardOutlinedIcon
-          fontSize="large"
-          sx={{ color: "PrimaryBlue" }}
-        />
-      </Box>
-    </Link>
+          <Stack
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "space-between",
+            }}
+          >
+            <Typography
+              variant={"h6"}
+              color={light ? "PrimaryPurple" : "White"}
+            >
+              {name}
+            </Typography>
+            <Typography
+              variant={"caption"}
+              color={light ? "Grey900" : "PrimaryBlue"}
+            >
+              {caption.toUpperCase()}
+            </Typography>
+          </Stack>
+          <ArrowOutwardOutlinedIcon
+            fontSize="large"
+            sx={{ color: light ? "PrimaryPurple" : "PrimaryBlue" }}
+          />
+        </Box>
+      </Link>
+    </Box>
   );
 };
 

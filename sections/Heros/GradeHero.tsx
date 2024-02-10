@@ -5,11 +5,19 @@ import ProgressBar from "@/components/ProgressBar";
 import StandardLayout from "@/components/StandardLayout";
 import TitleAndParagraph from "@/components/TitleAndParagraph";
 import TwoColumnLayout, { ColumnWrapOrder } from "@/components/TwoColumnLayout";
+import VideoPlayer from "@/components/VideoPlayer";
 import { Box } from "@mui/material";
-import Image from "next/image";
-import { useEffect, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 
-const GradeHero = () => {
+const GradeHero = ({
+  title,
+  subtitle,
+  vimeoId,
+}: {
+  title: string;
+  subtitle: ReactNode;
+  vimeoId: string;
+}) => {
   const [showProgressBar, setShowProgressBar] = useState("none");
 
   function stickNavbar() {
@@ -30,7 +38,7 @@ const GradeHero = () => {
 
   return (
     <>
-      <ProgressBar display={showProgressBar} name={"Grades 3-5"} />
+      {/* <ProgressBar display={showProgressBar} name={"Grades 3-5"} /> */}
       <Hero
         sx={{
           background:
@@ -47,30 +55,20 @@ const GradeHero = () => {
         <StandardLayout>
           <TwoColumnLayout
             columnWrapOrderOnMobile={ColumnWrapOrder.NORMAL}
-            leftCol={5}
-            rightCol={6}
+            leftCol={6}
+            rightCol={5}
           >
-            <TitleAndParagraph
-              title={"Grades 3-5"}
-              paragraph={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-              }
-            />
+            <TitleAndParagraph title={title} paragraph={subtitle} />
             <Box
               sx={{
-                img: {
-                  maxWidth: "100%",
-                  aspectRatio: "2:1",
+                backgroundColor: "Grey300",
+                borderRadius: "16px",
+                iframe: {
                   borderRadius: "16px",
                 },
               }}
             >
-              <Image
-                src={"/images/temp.png"}
-                alt={"temp"}
-                width={550}
-                height={310}
-              />
+              <VideoPlayer vimeoId={vimeoId} autoplay />
             </Box>
           </TwoColumnLayout>
         </StandardLayout>

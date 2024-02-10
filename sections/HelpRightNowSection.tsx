@@ -1,7 +1,7 @@
 import ExternalLinkTile, { tiles } from "@/components/ExternalLinkTile";
 import StandardLayout from "@/components/StandardLayout";
 import Text from "@/components/Text";
-import { Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 
 const HelpRightNowSection = () => {
   return (
@@ -32,14 +32,15 @@ const HelpRightNowSection = () => {
           9-1-1.
         </Text>
       </Stack>
-      <Stack
+      <Box
         sx={{
-          maxWidth: "1048px",
           display: "flex",
           flexDirection: "row",
           flexWrap: "wrap",
+          maxWidth: "1048px",
           paddingTop: 6,
           paddingBottom: 9,
+          gap: 1,
         }}
       >
         {tiles.map((tile, index) => {
@@ -52,7 +53,7 @@ const HelpRightNowSection = () => {
             />
           );
         })}
-      </Stack>
+      </Box>
     </StandardLayout>
   );
 };
