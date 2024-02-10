@@ -7,11 +7,9 @@ import { ReactNode } from "react";
 const GenericHero = ({
   text,
   subtext,
-  wide,
 }: {
   text: string;
-  subtext: ReactNode;
-  wide?: boolean;
+  subtext?: ReactNode;
 }) => {
   return (
     <Hero
@@ -45,9 +43,13 @@ const GenericHero = ({
           >
             {text}
           </Text>
-          <Text variant="body1" sx={{ maxWidth: "900px" }}>
-            {subtext}
-          </Text>
+          {subtext ? (
+            <Text variant="body1" sx={{ maxWidth: "900px" }}>
+              {subtext}
+            </Text>
+          ) : (
+            <></>
+          )}
         </Stack>
       </StandardLayout>
     </Hero>
