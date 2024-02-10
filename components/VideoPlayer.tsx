@@ -5,9 +5,11 @@
 const VideoPlayer = ({
   vimeoId,
   autoplay,
+  muted,
 }: {
   vimeoId: string;
   autoplay?: boolean;
+  muted?: boolean;
 }) => {
   return (
     <>
@@ -18,9 +20,9 @@ const VideoPlayer = ({
         }}
       >
         <iframe
-          src={`https://player.vimeo.com/video/${vimeoId}?muted=1&autoplay=${
-            autoplay ? 1 : 0
-          }`}
+          src={`https://player.vimeo.com/video/${vimeoId}?muted=${
+            muted ? 1 : 0
+          }&autoplay=${autoplay ? 1 : 0}`}
           frameBorder="0"
           allow="autoplay; fullscreen; picture-in-picture"
           style={{

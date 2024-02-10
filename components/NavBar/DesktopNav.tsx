@@ -41,7 +41,9 @@ const DesktopNav: FC = () => {
       <NavItem href={"/library"} text="LIBRARY" />
       <NavItem href={"/"} text="GET HELP NOW" />
       <Box ml={{ xs: 0, sm: 1, md: 2.5, lg: 2.5, xl: 2.5 }}>
-        <AllyButton text={"CHOOSE YOUR GRADE"} />
+        <Link href={"/"}>
+          <AllyButton text={"CHOOSE YOUR GRADE"} />
+        </Link>
       </Box>
     </Box>
   );

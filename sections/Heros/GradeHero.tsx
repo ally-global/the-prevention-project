@@ -69,7 +69,7 @@ const GradeHero = ({
                 mb: { xs: 4, sm: 0 },
               }}
             >
-              <VideoPlayer vimeoId={vimeoId} autoplay />
+              <VideoPlayer vimeoId={vimeoId} autoplay muted />
             </Box>
           </TwoColumnLayout>
         </StandardLayout>
