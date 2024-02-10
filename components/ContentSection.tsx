@@ -33,8 +33,8 @@ const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
             sx={{
               display: "flex",
               justifyContent: "space-between",
-              padding: 4,
-              pt: 8,
+              padding: { xs: 0, sm: 4 },
+              pt: { xs: 4, sm: 8 },
               flexDirection: { xs: "column", sm: "column", md: "row" },
               gap: 4,
             }}
