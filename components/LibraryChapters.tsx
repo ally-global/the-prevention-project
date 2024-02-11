@@ -47,7 +47,7 @@ const Chapter = ({
           }
           sx={{
             padding: 4,
-            height: "135px",
+            height: { xs: "108px", sm: "135px" },
           }}
         >
           <Stack spacing={1}>
