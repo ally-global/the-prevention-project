@@ -1,4 +1,5 @@
 import {
+  Chapter,
   chapters3to5,
   chapters6to7,
   chapters8to12,
@@ -15,7 +16,7 @@ export enum Section {
 }
 const sections = new Map<
   Section,
-  { title: string; color: string; chapters: any }
+  { title: string; color: string; chapters: Chapter[] }
 >([
   [
     Section.THREE_TO_FIVE,

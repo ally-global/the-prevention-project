@@ -9,7 +9,10 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
-import { useState } from "react";
+import { ReactNode, useState } from "react";
+
+import { Chapter } from "@/app/content/chapters";
+import ExpandedChapter from "@/components/ExpandedChapter";
 
 const Chapter = ({
   number,
@@ -18,7 +21,12 @@ const Chapter = ({
 }: {
   number: number;
   title: string;
-  content: any[];
+  content: {
+    title: string;
+    description?: ReactNode;
+    vimeoId: string;
+    externalLinks?: { name: string; caption?: string; href: string }[];
+  }[];
 }) => {
   const [fullWidth, setFullWidth] = useState<boolean>(false);
   return (
@@ -63,21 +71,14 @@ const Chapter = ({
           </Stack>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+          <ExpandedChapter content={content} />
         </AccordionDetails>
       </Accordion>
     </Box>
   );
 };
 
-const LibraryChapters = ({
-  chapters,
-}: {
-  chapters: { title: string; content: any[] }[];
-}) => {
+const LibraryChapters = ({ chapters }: { chapters: Chapter[] }) => {
   return (
     <>
       <Stack sx={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>

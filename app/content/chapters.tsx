@@ -142,10 +142,122 @@ export const chapters3to5: Chapter[] = [
       },
     ],
   },
-  { title: "The Internet", content: [] },
-  { title: "Information Sharing Online", content: [] },
-  { title: "Unsafe People and Unhealthy Social Accounts", content: [] },
-  { title: "Being a Safe Person", content: [] },
+  {
+    title: "The Internet",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Information Sharing Online",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Unsafe People and Unhealthy Social Accounts",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Being a Safe Person",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
 ];
 
 export const chapters6to7: Chapter[] = [
@@ -210,12 +322,180 @@ export const chapters6to7: Chapter[] = [
       },
     ],
   },
-  { title: "Sexual Exploitation", content: [] },
-  { title: "Sexting and Peer Exploitation", content: [] },
-  { title: "About the Internet and Information Sharing", content: [] },
-  { title: "Sextortion", content: [] },
-  { title: "Predatory People and Grooming", content: [] },
-  { title: "Human Trafficking", content: [] },
+  {
+    title: "Sexual Exploitation",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Sexting and Peer Exploitation",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "About the Internet and Information Sharing",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Sextortion",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Predatory People and Grooming",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Human Trafficking",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
 ];
 
 export const chapters8to12: Chapter[] = [
@@ -260,11 +540,207 @@ export const chapters8to12: Chapter[] = [
       },
     ],
   },
-  { title: "Sexual Exploitation", content: [] },
-  { title: "Sexting and Peer Exploitation", content: [] },
-  { title: "Exploiters and Predators", content: [] },
-  { title: "Internet Dynamics and Grooming", content: [] },
-  { title: "Sextortion", content: [] },
-  { title: "Pimps and Trafficking", content: [] },
-  { title: "High Risk Behaviours", content: [] },
+  {
+    title: "Sexual Exploitation",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Sexting and Peer Exploitation",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Exploiters and Predators",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Internet Dynamics and Grooming",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Sextortion",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "Pimps and Trafficking",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
+  {
+    title: "High Risk Behaviours",
+    content: [
+      {
+        title: "What's the Big Deal?",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Say it Simple",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "True or False",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Imagine This",
+        vimeoId: "",
+        externalLinks: [],
+      },
+      {
+        title: "Knowledge Snapshot",
+        vimeoId: "",
+      },
+    ],
+  },
 ];

@@ -2,6 +2,7 @@
 
 import { Stack, Typography } from "@mui/material";
 import AllyButton from "@/components/AllyButton";
+import Link from "next/link";
 
 export const AreYouAParentCard = () => {
   return (
@@ -25,12 +26,14 @@ export const AreYouAParentCard = () => {
           with the young people in your life.
         </Typography>
       </Stack>
-      <AllyButton
-        sx={{ mt: 4 }}
-        text="BROWSE THE RESOURCE LIBRARY"
-        color="PrimaryBlue"
-        wide
-      />
+      <Link href={"/library"}>
+        <AllyButton
+          sx={{ mt: 4 }}
+          text="BROWSE THE RESOURCE LIBRARY"
+          color="PrimaryBlue"
+          wide
+        />
+      </Link>
     </Stack>
   );
 };
@@ -57,12 +60,14 @@ export const AreYouAnEducatorCard = () => {
           can be downloaded for free.
         </Typography>
       </Stack>
-      <AllyButton
-        sx={{ mt: 4 }}
-        text="BROWSE THE RESOURCE LIBRARY"
-        color="PrimaryPurple"
-        wide
-      />
+      <Link href={"/library"}>
+        <AllyButton
+          sx={{ mt: 4 }}
+          text="BROWSE THE RESOURCE LIBRARY"
+          color="PrimaryPurple"
+          wide
+        />
+      </Link>
     </Stack>
   );
 };
