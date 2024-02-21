@@ -53,7 +53,7 @@ const Chapter = ({
           <Stack spacing={1}>
             {number > 0 ? (
               <Typography color={"PrimaryBlue"} variant="button">
-                {`Chapter ${number}`}
+                {`CHAPTER ${number}`}
               </Typography>
             ) : (
               <></>
