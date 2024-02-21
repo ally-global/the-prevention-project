@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import { Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import ChooseYourGradeSection from "@/sections/ChooseYourGradeSection";
 import StandardLayout from "@/components/StandardLayout";
 import Text from "@/components/Text";
@@ -10,29 +10,49 @@ const HomeHero = () => {
       sx={{
         background:
           "linear-gradient(to bottom, transparent, 90%, white), linear-gradient(to right, #673BDC, #00B8C5)",
-        marginBottom: 9,
+        height: {
+          xs: "auto",
+          sm: "auto",
+          md: "792px",
+          lg: "792px",
+          xl: "792px",
+        },
+        marginBottom: { xs: 6, sm: 8, md: 8 },
       }}
     >
-      <StandardLayout>
-        <Stack
-          display="flex"
-          flexDirection="column"
-          alignItems="center"
-          spacing={4}
-        >
-          <Text variant="h2" sx={{ maxWidth: "900px" }}>
-            What&apos;s the problem with sharing information online?
-          </Text>
-          <Text variant="body1" sx={{ maxWidth: "900px" }}>
-            Let’s learn together, so that we can create a safer world for
-            ourselves and for others — both online and face to face.
-          </Text>
-        </Stack>
-      </StandardLayout>
-
-      <StandardLayout sx={{ pt: 10 }}>
-        <ChooseYourGradeSection />
-      </StandardLayout>
+      <Box sx={{ py: { xs: 0, sm: 4, md: 10 } }}>
+        <StandardLayout>
+          <Stack
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+            spacing={4}
+          >
+            <Text
+              variant="h2"
+              sx={{
+                maxWidth: "900px",
+                textAlign: { xs: "left", sm: "center" },
+              }}
+            >
+              What&apos;s the problem with sharing information online?
+            </Text>
+            <Text
+              variant="h5"
+              sx={{
+                maxWidth: "700px",
+                textAlign: { xs: "left", sm: "center" },
+              }}
+            >
+              Let&apos;s learn together, so that we can create a safer world for
+              ourselves and for others — both online and face to face.
+            </Text>
+          </Stack>
+        </StandardLayout>
+        <StandardLayout sx={{ pt: { xs: 6, sm: 8, md: 12 } }}>
+          <ChooseYourGradeSection />
+        </StandardLayout>
+      </Box>
     </Hero>
   );
 };

@@ -10,12 +10,12 @@ import TwoColumnLayout, { ColumnWrapOrder } from "@/components/TwoColumnLayout";
 
 const PurpleHeading = () => {
   return (
-    <Box sx={{ backgroundColor: "PrimaryPurple", py: 8 }}>
+    <Box sx={{ backgroundColor: "PrimaryPurple", py: { xs: 6, sm: 8 } }}>
       <StandardLayout>
         <TwoColumnLayout
           columnWrapOrderOnMobile={ColumnWrapOrder.NORMAL}
-          leftCol={6}
-          rightCol={5}
+          leftCol={5}
+          rightCol={6}
         >
           <TitleAndParagraph
             title={
