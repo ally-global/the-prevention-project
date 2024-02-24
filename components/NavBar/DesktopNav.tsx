@@ -25,22 +25,24 @@ const DesktopNav: FC = () => {
       display="flex"
       justifyContent="space-between"
       alignItems="center"
-      sx={{ height: 72 }}
+      sx={{ px: 4, height: "72px" }}
     >
-      <Box mr={{ xs: 0, sm: 1, md: 2.5, lg: 2.5, xl: 2.5 }}>
+      <Box sx={{ mr: 10 }}>
         <Link href="/">
           <Image
             src={"/images/ally-exed-logo.png"}
-            width={96}
-            height={40}
+            width={115}
+            height={51}
             alt="Ally global logo"
           />
         </Link>
       </Box>
-      <NavItem href={"/about"} text="ABOUT US" />
-      <NavItem href={"/library"} text="LIBRARY" />
-      <NavItem href={"/"} text="GET HELP NOW" />
-      <Box ml={{ xs: 0, sm: 1, md: 2.5, lg: 2.5, xl: 2.5 }}>
+      <Box sx={{ display: "flex", gap: 10 }}>
+        <NavItem href={"/about"} text="ABOUT US" />
+        <NavItem href={"/library"} text="LIBRARY" />
+        <NavItem href={"/"} text="GET HELP NOW" />
+      </Box>
+      <Box>
         <Link href={"/"}>
           <AllyButton text={"CHOOSE YOUR GRADE"} />
         </Link>

@@ -16,11 +16,11 @@ const WhoWeAreSection = () => {
     >
       <StandardLayout>
         <Stack spacing={10}>
-          <Stack spacing={2} alignItems={"center"}>
+          <Stack spacing={2} alignItems={{ xs: "start", sm: "center" }}>
             <Text
               variant={"h4"}
               color={"PrimaryPurple"}
-              sx={{ textAlign: "center" }}
+              sx={{ textAlign: { xs: "left", sm: "center" } }}
             >
               Built in collaboration; <br />
               backed by research.
@@ -28,7 +28,10 @@ const WhoWeAreSection = () => {
             <Text
               color={"Grey900"}
               variant={"body1"}
-              sx={{ textAlign: "center", maxWidth: "700px" }}
+              sx={{
+                textAlign: { xs: "left", sm: "center" },
+                maxWidth: "700px",
+              }}
             >
               The Prevention Project is the result of collaboration between Ally
               Global Foundation and Exploitation Education Institute.

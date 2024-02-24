@@ -67,10 +67,7 @@ const MobileNav: FC = () => {
           height={`72px`}
           px={{
             xs: 3,
-            sm: 6,
-            md: 15,
-            lg: 15,
-            xl: 15,
+            sm: 3,
           }}
         >
           <Link href="/">

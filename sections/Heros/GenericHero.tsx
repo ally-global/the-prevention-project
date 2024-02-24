@@ -16,11 +16,11 @@ const GenericHero = ({
       sx={{
         background: "linear-gradient(to right, #673BDC, #00B8C5)",
         pb: {
-          xs: 10,
-          sm: 10,
-          md: 15,
-          lg: 15,
-          xl: 15,
+          xs: 6,
+          sm: 6,
+          md: 12,
+          lg: 12,
+          xl: 12,
         },
       }}
     >
@@ -28,7 +28,7 @@ const GenericHero = ({
         <Stack
           sx={{
             display: "flex",
-            alignItems: "center",
+            alignItems: { xs: "start", sm: "center" },
           }}
           spacing={4}
         >
