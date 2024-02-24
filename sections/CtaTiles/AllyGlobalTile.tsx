@@ -19,14 +19,13 @@ const AllyGlobalTile = () => {
         <Box
           sx={{
             backgroundColor: "Grey300",
-            padding: 4,
             display: "flex",
             justifyContent: "space-between",
-            height: "340px",
+            padding: 4,
           }}
         >
           <Stack justifyContent={"space-between"}>
-            <Stack spacing={3}>
+            <Stack spacing={3} sx={{ pr: { xs: 0, sm: 6, md: 10 } }}>
               <Text variant={"h4"} color={"PrimaryBlue"}>
                 {"Ally Global Foundation"}
               </Text>
@@ -35,27 +34,39 @@ const AllyGlobalTile = () => {
                 rebuild their lives. In Canada, our focus is to prevent
                 exploitation and human trafficking by empowering individuals and
                 communities with essential information about what this issue
-                looks like locally. We are working alongside organizations and
-                individuals with lived experience across Canada to expand the
-                research in this area and to develop survivor-informed
-                educational resources—like The Prevention Project.
+                looks like locally. <br />
+                <br />
+                We are working alongside organizations and individuals with
+                lived experience across Canada to expand the research in this
+                area, and to develop survivor-informed educational
+                resources—like The Prevention Project.
               </Text>
             </Stack>
-            <AllyButton text={"Learn more"} color={"PrimaryBlue"} />
+            <AllyButton
+              text={"LEARN MORE"}
+              color={"PrimaryBlue"}
+              sx={{ mt: 4 }}
+            />
           </Stack>
           <Image
-            src={"/images/ally-exed-logo.png"}
-            width={60}
-            height={40}
+            src={"/images/Ally-Global-Logo.png"}
+            width={80}
+            height={60}
             alt={"Ally Global Logo"}
           />
         </Box>
         <Box
           sx={{
-            backgroundColor: "Grey800",
-            height: "340px",
+            img: { width: "100%", height: "100%" },
           }}
-        ></Box>
+        >
+          {/* <Image
+            src={"/images/temp.png"}
+            width={400}
+            height={400}
+            alt={"temp"}
+          /> */}
+        </Box>
       </TwoColumnLayout>
     </Box>
   );

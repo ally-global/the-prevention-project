@@ -48,7 +48,10 @@ const MenuItem = ({
           : {}),
       }}
       onClick={() => {
-        router.push(`${pathname}?chapter=${chapter ?? 1}&section=${index + 1}`);
+        router.push(
+          `${pathname}?chapter=${chapter ?? 1}&section=${index + 1}`,
+          { scroll: false }
+        );
       }}
     >
       <RenderOn breakPoints={["md", "lg", "xl"]}>

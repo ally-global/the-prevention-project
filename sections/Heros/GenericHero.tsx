@@ -28,7 +28,6 @@ const GenericHero = ({
         <Stack
           sx={{
             display: "flex",
-            justifyContent: "center",
             alignItems: "center",
           }}
           spacing={4}
@@ -36,15 +35,20 @@ const GenericHero = ({
           <Text
             variant="h2"
             sx={{
-              width: "100%",
               maxWidth: "900px",
-              textAlign: { sm: "center" },
+              textAlign: { xs: "left", sm: "center" },
             }}
           >
             {text}
           </Text>
           {subtext ? (
-            <Text variant="body1" sx={{ maxWidth: "900px" }}>
+            <Text
+              variant="body1"
+              sx={{
+                maxWidth: "900px",
+                textAlign: { xs: "left", sm: "center" },
+              }}
+            >
               {subtext}
             </Text>
           ) : (

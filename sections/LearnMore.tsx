@@ -31,7 +31,7 @@ const LearnMore = () => {
                 </>
               }
             />
-            <AllyButton color={"PurpleMid"} text={"BOOK A PRESENTATION"} />
+            <AllyButton color={"PurpleDark"} text={"BOOK A PRESENTATION"} />
           </Stack>
           <Box
             sx={{

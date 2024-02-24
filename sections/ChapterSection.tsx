@@ -31,7 +31,9 @@ const ChapterMenu = ({ chapters }: { chapters: string[] }) => {
       }}
       value={chapter ? Number(chapter) - 1 : 0}
       onChange={(e) => {
-        router.push(`${pathname}?chapter=${Number(e.target.value) + 1}`);
+        router.push(`${pathname}?chapter=${Number(e.target.value) + 1}`, {
+          scroll: false,
+        });
       }}
       sx={{
         backgroundColor: "PrimaryPurple",
