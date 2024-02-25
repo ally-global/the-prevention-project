@@ -55,7 +55,7 @@ const DesktopNav: FC = () => {
           sx={{ backgroundColor: "transparent" }}
         >
           <Typography variant="button" color={`White`}>
-            Get help now
+            GET HELP NOW
           </Typography>
         </AllyButton>
       </Box>
