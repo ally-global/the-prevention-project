@@ -11,7 +11,6 @@ const NavBar: FC = () => {
   return (
     <Box
       sx={{
-        height: "72px",
         zIndex: 9,
         position: "fixed",
         top: 0,
@@ -24,6 +23,7 @@ const NavBar: FC = () => {
           paddingLeft: "0px !important",
           paddingRight: "0px !important",
           background: "linear-gradient(to right, #673BDC, #00B8C5)",
+          height: "72px",
         }}
       >
         <RenderOn breakPoints={["md", "lg", "xl"]}>

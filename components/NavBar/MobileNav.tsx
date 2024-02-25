@@ -8,32 +8,34 @@ import MenuIcon from "@mui/icons-material/Menu";
 import IconButton from "@mui/material/IconButton";
 import Drawer from "@mui/material/Drawer";
 import { NavItem } from "./DesktopNav";
+import AllyButton from "../AllyButton";
+import { SxProps } from "@mui/material";
 
 const MobileMenuItem = ({
   children,
-  removeBorder,
+  sx,
 }: {
   children: ReactNode;
-  removeBorder?: boolean;
+  sx?: SxProps;
 }) => {
   return (
     <Box
       sx={{
         backgroundColor: "PrimaryBlue",
-        height: "64px",
+        height: "48px",
         width: "100%",
         display: "flex",
         alignItems: "stretch",
-        borderBottom: removeBorder ? "none" : "1px solid",
-        borderColor: `Grey300`,
+        justifyContent: "center",
         px: { xs: 3, sm: 6 },
         a: {
           width: "100%",
           height: "100%",
           alignItems: "center",
-          justifyContent: "flex-start",
+          justifyContent: "center",
           display: "flex",
         },
+        ...sx,
       }}
     >
       {children}
@@ -47,7 +49,6 @@ const MobileNav: FC = () => {
   const handleDrawerOpen = () => {
     setOpen(true);
   };
-
   const handleDrawerClose = () => {
     setOpen(false);
   };
@@ -69,6 +70,7 @@ const MobileNav: FC = () => {
             xs: 3,
             sm: 3,
           }}
+          sx={{ backgroundColor: open ? "PrimaryBlue" : "transparent" }}
         >
           <Link href="/">
             <Image
@@ -102,6 +104,9 @@ const MobileNav: FC = () => {
         PaperProps={{
           sx: {
             marginTop: "64px",
+            pt: 2,
+            pb: 4,
+            backgroundColor: "PrimaryBlue",
             maxHeight: "calc(100% - 64px)",
             boxShadow:
               "0px 2px 4px -4px rgba(0, 0, 0, 0.2), 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px -10px rgba(0, 0, 0, 0.12)",
@@ -112,13 +117,30 @@ const MobileNav: FC = () => {
         }}
       >
         <MobileMenuItem>
-          <NavItem href={`/`} text={`HOME`} />
+          <NavItem
+            href={`/about`}
+            text={`About us`}
+            onClick={handleDrawerClose}
+          />
         </MobileMenuItem>
         <MobileMenuItem>
-          <NavItem href={`/about`} text={`ABOUT`} />
+          <NavItem
+            href={`/library`}
+            text={`Library`}
+            onClick={handleDrawerClose}
+          />
         </MobileMenuItem>
-        <MobileMenuItem removeBorder>
-          <NavItem href={`/library`} text={`LIBRARY`} />
+        <MobileMenuItem>
+          <NavItem
+            href={`/`}
+            text={`Get help now`}
+            onClick={handleDrawerClose}
+          />
+        </MobileMenuItem>
+        <MobileMenuItem sx={{ height: "72px", pt: 2 }}>
+          <Link href={"/"} onClick={handleDrawerClose}>
+            <AllyButton text={"CHOOSE YOUR GRADE"} />
+          </Link>
         </MobileMenuItem>
       </Drawer>
     </>

@@ -5,13 +5,22 @@ import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import AllyButton from "@/components/AllyButton";
 
-export const NavItem = ({ href, text }: { href: string; text: string }) => (
+export const NavItem = ({
+  href,
+  text,
+  onClick,
+}: {
+  href: string;
+  text: string;
+  onClick?: () => void;
+}) => (
   <Link
     href={href}
     style={{
       textDecoration: "none",
       whiteSpace: "nowrap",
     }}
+    onClick={onClick}
   >
     <Typography variant="button" color={`White`}>
       {text}

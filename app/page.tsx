@@ -12,6 +12,7 @@ export default function Home() {
       <PurpleHeading />
       <QuestionCardSection />
       <Stack
+        id={"help-right-now"}
         spacing={9}
         sx={{
           backgroundImage: "linear-gradient(to bottom right, #673BDC, #00B8C5)",
