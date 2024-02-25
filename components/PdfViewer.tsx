@@ -17,6 +17,9 @@ const PdfViewer = () => {
         src={"/pdfs/sexting-and-exploitation.pdf"}
         type={"application/pdf"}
       />
+      <a href="pdfs/sexting-and-exploitation.pdf" download="proposed_file_name">
+        Download
+      </a>
     </Box>
   );
 };

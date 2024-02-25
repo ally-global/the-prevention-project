@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { Chapter } from "@/app/content/chapters";
 import ExternalLinkTile from "@/components/ExternalLinkTile";
 import Text from "@/components/Text";
+import PdfViewer from "@/components/PdfViewer";
 
 const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
   const searchParams = useSearchParams();
