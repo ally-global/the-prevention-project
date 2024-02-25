@@ -1,11 +1,36 @@
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import { Box, Grid, ListItemText, Stack, Typography } from "@mui/material";
+import Link from "next/link";
+
+export const FooterItem = ({
+  href,
+  text,
+  onClick,
+}: {
+  href: string;
+  text: string;
+  onClick?: () => void;
+}) => (
+  <Link
+    href={href}
+    style={{
+      textDecoration: "none",
+      whiteSpace: "nowrap",
+      margin: "2px",
+    }}
+    onClick={onClick}
+  >
+    <Typography variant="caption" color={`Grey800`}>
+      {text}
+    </Typography>
+  </Link>
+);
 
 const Footer = () => {
   return (
     <Box mb={10}>
-      <div style={{ borderBottom: "1px solid #673BDC" }}>
+      <Box
+        sx={{ borderBottom: "1px solid #673BDC", pb: { xs: 6, sm: 6, md: 4 } }}
+      >
         <Grid
           container
           spacing={{
@@ -16,7 +41,7 @@ const Footer = () => {
             xl: 3,
           }}
           columns={{ xs: 4, sm: 4, md: 12, lg: 12, xl: 12 }}
-          justifyContent="center"
+          justifyContent="flex-start"
           alignItems="flex-start"
           height="100%"
           style={{
@@ -58,22 +83,7 @@ const Footer = () => {
                   alignItems="flex-start"
                   spacing={0}
                 >
-                  <ListItemText
-                    sx={{ my: 0 }}
-                    primary={
-                      <Typography color={"Grey800"} variant="caption">
-                        What is trafficking?
-                      </Typography>
-                    }
-                  />
-                  <ListItemText
-                    sx={{ my: 0 }}
-                    primary={
-                      <Typography color={"Grey800"} variant="caption">
-                        Get Help Now
-                      </Typography>
-                    }
-                  />
+                  <FooterItem text={"Get help now"} href="#what-to-do" />
                 </Stack>
               </Grid>
               <Grid item xs={2} sm={2} md={2} lg={2} xl={2}>
@@ -92,30 +102,12 @@ const Footer = () => {
                   alignItems="flex-start"
                   spacing={0}
                 >
-                  <ListItemText
-                    sx={{ my: 0 }}
-                    primary={
-                      <Typography color={"Grey800"} variant="caption">
-                        Who we are
-                      </Typography>
-                    }
+                  <FooterItem text={"Who we are"} href="/about#who-we-are" />
+                  <FooterItem
+                    text={"Book a presentation"}
+                    href="/about#book-a-presentation"
                   />
-                  <ListItemText
-                    sx={{ my: 0 }}
-                    primary={
-                      <Typography color={"Grey800"} variant="caption">
-                        Book a presentation
-                      </Typography>
-                    }
-                  />
-                  <ListItemText
-                    sx={{ my: 0 }}
-                    primary={
-                      <Typography color={"Grey800"} variant="caption">
-                        Donate
-                      </Typography>
-                    }
-                  />
+                  <FooterItem text={"Donate"} href="/about#donate" />
                 </Stack>
               </Grid>
               <Grid item xs={2} sm={2} md={2} lg={2} xl={2}>
@@ -125,7 +117,7 @@ const Footer = () => {
                     variant="button"
                     component="span"
                   >
-                    RESOURCES
+                    LIBRARY
                   </Typography>
                 </Box>
                 <Stack
@@ -134,60 +126,15 @@ const Footer = () => {
                   alignItems="flex-start"
                   spacing={0}
                 >
-                  <ListItemText
-                    sx={{ my: 0 }}
-                    primary={
-                      <Typography color={"Grey800"} variant="caption">
-                        Grades 3-5
-                      </Typography>
-                    }
-                  />
-                  <ListItemText
-                    sx={{ my: 0 }}
-                    primary={
-                      <Typography color={"Grey800"} variant="caption">
-                        Grages 6-7
-                      </Typography>
-                    }
-                  />
-                  <ListItemText
-                    sx={{ my: 0 }}
-                    primary={
-                      <Typography color={"Grey800"} variant="caption">
-                        Grages 8-12
-                      </Typography>
-                    }
-                  />
+                  <FooterItem text="Grades 3-5" href="/grades3-5" />
+                  <FooterItem text="Grades 6-7" href="/grades6-7" />
+                  <FooterItem text="Grades 8-12" href="/grades8-12" />
                 </Stack>
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={4} sm={4} md={4} lg={4} xl={4}>
-            <Stack
-              direction="row"
-              justifyContent={{
-                xs: "flex-start",
-                sm: "flex-start",
-                md: "flex-end",
-                lg: "flex-end",
-                xl: "flex-end",
-              }}
-              spacing={2}
-              pt={{
-                xs: 4,
-                sm: 3,
-                md: 3,
-                lg: 3,
-                xl: 3,
-              }}
-              mb={{ xs: 2, sm: 2, md: 0, lg: 0, xl: 0 }}
-            >
-              <InstagramIcon sx={{ color: "PrimaryPurple" }} fontSize="large" />
-              <FacebookIcon sx={{ color: "PrimaryPurple" }} fontSize="large" />
-            </Stack>
-          </Grid>
         </Grid>
-      </div>
+      </Box>
       <Box
         sx={{
           display: "flex",

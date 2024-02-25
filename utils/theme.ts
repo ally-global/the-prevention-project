@@ -241,7 +241,7 @@ export const theme = createTheme({
     },
     caption: {
       fontFamily,
-      fontSize: "12px",
+      fontSize: "14px",
       fontStyle: "normal",
       fontWeight: "400",
       lineHeight: "14px",

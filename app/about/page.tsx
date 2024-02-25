@@ -4,7 +4,7 @@ import GenericHero from "@/sections/Heros/GenericHero";
 import LearnMore from "@/sections/LearnMore";
 import WhatDoIDoSection from "@/sections/WhatDoIDoSection";
 import WhoWeAreSection from "@/sections/WhoWeAreSection";
-import { Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 export default function About() {
   return (
     <>
@@ -14,9 +14,15 @@ export default function About() {
           "We believe that every young person in Canada deserves access to light-hearted, age-appropriate learning to keep themselves and others safe from exploitation."
         }
       />
-      <WhoWeAreSection />
-      <LearnMore />
-      <Donate />
+      <Box id={"who-we-are"}>
+        <WhoWeAreSection />
+      </Box>
+      <Box id={"book-a-presentation"}>
+        <LearnMore />
+      </Box>
+      <Box id={"donate"}>
+        <Donate />
+      </Box>
       <Stack
         spacing={9}
         sx={{
