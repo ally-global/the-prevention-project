@@ -4,6 +4,7 @@ import Image from "next/image";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import AllyButton from "@/components/AllyButton";
+import { scrollToHelpRightNow } from "@/utils/helpers";
 
 export const NavItem = ({
   href,
@@ -49,7 +50,14 @@ const DesktopNav: FC = () => {
       <Box sx={{ display: "flex", gap: 10 }}>
         <NavItem href={"/about"} text="ABOUT US" />
         <NavItem href={"/library"} text="LIBRARY" />
-        <NavItem href={"/"} text="GET HELP NOW" />
+        <AllyButton
+          onClick={scrollToHelpRightNow}
+          sx={{ backgroundColor: "transparent" }}
+        >
+          <Typography variant="button" color={`White`}>
+            Get help now
+          </Typography>
+        </AllyButton>
       </Box>
       <Box>
         <Link href={"/"}>

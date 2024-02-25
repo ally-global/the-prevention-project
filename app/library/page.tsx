@@ -12,7 +12,6 @@ export default function Library() {
       <LibrarySection section={Section.SIX_TO_SEVEN} />
       <LibrarySection section={Section.EIGHT_TO_TWELVE} />
       <Stack
-        id={"help-right-now"}
         spacing={9}
         sx={{
           backgroundImage: "linear-gradient(to bottom right, #673BDC, #00B8C5)",

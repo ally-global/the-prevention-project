@@ -9,7 +9,9 @@ import IconButton from "@mui/material/IconButton";
 import Drawer from "@mui/material/Drawer";
 import { NavItem } from "./DesktopNav";
 import AllyButton from "../AllyButton";
-import { SxProps } from "@mui/material";
+import { SxProps, Typography } from "@mui/material";
+import { scrollToHelpRightNow } from "@/utils/helpers";
+import { usePathname } from "next/navigation";
 
 const MobileMenuItem = ({
   children,
@@ -45,6 +47,7 @@ const MobileMenuItem = ({
 
 const MobileNav: FC = () => {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -131,11 +134,17 @@ const MobileNav: FC = () => {
           />
         </MobileMenuItem>
         <MobileMenuItem>
-          <NavItem
-            href={`/`}
-            text={`Get help now`}
-            onClick={handleDrawerClose}
-          />
+          <AllyButton
+            onClick={() => {
+              handleDrawerClose();
+              scrollToHelpRightNow();
+            }}
+            sx={{ backgroundColor: "transparent" }}
+          >
+            <Typography variant="button" color={`White`}>
+              Get help now
+            </Typography>
+          </AllyButton>
         </MobileMenuItem>
         <MobileMenuItem sx={{ height: "72px", pt: 2 }}>
           <Link href={"/"} onClick={handleDrawerClose}>

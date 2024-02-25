@@ -9,6 +9,7 @@ const HelpRightNowSection = () => {
       sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
     >
       <Stack
+        id={"help-right-now"}
         spacing={3}
         sx={{
           display: "flex",
