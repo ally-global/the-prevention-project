@@ -1,4 +1,4 @@
-import { Box, Grid, ListItemText, Stack, Typography } from "@mui/material";
+import { Box, Grid, Stack, Typography } from "@mui/material";
 import Link from "next/link";
 
 export const FooterItem = ({

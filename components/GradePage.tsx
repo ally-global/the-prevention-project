@@ -5,7 +5,7 @@ import { Suspense } from "react";
 import ChapterMenu from "@/sections/ChapterSection";
 import ContentSection from "@/sections/ContentSection";
 import UpNext from "@/sections/UpNext";
-import { Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import WhatDoIDoSection from "@/sections/WhatDoIDoSection";
 import HelpRightNowSection from "@/sections/HelpRightNowSection";
 

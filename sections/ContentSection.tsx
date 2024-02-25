@@ -25,7 +25,6 @@ const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
             <VideoMenu
               content={chapters[chapter].content.map((c) => c.title)}
             />
-
             <VideoPlayer vimeoId={selectedChapterSection.vimeoId} />
           </Stack>
           <Box
