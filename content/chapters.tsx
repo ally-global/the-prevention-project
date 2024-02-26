@@ -696,7 +696,7 @@ export const chapters8to12: Chapter[] = [
     ],
   },
   {
-    title: "Pimps and Trafficking",
+    title: "Pimps and Human Trafficking",
     content: [
       {
         title: "What's the Big Deal?",
@@ -726,7 +726,7 @@ export const chapters8to12: Chapter[] = [
     ],
   },
   {
-    title: "High Risk Behaviours",
+    title: "High-Risk Behaviours",
     content: [
       {
         title: "What's the Big Deal?",
