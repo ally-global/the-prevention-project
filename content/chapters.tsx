@@ -64,7 +64,7 @@ export const chapters3to5: Chapter[] = [
       },
       {
         title: "Say it Simple",
-        vimeoId: "912646739",
+        vimeoId: "916843254",
         description: (
           <>
             Consent means giving permission with an enthusiastic YES! It&apos;s
@@ -212,7 +212,7 @@ export const chapters3to5: Chapter[] = [
       },
       {
         title: "Say it Simple",
-        vimeoId: "912646863",
+        vimeoId: "916843489",
         externalLinks: [],
       },
       {
@@ -242,7 +242,7 @@ export const chapters3to5: Chapter[] = [
       },
       {
         title: "Say it Simple",
-        vimeoId: "912647006",
+        vimeoId: "916843559",
         externalLinks: [],
       },
       {
