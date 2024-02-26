@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 
-const PdfViewer = () => {
+const PdfViewer = ({ pathToFile }: { pathToFile: string }) => {
   return (
     <Box
       sx={{
@@ -14,12 +14,12 @@ const PdfViewer = () => {
           height: "750px",
           width: "100%",
         }}
-        src={"/pdfs/sexting-and-exploitation.pdf"}
+        src={pathToFile}
         type={"application/pdf"}
       />
-      <a href="pdfs/sexting-and-exploitation.pdf" download="proposed_file_name">
+      {/* <a href={pathToFile} download="proposed_file_name">
         Download
-      </a>
+      </a> */}
     </Box>
   );
 };

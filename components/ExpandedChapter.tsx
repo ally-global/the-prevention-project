@@ -12,7 +12,7 @@ const ExpandedChapter = ({
   content: {
     title: string;
     description?: ReactNode;
-    vimeoId: string;
+    vimeoId?: string;
     externalLinks?: { name: string; caption?: string; href: string }[];
   }[];
 }) => {

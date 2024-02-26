@@ -1,6 +1,6 @@
 "use client";
 
-import { chapters8to12 } from "@/app/content/chapters";
+import { chapters8to12 } from "@/content/chapters";
 
 import GradePage from "@/components/GradePage";
 

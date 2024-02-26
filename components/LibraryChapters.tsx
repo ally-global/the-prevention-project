@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { ReactNode, useState } from "react";
 
-import { Chapter } from "@/app/content/chapters";
+import { Chapter } from "@/content/chapters";
 import ExpandedChapter from "@/components/ExpandedChapter";
 
 const Chapter = ({
@@ -24,7 +24,7 @@ const Chapter = ({
   content: {
     title: string;
     description?: ReactNode;
-    vimeoId: string;
+    vimeoId?: string;
     externalLinks?: { name: string; caption?: string; href: string }[];
   }[];
 }) => {

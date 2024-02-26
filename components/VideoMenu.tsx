@@ -69,7 +69,15 @@ const MenuItem = ({
 };
 
 const VideoMenu = ({ content }: { content: string[] }) => {
-  const colors = ["#00B8C5", "#347AD1", "#673BDC", "#5538B7", "#423591"];
+  const colors = [
+    "#00B8C5",
+    "#347AD1",
+    "#673BDC",
+    "#5538B7",
+    "#423591",
+    "#00B8C5",
+    "#347AD1",
+  ];
   const searchParams = useSearchParams();
   const section = searchParams.get("section");
 

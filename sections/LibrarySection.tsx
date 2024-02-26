@@ -3,7 +3,7 @@ import {
   chapters3to5,
   chapters6to7,
   chapters8to12,
-} from "@/app/content/chapters";
+} from "@/content/chapters";
 import LibraryChapters from "@/components/LibraryChapters";
 import StandardLayout from "@/components/StandardLayout";
 import Text from "@/components/Text";

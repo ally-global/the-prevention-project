@@ -1,4 +1,4 @@
-import { Chapter } from "@/app/content/chapters";
+import { Chapter } from "@/content/chapters";
 import GradeHero from "@/sections/Heros/GradeHero";
 import StandardLayout from "@/components/StandardLayout";
 import { Suspense } from "react";
@@ -15,7 +15,7 @@ const GradePage = ({ chapters }: { chapters: Chapter[] }) => {
       <GradeHero
         title={chapters[0].content[0].title}
         subtitle={chapters[0].content[0].description}
-        vimeoId={chapters[0].content[0].vimeoId}
+        vimeoId={chapters[0].content[0].vimeoId!}
       />
       <StandardLayout>
         <Suspense>
