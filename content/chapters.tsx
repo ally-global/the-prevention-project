@@ -543,7 +543,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl:
+          "pdfs/grades8-12/Gr8-12_Ch1_Part6_Consent-and-Healthy-Boundaries.pdf",
       },
     ],
   },
@@ -572,7 +573,7 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl: "pdfs/grades8-12/Gr8-12_Ch2_Part5_Sexual-Exploitation.pdf",
       },
     ],
   },
@@ -601,7 +602,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl:
+          "pdfs/grades8-12/Gr8-12_Ch3_Part5_Sexting-and-Peer-Exploitation.pdf",
       },
     ],
   },
@@ -630,7 +632,7 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl: "pdfs/grades8-12/Gr8-12_Ch4_Part5_Exploiters-and-Predators.pdf",
       },
     ],
   },
@@ -659,7 +661,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl:
+          "pdfs/grades8-12/Gr8-12_Ch5_Part5_Internet-Dynamics-and-Grooming.pdf",
       },
     ],
   },
@@ -688,7 +691,7 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl: "pdfs/grades8-12/Gr8-12_Ch6_Part5_Sextortion.pdf",
       },
     ],
   },
@@ -717,7 +720,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl:
+          "pdfs/grades8-12/Gr8-12_Ch7_Part5_Pimps-and-Human-Trafficking.pdf",
       },
     ],
   },
@@ -751,11 +755,13 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot 1",
-        vimeoId: "",
+        pdfUrl:
+          "pdfs/grades8-12/Gr8-12_Ch8_Part6_High-Risk-Behaviours-OnlyFans.pdf",
       },
       {
         title: "Knowledge Snapshot 2",
-        vimeoId: "",
+        pdfUrl:
+          "pdfs/grades8-12/Gr8-12_Ch8_Part7_High-Risk-Behaviours-Sugaring.pdf",
       },
     ],
   },
