@@ -27,11 +27,11 @@ const GradePage = ({ chapters }: { chapters: Chapter[] }) => {
       <Suspense>
         <ContentSection chapters={chapters} />
       </Suspense>
-      <UpNext
+      {/* <UpNext
         chapterName={"Consent and healthy boundaries"}
         contentTitle={"Say it Simple"}
         contentColor={"Blue"}
-      />
+      /> */}
       <Stack
         spacing={9}
         sx={{
