@@ -321,7 +321,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl:
+          "pdfs/grades6-7/Gr6-7_Ch1_Part5_Consent-and-Healthy-Boundaries.pdf",
       },
     ],
   },
@@ -350,7 +351,7 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl: "pdfs/grades6-7/Gr6-7_Ch2_Part5_Sexual-Exploitation.pdf",
       },
     ],
   },
@@ -379,7 +380,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl:
+          "pdfs/grades6-7/Gr6-7_Ch3_Part5_Sexting-and-Peer-Exploitation.pdf",
       },
     ],
   },
@@ -408,7 +410,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl:
+          "pdfs/grades6-7/Gr6-7_Ch4_Part5_About-the-Internet-and-Information-Sharing.pdf",
       },
     ],
   },
@@ -437,7 +440,7 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl: "pdfs/grades6-7/Gr6-7_Ch5_Part5_Sextortion.pdf",
       },
     ],
   },
@@ -466,7 +469,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl:
+          "pdfs/grades6-7/Gr6-7_Ch6_Part5_Predatory-People-and-Grooming.pdf",
       },
     ],
   },
@@ -489,13 +493,8 @@ export const chapters6to7: Chapter[] = [
         externalLinks: [],
       },
       {
-        title: "Imagine This",
-        vimeoId: "",
-        externalLinks: [],
-      },
-      {
         title: "Knowledge Snapshot",
-        vimeoId: "",
+        pdfUrl: "pdfs/grades6-7/Gr6-7_Ch7_Part4_Human-Trafficking.pdf",
       },
     ],
   },

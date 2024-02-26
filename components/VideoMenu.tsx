@@ -10,11 +10,13 @@ const MenuItem = ({
   backgroundColor,
   title,
   index,
+  roundEnd,
 }: {
   selected: boolean;
   backgroundColor: string;
   title: string;
   index: number;
+  roundEnd?: boolean;
 }) => {
   const router = useRouter();
   const pathname = usePathname();
@@ -43,7 +45,7 @@ const MenuItem = ({
         ...(index === 0
           ? { borderTopLeftRadius: "16px", borderBottomLeftRadius: "16px" }
           : {}),
-        ...(index === 4
+        ...(roundEnd
           ? { borderTopRightRadius: "16px", borderBottomRightRadius: "16px" }
           : {}),
       }}
@@ -95,6 +97,7 @@ const VideoMenu = ({ content }: { content: string[] }) => {
           backgroundColor={colors[index]}
           title={contentTitle}
           index={index}
+          roundEnd={index === content.length - 1}
         />
       ))}
     </Box>
