@@ -442,8 +442,16 @@ export const chapters6to7: Chapter[] = [
         facilitationNote:
           "Facilitation tip: After watching the video, facilitate a discussion building on the conversation started in the video. Ask students the same question: What would they do if a friend told them they were being pressured or blackmailed online?",
         externalLinks: [
-          { name: "", caption: "", href: "" },
-          { name: "", caption: "", href: "" },
+          {
+            name: "Cybertip",
+            caption: "Learn more about sextortion",
+            href: "https://cybertip.ca/",
+          },
+          {
+            name: "DontGetSextorted.ca",
+            caption: "Send a Naked Mole Rat instead",
+            href: "https://dontgetsextorted.ca/",
+          },
         ],
       },
       {

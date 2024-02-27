@@ -43,10 +43,10 @@ const PurpleHeading = () => {
             }}
           >
             <Image
-              src={"/images/temp.png"}
+              src={"/images/home-purple-header.jpg"}
               alt={"temp"}
-              width={456}
-              height={390}
+              width={800}
+              height={400}
             />
           </Box>
         </TwoColumnLayout>
