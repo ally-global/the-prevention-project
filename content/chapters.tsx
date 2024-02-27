@@ -452,21 +452,122 @@ export const chapters6to7: Chapter[] = [
       {
         title: "Say it Simple",
         vimeoId: "916194676",
-        externalLinks: [],
+        description: (
+          <>
+            Sharing photos with people you haven&apos;t met in person is never
+            safe. We can&apos;t be sure who is really on the other end. Scammers
+            might pretend to be someone else in order to blackmail you using
+            your images for money or more sexual content. This is a crime called
+            sextortion. If this ever happens to you, remember to take
+            screenshots of everything, tell a trusted adult, and know that
+            it&apos;s not your fault.
+            <br />
+            <br />
+            If you are facing being pressured or blackmailed online, there are
+            many resources and trusted adults that will help. You don’t have to
+            deal with this alone.
+          </>
+        ),
+        facilitationNote:
+          "Facilitation Tip: Guide students in exploring the concept of sextortion and its potential risks. Encourage them to reflect on their understanding of online interactions and the deceptive tactics scammers use. Prompt questions such as: How can scammers manipulate online interactions to exploit others? Can you identify any warning signs in the scenarios presented in the video? Use these questions to initiate a discussion and promote critical thinking about the importance of online safety.",
+        externalLinks: [
+          {
+            name: "Cybertip.ca",
+            caption: "sextortion reporting",
+            href: "https://cybertip.ca/en/report/",
+          },
+        ],
       },
       {
-        title: "True or False",
+        title: "Red Flag/Green Flag",
         vimeoId: "908805219",
-        externalLinks: [],
+        description: (
+          <>
+            Let&apos;s play a game called Red Flag Green Flag to get better at
+            spotting warning signs. We&apos;ll use red and green flags to figure
+            out how to identify unsafe people online. This is important to
+            practice because connecting with unsafe individuals on the internet
+            can lead to risky situations like sextortion. Join Kevin, Camille,
+            Kara, and Nate as they navigate the ins and outs of online
+            interactions.
+            <br />
+            <br />
+            If you are facing being pressured or blackmailed online, there are
+            many resources and trusted adults that will help. You don&apos;t
+            have to deal with this alone.
+          </>
+        ),
+        facilitationNote:
+          "Facilitation Tip: Use this video as an opportunity to discuss the importance of how to navigate online interactions and recognize the warning signs of unsafe people. You can pause the video after each question, to have discussion about what everyone thinks their answer would be, and discuss if you agree with what Camille, Kevin, Nate and Kara share.",
+        externalLinks: [
+          {
+            name: "Cybertip.ca",
+            caption: "sextortion reporting",
+            href: "https://cybertip.ca/en/report/",
+          },
+        ],
       },
       {
         title: "Imagine This",
         vimeoId: "916194656",
-        externalLinks: [],
+        description: (
+          <>
+            In this video, Ben faces a common situation when someone he met
+            online asks for intimate photos. It might seem like we know someone
+            on the internet, but the truth is, we never really know who is
+            behind the screen. No matter how much you trust or feel it&apos;s
+            safe, never share photos online. It puts you at risk for sextortion,
+            a type of digital blackmail where someone threatens you for more
+            pictures or money using a sexual photo or video they got.
+            <br />
+            <br />
+            If you are ever dealing with online blackmail and need help,
+            remember you don&apos;t have to handle it alone. There are resources
+            and trusted adults ready to support you.
+          </>
+        ),
+        facilitationNote:
+          "Facilitation Tip: Engage students in a reflective discussion about the potential risks of online interactions, specifically focusing on scenarios like the one shown in the video. Prompt them with questions like: How did Ben's trust in the online interaction impact his decisions? Can you identify any red flags in the conversation between Ben and the person online?",
+        externalLinks: [
+          {
+            name: "Cybertip.ca",
+            caption: "sextortion reporting",
+            href: "https://cybertip.ca/en/report/",
+          },
+        ],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades6-7/Gr6-7_Ch5_Part5_Sextortion.pdf",
+        description: (
+          <>
+            Print or download this infographic to recap what you&apos;ve learned
+            in this chapter. Take it a step further by using our reflection
+            page. What advice would you give a friend who came to you thinking
+            they’re being sextorted? How would you support them? What are
+            warning signs that someone might be trying to sextort you? Remember,
+            no matter how much you trust or feel it&apos;s safe, never share
+            photos online. We never really know who is behind the screen.
+            <br />
+            <br />
+            If you are ever dealing with online blackmail and need help,
+            remember you don&apos;t have to handle it alone. There are resources
+            and trusted adults ready to support you.
+            <br />
+            <br />
+            Well done! We&apos;re moving on to Chapter 6, to break down the
+            subject of predatory individuals and grooming. Keep pushing forward!
+          </>
+        ),
+        facilitationNote:
+          "Facilitation tip: print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.",
+        externalLinks: [
+          {
+            name: "Cybertip.ca",
+            caption: "sextortion reporting",
+            href: "https://cybertip.ca/en/report/",
+          },
+        ],
       },
     ],
   },
