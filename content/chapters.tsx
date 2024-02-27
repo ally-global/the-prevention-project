@@ -273,20 +273,15 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "908806931",
         description: (
           <>
-            Hello and welcome to The Prevention Project—an exciting journey
-            designed just for you! Here, we&apos;ll explore important topics
-            that touch on friendships and relationships, both in-person and
-            online. Our goal is to challenge your thinking about everyday
-            situations connected to sexual exploitation and encourage you to
-            apply what you learn in your personal life. We&apos;re here to talk
-            about things that might be a bit awkward but don&apos;t worry,
-            we&apos;ll keep it fun and light. Let&apos;s dive in!
-            <br />
-            <br />
-            If you ever feel uncertain or encounter something that doesn&apos;t
-            seem right, reach out to a trusted adult or explore the resources on
-            our website. Together, we can contribute to creating a safer online
-            and offline world for everyone. Ready to get started?
+            Welcome to The Prevention Project! Here, we&apos;re diving into some
+            important conversations about sexual exploitation. Join us as we
+            explore topics related to friendships, relationships, and everyday
+            situations that intersect with this important issue. We encourage
+            you to apply what you learn to your own lives and help create a
+            safer world for everyone. If you ever feel uncertain or encounter
+            concerning content, reach out to a trusted adult or click “Get Help
+            Now” in the navigation bar for assistance. Let&apos;s make both the
+            online and offline world safer together! Ready to get started?
             <br />
             <br />
             Click on a chapter below to begin!
