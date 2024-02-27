@@ -6,6 +6,7 @@ export type Chapter = {
   content: {
     title: string;
     description?: ReactNode;
+    facilitationNote?: string;
     vimeoId?: string;
     pdfUrl?: string;
     externalLinks?: { name: string; caption?: string; href: string }[];
@@ -421,7 +422,29 @@ export const chapters6to7: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908805561",
-        externalLinks: [],
+        description: (
+          <>
+            In this chapter, we&apos;re talking about a serious and growing
+            problem: Sextortion. Think of it as digital blackmail. It happens
+            when someone threatens to share your personal photos or information
+            unless you do what they want online. Just know, you&apos;re not
+            alone if you ever face this, and there are steps you can take to
+            stay safe and seek help. Throughout this chapter, we&apos;ll dive
+            into what sextortion means, how to spot warning signs, and, most
+            importantly, how to protect yourself and find support if you ever
+            come across it. <br />
+            <br />
+            If you are facing being pressured or blackmailed online, there are
+            many resources and trusted adults that will help. You don&apos;t
+            have to deal with this alone.
+          </>
+        ),
+        facilitationNote:
+          "Facilitation tip: After watching the video, facilitate a discussion building on the conversation started in the video. Ask students the same question: What would they do if a friend told them they were being pressured or blackmailed online?",
+        externalLinks: [
+          { name: "", caption: "", href: "" },
+          { name: "", caption: "", href: "" },
+        ],
       },
       {
         title: "Say it Simple",

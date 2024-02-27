@@ -66,6 +66,27 @@ const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
               ))}
             </Stack>
           </Box>
+          {selectedChapterSection.facilitationNote ? (
+            <Box
+              sx={{
+                backgroundColor: "Grey200",
+                padding: 4,
+                mt: 4,
+                mx: { xs: 0, sm: 4 },
+                borderRadius: "8px",
+              }}
+            >
+              <Text
+                variant={"body1"}
+                color={"Grey900"}
+                sx={{ fontStyle: "italic" }}
+              >
+                {selectedChapterSection.facilitationNote}
+              </Text>
+            </Box>
+          ) : (
+            <></>
+          )}
         </StandardLayout>
       </Box>
     </>
