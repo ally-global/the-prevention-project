@@ -30,7 +30,7 @@ const Donate = () => {
               height={400}
             />
           </Box>
-          <Stack spacing={4} sx={{ mb: { xs: 4, sm: 0 } }}>
+          <Stack spacing={4} sx={{ mb: { xs: 4, sm: 4, md: 0 } }}>
             <TitleAndParagraph
               title={"Partner with us to prevent the exploitation of minors."}
               paragraph={

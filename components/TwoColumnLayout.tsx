@@ -31,7 +31,7 @@ const TwoColumnLayout = ({
   pb?: MuiValues;
   sx?: SxProps;
 }) => {
-  const { xsScreen: isMobile } = useDevice();
+  const { smScreen: isMobile } = useDevice();
   const left = leftCol ?? 6;
   const right = rightCol ?? 5;
   if (!(left + right === 12 || left + right === 11)) {
@@ -42,7 +42,7 @@ const TwoColumnLayout = ({
     <Grid
       container
       spacing={0}
-      columns={{ xs: 4, sm: 12, md: 12, lg: 12, xl: 12 }}
+      columns={{ xs: 4, sm: 4, md: 12, lg: 12, xl: 12 }}
       justifyContent="center"
       alignItems="center"
       height="100%"
@@ -56,7 +56,7 @@ const TwoColumnLayout = ({
       <Grid
         item
         xs={4}
-        sm={left}
+        sm={4}
         md={left}
         lg={left}
         xl={left}
@@ -76,7 +76,7 @@ const TwoColumnLayout = ({
         }}
         item
         xs={0}
-        sm={noGap ? 0 : 1}
+        sm={0}
         md={noGap ? 0 : 1}
         lg={noGap ? 0 : 1}
         xl={noGap ? 0 : 1}
@@ -84,14 +84,14 @@ const TwoColumnLayout = ({
       <Grid
         item
         xs={4}
-        sm={right}
+        sm={4}
         md={right}
         lg={right}
         xl={right}
         pb={
           pb ?? {
             xs: 10,
-            sm: 0,
+            sm: 10,
             md: 0,
             lg: 0,
             xl: 0,

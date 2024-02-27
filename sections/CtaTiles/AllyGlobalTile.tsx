@@ -14,10 +14,15 @@ const AllyGlobalTile = () => {
         leftCol={8}
         rightCol={4}
         noGap
-        sx={{ borderRadius: "16px", overflow: "hidden", position: "relative" }}
+        sx={{
+          borderRadius: "16px",
+          overflow: "hidden",
+          position: "relative",
+        }}
       >
         <Box
           sx={{
+            height: { md: "478px", lg: "400px" },
             backgroundColor: "Grey300",
             display: "flex",
             justifyContent: "space-between",
@@ -25,7 +30,7 @@ const AllyGlobalTile = () => {
           }}
         >
           <Stack justifyContent={"space-between"}>
-            <Stack spacing={3} sx={{ pr: { xs: 0, sm: 6, md: 10 } }}>
+            <Stack spacing={3} sx={{ pr: { xs: 0, sm: 10, md: 2 } }}>
               <Text variant={"h4"} color={"PrimaryBlue"}>
                 {"Ally Global Foundation"}
               </Text>
@@ -57,15 +62,16 @@ const AllyGlobalTile = () => {
         </Box>
         <Box
           sx={{
+            height: { md: "478px", lg: "400px" },
             img: { width: "100%", height: "100%" },
           }}
         >
-          {/* <Image
-            src={"/images/temp.png"}
-            width={400}
-            height={400}
+          <Image
+            src={"/images/about-cta-2.jpg"}
+            width={800}
+            height={800}
             alt={"temp"}
-          /> */}
+          />
         </Box>
       </TwoColumnLayout>
     </Box>
