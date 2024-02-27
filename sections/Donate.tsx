@@ -24,13 +24,13 @@ const Donate = () => {
             }}
           >
             <Image
-              src={"/images/temp.png"}
-              alt={"temp"}
-              width={456}
-              height={390}
+              src={"/images/about-blue-section.jpg"}
+              alt={"Girls smiling"}
+              width={800}
+              height={400}
             />
           </Box>
-          <Stack spacing={4} sx={{ mb: { xs: 4 } }}>
+          <Stack spacing={4} sx={{ mb: { xs: 4, sm: 0 } }}>
             <TitleAndParagraph
               title={"Partner with us to prevent the exploitation of minors."}
               paragraph={

@@ -18,7 +18,7 @@ const LearnMore = () => {
           leftCol={6}
           rightCol={5}
         >
-          <Stack spacing={4} sx={{ mb: { xs: 4 } }}>
+          <Stack spacing={4} sx={{ mb: { xs: 4, sm: 0 } }}>
             <TitleAndParagraph
               title={"Bring an ExEd presenter to your school or workplace."}
               paragraph={
@@ -39,10 +39,10 @@ const LearnMore = () => {
             }}
           >
             <Image
-              src={"/images/temp.png"}
-              alt={"temp"}
-              width={456}
-              height={390}
+              src={"/images/about-purple-section.jpg"}
+              alt={"Presentation"}
+              width={800}
+              height={600}
             />
           </Box>
         </TwoColumnLayout>
