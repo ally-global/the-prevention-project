@@ -2,12 +2,13 @@ import { ReactNode } from "react";
 
 export type Chapter = {
   title: string;
-  description?: string;
+  downloadUrl?: string;
   content: {
     title: string;
     description?: ReactNode;
     facilitationNote?: string;
     vimeoId?: string;
+    vimeoDownloadUrl?: string;
     pdfUrl?: string;
     externalLinks?: { name: string; caption?: string; href: string }[];
   }[];
@@ -20,6 +21,8 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Grades 3-5",
         vimeoId: "908739053",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908739053/339102d766",
         description: (
           <>
             Hey there! Welcome to The Prevention Project, where we&apos;re about
@@ -45,10 +48,13 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Consent and Healthy Boundaries",
+    downloadUrl: "something",
     content: [
       {
         title: "What's the Big Deal?",
         vimeoId: "908739159",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908739159/d492647a2e",
         description: (
           <>
             In this first chapter, we&apos;re diving into a topic called Consent
@@ -66,6 +72,8 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Say it Simple",
         vimeoId: "916843254",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916843254/a850328f68",
         description: (
           <>
             Consent means giving permission with an enthusiastic YES! It&apos;s
@@ -86,6 +94,8 @@ export const chapters3to5: Chapter[] = [
       {
         title: "True or False",
         vimeoId: "908740111",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908740111/aded50743c",
         description: (
           <>
             Ever wondered about the subtle signals and body language that convey
@@ -102,6 +112,8 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Imagine This",
         vimeoId: "916102481",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916102481/8f5ba2ac5e",
         description: (
           <>
             In this video, we witness everyday scenarios where kids like Priya,
@@ -151,21 +163,29 @@ export const chapters3to5: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908739333",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908739333/9922cffe50",
         externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916102553",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916102553/b95ee86896",
         externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908740508",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908740508/d600e19458",
         externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916102573",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916102573/8dddca4f3f",
         externalLinks: [],
       },
       {
@@ -180,21 +200,29 @@ export const chapters3to5: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908739495",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908739495/6c0fcac1dd",
         externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916102686",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916102686/fbff51c7f2",
         externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "911654168",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/911654168/401ffeb4ce",
         externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916102660",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916102660/da220bc747",
         externalLinks: [],
       },
       {
@@ -209,21 +237,29 @@ export const chapters3to5: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908739715",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908739715/7ecbf2da67",
         externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916843489",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916843489/2ad44fcd17",
         externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908747620",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908747620/430f2d20c2",
         externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916102754",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916102754/3248cb0879",
         externalLinks: [],
       },
       {
@@ -239,21 +275,29 @@ export const chapters3to5: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908739896",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908739896/ba817981f4",
         externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916843559",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916843559/0c83546b7e",
         externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908748842",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908748842/792790a5e5",
         externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916102792",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916102792/66b1db28f2",
         externalLinks: [],
       },
       {

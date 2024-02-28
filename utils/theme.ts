@@ -72,6 +72,7 @@ declare module "@mui/material/styles" {
 const palette = {
   PrimaryPurple: "#673BDC",
   PrimaryBlue: "#00B8C5",
+  DarkTeal: "#149699",
   PurpleMid: "#5538B7",
   PurpleDark: "#423591",
   Blue: "#347AD1",

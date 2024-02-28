@@ -4,15 +4,21 @@ import VideoPlayer from "@/components/VideoPlayer";
 import { ReactNode, useState } from "react";
 import AllyButton from "./AllyButton";
 import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
+import CloudDownloadOutlinedIcon from "@mui/icons-material/CloudDownloadOutlined";
 import Text from "./Text";
+import Link from "next/link";
 
 const ExpandedChapter = ({
   content,
+  chapterDownloadUrl,
 }: {
+  chapterDownloadUrl?: string;
   content: {
     title: string;
     description?: ReactNode;
     vimeoId?: string;
+    vimeoDownloadUrl?: string;
+    pdfUrl?: string;
     externalLinks?: { name: string; caption?: string; href: string }[];
   }[];
 }) => {
@@ -83,16 +89,76 @@ const ExpandedChapter = ({
             );
           })}
         </Stack>
-        <Box
-          sx={{
-            backgroundColor: "Grey300",
-            borderRadius: "16px",
-            mb: { xs: 4 },
-          }}
-        >
-          <VideoPlayer vimeoId={content[selected].vimeoId ?? ""} />
+        <Box sx={{ position: "relative" }}>
+          {content[selected].vimeoId && (
+            <Box
+              sx={{
+                backgroundColor: "Grey300",
+                borderRadius: "16px",
+                mb: { xs: 4 },
+              }}
+            >
+              <VideoPlayer vimeoId={content[selected].vimeoId!} />
+            </Box>
+          )}
+          {content[selected].pdfUrl && (
+            <Box
+              sx={{
+                mb: { xs: 3, sm: 3, md: 0 },
+                backgroundColor: "Grey300",
+                borderRadius: "16px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                minHeight: "350px",
+              }}
+            >
+              <Link target="_blank" href={content[selected].pdfUrl!}>
+                <AllyButton
+                  text={"Download PDF"}
+                  color={"PrimaryBlue"}
+                  endIcon={<CloudDownloadOutlinedIcon />}
+                />
+              </Link>
+            </Box>
+          )}
         </Box>
       </TwoColumnLayout>
+      <Box
+        mt={2}
+        sx={{
+          display: "flex",
+          flexDirection: "row",
+          width: "100%",
+          justifyContent: {
+            xs: "center",
+            sm: "center",
+            md: "space-between",
+          },
+          gap: { xs: 1, sm: 1, md: 0 },
+        }}
+      >
+        <Box>
+          {chapterDownloadUrl && (
+            <Link target="_blank" href={chapterDownloadUrl}>
+              <AllyButton
+                text="DOWNLOAD ALL"
+                color={"PrimaryBlue"}
+                endIcon={<CloudDownloadOutlinedIcon />}
+              />
+            </Link>
+          )}
+        </Box>
+        {content[selected].vimeoDownloadUrl && (
+          <Link target="_blank" href={content[selected].vimeoDownloadUrl!}>
+            <AllyButton
+              text={"DOWNLOAD"}
+              color="PrimaryBlue"
+              endIcon={<CloudDownloadOutlinedIcon />}
+            />
+          </Link>
+        )}
+      </Box>
     </Box>
   );
 };

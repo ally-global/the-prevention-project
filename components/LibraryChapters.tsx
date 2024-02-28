@@ -1,6 +1,7 @@
 "use client";
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import CloudDownloadOutlinedIcon from "@mui/icons-material/CloudDownloadOutlined";
 import {
   Accordion,
   AccordionDetails,
@@ -18,12 +19,13 @@ const Chapter = ({
   number,
   title,
   content,
+  chapterDownloadUrl,
 }: {
   number: number;
   title: string;
+  chapterDownloadUrl?: string;
   content: {
     title: string;
-    description?: ReactNode;
     vimeoId?: string;
     externalLinks?: { name: string; caption?: string; href: string }[];
   }[];
@@ -71,7 +73,10 @@ const Chapter = ({
           </Stack>
         </AccordionSummary>
         <AccordionDetails>
-          <ExpandedChapter content={content} />
+          <ExpandedChapter
+            content={content}
+            chapterDownloadUrl={chapterDownloadUrl}
+          />
         </AccordionDetails>
       </Accordion>
     </Box>
@@ -89,6 +94,7 @@ const LibraryChapters = ({ chapters }: { chapters: Chapter[] }) => {
               number={index}
               title={chapter.title}
               content={chapter.content}
+              chapterDownloadUrl={chapter.downloadUrl}
             />
           );
         })}
