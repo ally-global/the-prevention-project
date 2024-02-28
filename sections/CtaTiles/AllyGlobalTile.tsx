@@ -71,6 +71,7 @@ const AllyGlobalTile = () => {
             width={800}
             height={800}
             alt={"temp"}
+            style={{ objectFit: "cover" }}
           />
         </Box>
       </TwoColumnLayout>

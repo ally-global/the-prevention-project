@@ -51,7 +51,7 @@ const ExpandedChapter = ({
             px: 2,
           }}
         >
-          <Text variant={"button"} color={selected ? "White" : "Grey900"}>
+          <Text variant={"body1"} color={selected ? "White" : "Grey900"}>
             {title}
           </Text>
           <PlayCircleFilledIcon
@@ -104,13 +104,13 @@ const ExpandedChapter = ({
           {content[selected].pdfUrl && (
             <Box
               sx={{
-                mb: { xs: 3, sm: 3, md: 0 },
+                mb: 3,
                 backgroundColor: "Grey300",
                 borderRadius: "16px",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                minHeight: "350px",
+                minHeight: "396px",
               }}
             >
               <Link target="_blank" href={content[selected].pdfUrl!}>
@@ -124,41 +124,40 @@ const ExpandedChapter = ({
           )}
         </Box>
       </TwoColumnLayout>
-      <Box
-        mt={2}
+      <Stack
         sx={{
+          mt: { xs: 2, sm: 2, md: 0 },
           display: "flex",
           flexDirection: "row",
           width: "100%",
+          flexWrap: "wrap",
           justifyContent: {
             xs: "center",
             sm: "center",
-            md: "space-between",
+            md: "flex-end",
           },
-          gap: { xs: 1, sm: 1, md: 0 },
+          gap: 1,
         }}
       >
-        <Box>
-          {chapterDownloadUrl && (
-            <Link target="_blank" href={chapterDownloadUrl}>
-              <AllyButton
-                text="DOWNLOAD ALL"
-                color={"PrimaryBlue"}
-                endIcon={<CloudDownloadOutlinedIcon />}
-              />
-            </Link>
-          )}
-        </Box>
         {content[selected].vimeoDownloadUrl && (
           <Link target="_blank" href={content[selected].vimeoDownloadUrl!}>
             <AllyButton
-              text={"DOWNLOAD"}
+              text={"DOWNLOAD VIDEO"}
               color="PrimaryBlue"
               endIcon={<CloudDownloadOutlinedIcon />}
             />
           </Link>
         )}
-      </Box>
+        {chapterDownloadUrl && (
+          <Link target="_blank" href={chapterDownloadUrl}>
+            <AllyButton
+              text="DOWNLOAD FULL CHAPTER"
+              color={"PrimaryBlue"}
+              endIcon={<CloudDownloadOutlinedIcon />}
+            />
+          </Link>
+        )}
+      </Stack>
     </Box>
   );
 };

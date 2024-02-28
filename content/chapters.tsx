@@ -315,6 +315,8 @@ export const chapters6to7: Chapter[] = [
       {
         title: "Grades 6-7",
         vimeoId: "908806931",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908806931/25294cc752",
         description: (
           <>
             Welcome to The Prevention Project! Here, we&apos;re diving into some
@@ -340,6 +342,8 @@ export const chapters6to7: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908753527",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908753527/d535689f37",
         externalLinks: [
           { name: "Resource name", caption: "Caption", href: "" },
         ],
@@ -347,16 +351,22 @@ export const chapters6to7: Chapter[] = [
       {
         title: "Say it Simple",
         vimeoId: "916194566",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194566/718526d2e4",
         externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908752727",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908752727/57cc28cc8e",
         externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916194542",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194542/6cc518fb7c",
         externalLinks: [],
       },
       {
@@ -372,21 +382,29 @@ export const chapters6to7: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908801853",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908801853/f5bba1a747",
         externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916194592",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194592/d63da8165a",
         externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908802032",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908802032/e577a50f31",
         externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916194582",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194582/7392728c8c",
         externalLinks: [],
       },
       {
@@ -401,21 +419,29 @@ export const chapters6to7: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908802912",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908802912/414f4dfe3f",
         externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916194627",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194627/a0cfc99472",
         externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908802480",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908802480/a7544fdc7d",
         externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916194610",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194610/0e52c2d1d1",
         externalLinks: [],
       },
       {
@@ -431,21 +457,29 @@ export const chapters6to7: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908804597",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908804597/808ce15b52",
         externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916194645",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194645/de443d965c",
         externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908804813",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908804813/42a2ec5ff0",
         externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916194637",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194637/c8e90bc232",
         externalLinks: [],
       },
       {
@@ -461,6 +495,8 @@ export const chapters6to7: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908805561",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908805561/ec4539e1d4",
         description: (
           <>
             In this chapter, we&apos;re talking about a serious and growing
@@ -496,6 +532,8 @@ export const chapters6to7: Chapter[] = [
       {
         title: "Say it Simple",
         vimeoId: "916194676",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194676/8ba2a98760",
         description: (
           <>
             Sharing photos with people you haven&apos;t met in person is never
@@ -525,6 +563,8 @@ export const chapters6to7: Chapter[] = [
       {
         title: "Red Flag/Green Flag",
         vimeoId: "908805219",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908805219/545cb1b54b",
         description: (
           <>
             Let&apos;s play a game called Red Flag Green Flag to get better at
@@ -554,6 +594,8 @@ export const chapters6to7: Chapter[] = [
       {
         title: "Imagine This",
         vimeoId: "916194656",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194656/57438f9cf8",
         description: (
           <>
             In this video, Ben faces a common situation when someone he met
@@ -621,21 +663,29 @@ export const chapters6to7: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908805853",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908805853/369d607256",
         externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916194694",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194694/e8c2585820",
         externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908806030",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908806030/c176da8432",
         externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916194681",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194681/0de43f0012",
         externalLinks: [],
       },
       {
@@ -651,16 +701,22 @@ export const chapters6to7: Chapter[] = [
       {
         title: "What's the Big Deal?",
         vimeoId: "908806456",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908806456/3de695ad28",
         externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916194710",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/916194710/f89a4d42c0",
         externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908806613",
+        vimeoDownloadUrl:
+          "https://vimeo.com/user112092565/download/908806613/5aa8610fe8",
         externalLinks: [],
       },
       {
