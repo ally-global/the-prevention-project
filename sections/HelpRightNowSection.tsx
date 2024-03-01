@@ -1,7 +1,35 @@
 import ExternalLinkTile, { tiles } from "@/components/ExternalLinkTile";
 import StandardLayout from "@/components/StandardLayout";
 import Text from "@/components/Text";
-import { Box, Stack } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
+
+const LocalResourceTile = () => {
+  return (
+    <Box
+      sx={{
+        width: { xs: "100%", sm: "328px" },
+        height: "112px",
+        backgroundColor: "PrimaryPurple",
+        borderRadius: "16px",
+      }}
+    >
+      <Stack
+        sx={{
+          height: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          padding: 3,
+        }}
+      >
+        <Typography variant={"h6"}>A Local Resource</Typography>
+        <Typography variant={"caption"} color={"PrimaryBlue"}>
+          SCHOOL COUNSELLORS, VICTIMS SERVICES & SPECIALIZED POLICE
+        </Typography>
+      </Stack>
+    </Box>
+  );
+};
 
 const HelpRightNowSection = () => {
   return (
@@ -54,6 +82,7 @@ const HelpRightNowSection = () => {
             />
           );
         })}
+        <LocalResourceTile />
       </Box>
     </StandardLayout>
   );

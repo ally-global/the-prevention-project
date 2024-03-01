@@ -11,43 +11,44 @@ export const numberCardInfo: {
   {
     number: 1,
     color: "PrimaryBlue",
-    statement: "Listen.",
-    subtext: "Don't judge them, and don't act shocked by what they tell you.",
+    statement: "Listen",
+    subtext:
+      "It takes courage and a lot of trust in someone to share something like this. Prove their trust right by being non judgmental, and emotionally measured in your response.",
   },
   {
     number: 2,
     color: "Blue",
     statement: "Be empathetic.",
     subtext:
-      "Thank them for sharing with you. It takes a lot of courage to come forward.",
+      "Thank them for sharing with you and trusting you with that information. Acknowledge that it takes a lot of courage to come forward and that you are there to help in any way you can.",
   },
   {
     number: 3,
     color: "PrimaryPurple",
-    statement: "Don't ask for details.",
+    statement: "Focus on their needs.",
     subtext:
-      "You might be curious, but it will not be helpful. It could also affect the person's information sharing if they later connect with a resource such as police.",
+      "Don’t ask for details. Rather, find out what their needs are. Do they need an empathetic ear? Do they need assistance with reporting? Do they need to be connected with resources?",
   },
   {
     number: 4,
     color: "PurpleMid",
     statement: "Have they told anyone else?",
     subtext:
-      "Yes — Do they need any futher help? No — Offer to connect them with a counsellor or confidential resource.",
+      "If yes — Do they need any further help? If no — Encourage them to report to a confidential and safe resource, or connect them with a counsellor.",
   },
   {
     number: 5,
     color: "#423591",
     statement: "Encourage them to report it.",
     subtext:
-      "Don't make any promises about what can be done. Explain the benefits of telling another resource (like a counsellor or police).",
+      "Don’t make any promises on what will be done if they report. Discuss the process of reporting. Address any fears and any goals they might have.",
   },
   {
     number: 6,
     color: "#423591",
-    statement: "Take further action if there is immediate danger.",
+    statement: "Take action if there is immediate danger.",
     subtext:
-      "If a child or youth is ever in immediate danger, you must report it to the provincial child protection services body.",
+      "If a child or youth is ever in immediate danger, you are legally obligated to report it to your provincial child protection services body.",
   },
 ];
 

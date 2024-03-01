@@ -65,9 +65,6 @@ export const chapters3to5: Chapter[] = [
             in our everyday lives and why it&apos;s important.
           </>
         ),
-        externalLinks: [
-          { name: "Resource name", caption: "Caption", href: "" },
-        ],
       },
       {
         title: "Say it Simple",
@@ -89,7 +86,6 @@ export const chapters3to5: Chapter[] = [
             online.
           </>
         ),
-        externalLinks: [],
       },
       {
         title: "True or False",
@@ -107,7 +103,6 @@ export const chapters3to5: Chapter[] = [
             adventure begin!
           </>
         ),
-        externalLinks: [],
       },
       {
         title: "Imagine This",
@@ -128,7 +123,6 @@ export const chapters3to5: Chapter[] = [
             you know if you&apos;re giving an enthusiastic yes?
           </>
         ),
-        externalLinks: [],
       },
       {
         title: "Knowledge Snapshot",
@@ -165,28 +159,24 @@ export const chapters3to5: Chapter[] = [
         vimeoId: "908739333",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908739333/9922cffe50",
-        externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916102553",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916102553/b95ee86896",
-        externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908740508",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908740508/d600e19458",
-        externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916102573",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916102573/8dddca4f3f",
-        externalLinks: [],
       },
       {
         title: "Knowledge Snapshot",
@@ -202,28 +192,24 @@ export const chapters3to5: Chapter[] = [
         vimeoId: "908739495",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908739495/6c0fcac1dd",
-        externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916102686",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916102686/fbff51c7f2",
-        externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "911654168",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/911654168/401ffeb4ce",
-        externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916102660",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916102660/da220bc747",
-        externalLinks: [],
       },
       {
         title: "Knowledge Snapshot",
@@ -239,28 +225,24 @@ export const chapters3to5: Chapter[] = [
         vimeoId: "908739715",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908739715/7ecbf2da67",
-        externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916843489",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916843489/2ad44fcd17",
-        externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908747620",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908747620/430f2d20c2",
-        externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916102754",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916102754/3248cb0879",
-        externalLinks: [],
       },
       {
         title: "Knowledge Snapshot",
@@ -277,28 +259,24 @@ export const chapters3to5: Chapter[] = [
         vimeoId: "908739896",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908739896/ba817981f4",
-        externalLinks: [],
       },
       {
         title: "Say it Simple",
         vimeoId: "916843559",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916843559/0c83546b7e",
-        externalLinks: [],
       },
       {
         title: "True or False",
         vimeoId: "908748842",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908748842/792790a5e5",
-        externalLinks: [],
       },
       {
         title: "Imagine This",
         vimeoId: "916102792",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916102792/66b1db28f2",
-        externalLinks: [],
       },
       {
         title: "Knowledge Snapshot",

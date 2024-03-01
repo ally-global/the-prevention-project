@@ -48,8 +48,8 @@ const DesktopNav: FC = () => {
         </Link>
       </Box>
       <Box sx={{ display: "flex", gap: 10, alignItems: "center" }}>
-        <NavItem href={"/about"} text="ABOUT US" />
         <NavItem href={"/library"} text="LIBRARY" />
+        <NavItem href={"/about"} text="ABOUT US" />
         <AllyButton
           onClick={scrollToHelpRightNow}
           sx={{ backgroundColor: "transparent", mt: "4px", ml: "-16px" }}

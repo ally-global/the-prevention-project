@@ -54,15 +54,17 @@ const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
               <Text variant={"h4"} color={"PrimaryPurple"}>
                 {selectedChapterSection.title}
               </Text>
-              <RenderOn breakPoints={["xs"]}>
-                <Link target="_blank" href={selectedChapterSection.pdfUrl!}>
-                  <AllyButton
-                    text={"Download PDF"}
-                    endIcon={<CloudDownloadOutlinedIcon />}
-                    sx={{ mb: 3 }}
-                  />
-                </Link>
-              </RenderOn>
+              {selectedChapterSection.pdfUrl && (
+                <RenderOn breakPoints={["xs"]}>
+                  <Link target="_blank" href={selectedChapterSection.pdfUrl}>
+                    <AllyButton
+                      text={"Download PDF"}
+                      endIcon={<CloudDownloadOutlinedIcon />}
+                      sx={{ mb: 3 }}
+                    />
+                  </Link>
+                </RenderOn>
+              )}
               <Text variant={"body1"} color={"Grey900"}>
                 {selectedChapterSection.description}
               </Text>

@@ -37,7 +37,13 @@ const ChooseYourGrade = ({
 
 const ChooseYourGradeSection = () => {
   return (
-    <Box sx={{ display: "flex", justifyContent: "space-evenly", gap: 2 }}>
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "space-evenly",
+        gap: { xs: 1, sm: 2 },
+      }}
+    >
       <ChooseYourGrade
         text="Grades 3-5"
         color="PrimaryBlue"

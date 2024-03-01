@@ -121,15 +121,15 @@ const MobileNav: FC = () => {
       >
         <MobileMenuItem>
           <NavItem
-            href={`/about`}
-            text={`About us`}
+            href={`/library`}
+            text={`LIBRARY`}
             onClick={handleDrawerClose}
           />
         </MobileMenuItem>
         <MobileMenuItem>
           <NavItem
-            href={`/library`}
-            text={`Library`}
+            href={`/about`}
+            text={`ABOUT US`}
             onClick={handleDrawerClose}
           />
         </MobileMenuItem>
@@ -142,7 +142,7 @@ const MobileNav: FC = () => {
             sx={{ backgroundColor: "transparent" }}
           >
             <Typography variant="button" color={`White`}>
-              Get help now
+              GET HELP NOW
             </Typography>
           </AllyButton>
         </MobileMenuItem>
