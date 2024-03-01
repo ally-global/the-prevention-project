@@ -82,8 +82,9 @@ const NumberCard = ({
         height: { xs: "max-content", sm: "280px", md: "348px" },
         backgroundColor: "White",
         padding: 4,
-        margin: 2,
         borderRadius: "16px",
+        margin: 2,
+        marginX: 0,
       }}
     >
       <NumberCircle number={number} backgroundColor={color} color={"White"} />
