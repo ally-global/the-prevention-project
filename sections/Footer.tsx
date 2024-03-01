@@ -1,5 +1,8 @@
+"use client";
+
 import { Box, Grid, Stack, Typography } from "@mui/material";
 import Link from "next/link";
+import { useEffect } from "react";
 
 export const FooterItem = ({
   href,
@@ -14,7 +17,6 @@ export const FooterItem = ({
     href={href}
     style={{
       textDecoration: "none",
-      // whiteSpace: "nowrap",
       margin: "2px",
     }}
     onClick={onClick}
@@ -34,6 +36,12 @@ export const FooterItem = ({
 );
 
 const Footer = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://paperform.co/__embed.min.js";
+    document.body.appendChild(script);
+  }, []);
+
   return (
     <Box mb={10}>
       <Box
@@ -75,28 +83,36 @@ const Footer = () => {
                 marginTop: "0px",
               }}
             >
-              <Grid item xs={2} sm={2} md={2} lg={2} xl={2}>
+              <Grid item xs={4} sm={4} md={4} lg={4} xl={4}>
                 <Box mb={2}>
                   <Typography
                     color={"PrimaryPurple"}
                     variant="button"
                     component="span"
                   >
-                    HUMAN TRAFFICKING
+                    STAY UPDATED
                   </Typography>
                 </Box>
                 <Stack
                   direction="column"
-                  justifyContent="center"
+                  justifyContent="flex-start"
                   alignItems="flex-start"
                   spacing={0}
                 >
-                  <FooterItem
-                    text={
-                      "Sign up to receive email updates on future resources and developments"
-                    }
-                    href="#what-to-do"
-                  />
+                  <Typography
+                    variant={"caption"}
+                    color={`Grey800`}
+                    lineHeight={"24px"}
+                  >
+                    Sign up to receive email updates on future resources and
+                    developments
+                  </Typography>
+                  <div
+                    data-paperform-id="2ukmtlqr"
+                    style={{
+                      marginLeft: "-25px",
+                    }}
+                  ></div>
                 </Stack>
               </Grid>
               <Grid item xs={2} sm={2} md={2} lg={2} xl={2}>
