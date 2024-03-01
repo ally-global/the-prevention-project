@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-sync-scripts */
+
 import { Box, Stack } from "@mui/material";
 import TwoColumnLayout, { ColumnWrapOrder } from "@/components/TwoColumnLayout";
 import VideoPlayer from "@/components/VideoPlayer";
