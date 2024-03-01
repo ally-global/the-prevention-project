@@ -14,12 +14,20 @@ export const FooterItem = ({
     href={href}
     style={{
       textDecoration: "none",
-      whiteSpace: "nowrap",
+      // whiteSpace: "nowrap",
       margin: "2px",
     }}
     onClick={onClick}
   >
-    <Typography variant="caption" color={`Grey800`}>
+    <Typography
+      variant="caption"
+      color={`Grey800`}
+      sx={{
+        "&:hover": {
+          textDecoration: "underline",
+        },
+      }}
+    >
       {text}
     </Typography>
   </Link>
@@ -83,7 +91,12 @@ const Footer = () => {
                   alignItems="flex-start"
                   spacing={0}
                 >
-                  <FooterItem text={"Get help now"} href="#what-to-do" />
+                  <FooterItem
+                    text={
+                      "Sign up to receive email updates on future resources and developments"
+                    }
+                    href="#what-to-do"
+                  />
                 </Stack>
               </Grid>
               <Grid item xs={2} sm={2} md={2} lg={2} xl={2}>
