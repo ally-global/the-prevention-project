@@ -7,6 +7,10 @@ import { Chapter } from "@/content/chapters";
 import ExternalLinkTile from "@/components/ExternalLinkTile";
 import Text from "@/components/Text";
 import PdfViewer from "@/components/PdfViewer";
+import Link from "next/link";
+import AllyButton from "@/components/AllyButton";
+import CloudDownloadOutlinedIcon from "@mui/icons-material/CloudDownloadOutlined";
+import { RenderOn } from "@/utils/deviceUtils";
 
 const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
   const searchParams = useSearchParams();
@@ -50,6 +54,15 @@ const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
               <Text variant={"h4"} color={"PrimaryPurple"}>
                 {selectedChapterSection.title}
               </Text>
+              <RenderOn breakPoints={["xs"]}>
+                <Link target="_blank" href={selectedChapterSection.pdfUrl!}>
+                  <AllyButton
+                    text={"Download PDF"}
+                    endIcon={<CloudDownloadOutlinedIcon />}
+                    sx={{ mb: 3 }}
+                  />
+                </Link>
+              </RenderOn>
               <Text variant={"body1"} color={"Grey900"}>
                 {selectedChapterSection.description}
               </Text>

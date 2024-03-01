@@ -172,11 +172,14 @@ const Footer = () => {
         }}
       >
         <Typography variant={"caption"} color={"Grey800"}>
-          © 2024 Ally Global Foundation and Exploitation Education Institute
+          © 2024 Ally Global Foundation
         </Typography>
-        <Typography variant={"caption"} color={"Grey800"}>
-          Privacy Policy
-        </Typography>
+        <Box
+          sx={{ display: "flex", gap: { xs: 2, sm: 2, md: 4 }, mt: "-10px" }}
+        >
+          <FooterItem text={"Terms & Conditions"} href="" />
+          <FooterItem text={"Privacy Policy"} href="" />
+        </Box>
       </Box>
     </Box>
   );

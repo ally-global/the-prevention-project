@@ -112,7 +112,7 @@ const ExpandedChapter = ({
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                minHeight: "396px",
+                minHeight: { xs: "240px", sm: "396px" },
               }}
             >
               <Link target="_blank" href={content[selected].pdfUrl!}>
