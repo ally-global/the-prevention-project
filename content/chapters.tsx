@@ -44,7 +44,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Consent and Healthy Boundaries",
-    downloadUrl: "https://3adczzlm.paperform.co",
+    downloadUrl: "https://thepreventionproject-gr35-ch1.paperform.co/",
     content: [
       {
         title: "What's the Big Deal?",
@@ -154,6 +154,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "The Internet",
+    downloadUrl: "https://thepreventionproject-gr35-ch1.paperform.co/",
     content: [
       {
         title: "What's the Big Deal?",
@@ -258,6 +259,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Information Sharing Online",
+    downloadUrl: "https://thepreventionproject-gr35-ch1.paperform.co/",
     content: [
       {
         title: "What's the Big Deal?",
@@ -333,6 +335,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Unsafe People and Unhealthy Social Accounts",
+    downloadUrl: "https://thepreventionproject-gr35-ch1.paperform.co/",
     content: [
       {
         title: "What's the Big Deal?",
@@ -428,6 +431,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Being a Safe Person",
+    downloadUrl: "https://thepreventionproject-gr35-ch5.paperform.co/",
     content: [
       {
         title: "What's the Big Deal?",
