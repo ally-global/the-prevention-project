@@ -154,7 +154,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "The Internet",
-    downloadUrl: "https://thepreventionproject-gr35-ch1.paperform.co/",
+    downloadUrl: "https://thepreventionproject-gr35-ch2.paperform.co/",
     content: [
       {
         title: "What's the Big Deal?",
@@ -259,7 +259,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Information Sharing Online",
-    downloadUrl: "https://thepreventionproject-gr35-ch1.paperform.co/",
+    downloadUrl: "https://thepreventionproject-gr35-ch3.paperform.co/",
     content: [
       {
         title: "What's the Big Deal?",
@@ -335,7 +335,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Unsafe People and Unhealthy Social Accounts",
-    downloadUrl: "https://thepreventionproject-gr35-ch1.paperform.co/",
+    downloadUrl: "https://thepreventionproject-gr35-ch4.paperform.co/",
     content: [
       {
         title: "What's the Big Deal?",
@@ -536,6 +536,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Consent and Healthy Boundaries",
+    downloadUrl: `https://thepreventionproject-gr67-ch1.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
@@ -628,6 +629,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Sexual Exploitation",
+    downloadUrl: `https://thepreventionproject-gr6-7-ch2.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
@@ -739,6 +741,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Sexting and Peer Exploitation",
+    downloadUrl: `https://thepreventionproject-gr6-7-ch3.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
@@ -923,6 +926,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "About the Internet and Information Sharing",
+    downloadUrl: `https://thepreventionproject-gr6-7-ch4.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
@@ -984,6 +988,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Sextortion",
+    downloadUrl: `https://thepreventionproject-gr6-7-ch5.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
@@ -1152,6 +1157,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Predatory People and Grooming",
+    downloadUrl: `https://thepreventionproject-gr6-7-ch6.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
@@ -1229,6 +1235,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Human Trafficking",
+    downloadUrl: `https://thepreventionproject-gr6-7-ch7.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
