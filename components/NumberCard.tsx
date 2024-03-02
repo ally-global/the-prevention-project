@@ -1,6 +1,7 @@
 import { Box, Stack } from "@mui/material";
 import Text from "@/components/Text";
 import NumberCircle from "@/components/NumberCircle";
+import { standardSpacing } from "./StandardLayout";
 
 export const numberCardInfo: {
   number: number;
@@ -85,6 +86,8 @@ const NumberCard = ({
         borderRadius: "16px",
         margin: { xs: 1, sm: 1, md: 2 },
         marginX: { xs: 0, sm: 1, md: 2 },
+        marginLeft: !maxContent && number === 1 ? standardSpacing : "",
+        marginRight: !maxContent && number === 6 ? standardSpacing : "",
       }}
     >
       <NumberCircle number={number} backgroundColor={color} color={"White"} />
