@@ -1,7 +1,6 @@
 "use client";
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import CloudDownloadOutlinedIcon from "@mui/icons-material/CloudDownloadOutlined";
 import {
   Accordion,
   AccordionDetails,
@@ -32,12 +31,19 @@ const Chapter = ({
 }) => {
   const [fullWidth, setFullWidth] = useState<boolean>(false);
   return (
-    <Box sx={{ width: { xs: "100%", sm: fullWidth ? "100%" : "50%" } }}>
+    <Box
+      sx={{
+        width: {
+          xs: "100%",
+          sm: fullWidth ? "100%" : "50%",
+        },
+      }}
+    >
       <Accordion
         onChange={() => {
           setFullWidth(!fullWidth);
         }}
-        disableGutters
+        expanded={fullWidth}
         sx={{
           margin: 1,
           borderRadius: "20px !important",
@@ -50,6 +56,7 @@ const Chapter = ({
           sx={{
             padding: 4,
             height: { xs: "108px", sm: "135px" },
+            mt: fullWidth ? 1 : 0,
           }}
         >
           <Stack spacing={1}>
