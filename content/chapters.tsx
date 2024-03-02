@@ -264,28 +264,70 @@ export const chapters3to5: Chapter[] = [
         vimeoId: "908739495",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908739495/6c0fcac1dd",
+        facilitationNote: `Facilitation Tip: Introduce the chapter with a discussion about what students find fascinating about the internet and their favorite online activities. Then, delve into the concerns about privacy and safety, highlighting the importance of making smart choices in the digital realm. Encourage students to share their thoughts and questions, fostering curiosity and engagement from the start. Consider incorporating interactive elements like brainstorming sessions or a mini quiz to assess their current knowledge and generate excitement for the upcoming learning journey.`,
+        description:
+          "Get ready for Chapter 3: Information Sharing Online! We asked our friends why sharing information online can be a bit tricky. Their responses were spot-on, highlighting concerns about privacy and safety. It's true, sharing online opens up possibilities, but it also poses risks. We'll tackle questions like: What's the problem with sharing info? What's safe to share? And how do you navigate online conversations without compromising your security? Let's explore together and make smart choices in the digital realm.",
       },
       {
         title: "Say it Simple",
         vimeoId: "916102686",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916102686/fbff51c7f2",
+        facilitationNote: `Facilitation Tip: After watching the video, facilitate a hands-on activity where students create their own digital home. Provide materials like paper, markers, stickers, and cardboard cutouts to design their ideal online space. As they decorate, guide discussions about what information should be kept private in their digital home and why. Encourage creativity and imagination while reinforcing the importance of setting boundaries online.`,
+        description: (
+          <>
+            Imagine if all of your most private thoughts and feelings ended up
+            in anyone else’s hands. How would it make you feel? Some things are
+            meant to be private. Just like you wouldn&apos;t want to share your
+            diary with a stranger, it&apos;s important not to share private
+            information with people you don&apos;t know online. It is important
+            to keep private information just that—private.
+            <br />
+            <br />
+            Think of the internet as your home. Only let in friends and family
+            you trust in your digital space.
+          </>
+        ),
       },
       {
         title: "True or False",
         vimeoId: "911654168",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/911654168/401ffeb4ce",
+        description: `Ready to test your learning? Time for some 'true or false'! We're diving into the world of online conversations and figuring out the dos and don'ts together. Join us as we explore different situations, answering questions about chatting online, gaming, and using social media. Should you tell a stranger online the name of your hockey team? What about sharing your city? Ready to play? Hit that play button and let's navigate the ins and outs of sharing information online together!`,
+        facilitationNote: `Facilitation Tip: Before starting the video, distribute true/false paddles or red and green flags to each participant. Instruct them to hold up the corresponding paddle or flag to indicate whether they believe each statement presented in the video is true or false. Pause the video after each statement to discuss their answers and reasoning as a group. Encourage and teamwork as they navigate through the dos and don'ts of information sharing online.`,
       },
       {
         title: "Imagine This",
         vimeoId: "916102660",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916102660/da220bc747",
+        facilitationNote: `Facilitation Tip: After watching the video, invite students to participate in a role-playing activity where they act out different scenarios involving online interactions. Assign roles and scenarios related to sharing personal information online and encourage them to explore various responses and outcomes. Facilitate discussions after each scenario to reflect on the importance of setting boundaries and making safe choices online. Encourage empathy and critical thinking as they navigate through the digital world together.`,
+        description: `Sharing online can be like leaving your front door wide open - it might seem harmless, but it can let unwanted guests in. Just like in real life, you wouldn't tell a stranger where you live or what school you go to. In the same way, you shouldn’t tell strangers everything about you online. The more info you share, the more attention you might attract.`,
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades3-5/Gr3-5_Ch3_Part5_Information-Sharing-Online.pdf",
+        facilitationNote:
+          "Facilitation Tip: Provide students with the activity page along with additional materials such as stickers, glitter pens, and colorful markers to enhance their creativity. Encourage them to personalize their activity page with drawings, collages, or written reflections about information sharing online. As they work on their creations, facilitate discussions about strategies for protecting personal information and staying safe online. Celebrate their unique ideas and contributions, fostering a sense of empowerment and ownership over their digital footprint.",
+        description: (
+          <>
+            Now, it&apos;s your turn! Download or print this activity page to
+            identify what information you consider safe to share online. Think
+            about the risks and benefits of sharing, and brainstorm ways you can
+            protect yourself online.
+            <br />
+            <br />
+            Ready for a creative challenge? Express your ideas on our superhero
+            drawing prompt. Give them a name and show how they keep your
+            information safe! Download or print the activity page and make it
+            your own.
+            <br />
+            <br />
+            Congratulations! You&apos;ve completed Chapter 3 on Information
+            Sharing Online! Keep making informed choices in the digital world.
+          </>
+        ),
       },
     ],
   },
@@ -297,29 +339,90 @@ export const chapters3to5: Chapter[] = [
         vimeoId: "908739715",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908739715/7ecbf2da67",
+        facilitationNote:
+          "Facilitation Tip: To kick off the chapter, start with an interactive discussion about online safety. Ask students to share their thoughts on how to distinguish safe accounts from unsafe ones online. Encourage them to brainstorm strategies and share any tips they may have learned from their own experiences. Emphasize the importance of staying cautious and vigilant in the digital world, where appearances can be deceiving.",
+        description:
+          "Welcome to Chapter 4 - Unsafe People and Unhealthy Accounts! How can we tell if someone online is unsafe? In the online world, things aren't always what they seem. Online appearances might deceive you. There are about 750,000 individuals out there looking to connect, pretending to be trustworthy friends. We asked friends for tips on spotting unsafe individuals online, and they shared some useful ideas. Let's explore strategies to distinguish safe accounts from unsafe ones and learn how to see through the disguise of someone who might not have good intentions.",
       },
       {
         title: "Say it Simple",
         vimeoId: "916843489",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916843489/2ad44fcd17",
+        facilitationNote: `Facilitation Tip: After watching the video, organize a role-playing activity where students take turns pretending to be either safe or unsafe individuals online. Provide scenarios for them to act out, such as receiving friend requests or messages from strangers. Encourage them to use the tips shared in the video to identify red flags and respond appropriately. This activity reinforces the importance of trusting their instincts and seeking help from trusted adults when encountering suspicious online behavior.`,
+        description: (
+          <>
+            In real life, it&apos;s obvious when someone is in a costume, but on
+            the internet, it&apos;s tricky. People can pretend to be anyone,
+            even unsafe individuals posing as safe ones. Pay attention to the
+            questions they ask and what they want you to do. If anything feels
+            off or uncomfortable, tell a trusted adult. They can help you
+            navigate the situation.
+            <br />
+            <br />
+            Don&apos;t share information or create new accounts without an
+            adult&apos;s permission. Online, we just never know who anyone might
+            be. Stay safe. Keep it between trusted friends.
+          </>
+        ),
       },
       {
         title: "True or False",
         vimeoId: "908747620",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908747620/430f2d20c2",
+        facilitationNote: `Facilitation Tip: Before starting the video, distribute true/false paddles or red and green flags to each participant. Instruct them to hold up the corresponding paddle or flag to indicate whether they believe each statement presented in the video is true or false. Pause the video after each statement to discuss their answers and reasoning as a group.`,
+        description: `Let's apply what we've learned with a game of 'true or false.' Imagine you're gaming with someone online, and suddenly, they offer you gaming tokens. Is it a friendly gesture or a possible risk? Join us as we dive into questions about online interactions, explore tools and tips for handling uncomfortable situations, and understand the significance of spotting red flags.`,
       },
       {
         title: "Imagine This",
         vimeoId: "916102754",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916102754/3248cb0879",
+        facilitationNote: `Facilitation Tip: After watching the video, lead a guided visualization activity where the students imagine themselves encountering various online scenarios. Provide prompts such as receiving a friend request from someone they don't know or being asked to share personal information. Encourage them to visualize how they would respond in each situation and discuss their thoughts and feelings afterward. This activity helps reinforce the importance of applying real-world caution to their digital interactions.`,
+        description: (
+          <>
+            Navigating online interactions can be tricky with so many different
+            people. A helpful tip is to treat every online interaction as if
+            it&apos;s happening in person and respond the same way. In the
+            video, kids handle situations both in person and online, showing
+            that a &quot;no&quot; in person should also be a &quot;no&quot;
+            online. Every online interaction is real life with a real person;
+            there&apos;s just a screen between you.
+            <br />
+            <br />
+            While watching, reflect on your own online experiences. Consider how
+            you&apos;ve dealt with online situations, and think about ways you
+            can apply real-world caution to your future digital interactions.
+          </>
+        ),
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades3-5/Gr3-5_Ch4_Part5_Unsafe-People-and-Unhealthy-Social-Accounts.pdf",
+        facilitationNote: `Facilitation Tip: Provide students with the activity page along with additional materials such as stickers, glitter pens, and colorful markers to enhance their creativity and guide them through reflecting on what they've learned about online safety. Encourage them to jot down their thoughts on personal boundaries and indicators of unsafe people or accounts online. After completing the activity, invite them to share their ideas and artistic creations with the group.`,
+        description: (
+          <>
+            You’re doing great! Now, it&apos;s your turn to take charge and
+            reflect on what you&apos;ve learned. Download or print this
+            interactive activity page designed just for you. Share your thoughts
+            on personal boundaries in the online world - what can you do if you
+            encounter an unsafe person? Jot down other things that indicate that
+            someone is an unsafe person or an unsafe online account.
+            <br />
+            <br /> Ready for a creative challenge? Picture someone you trust and
+            feel safe with, like a family member, friend, or even a favorite
+            online character. Sketch a picture of this person, showcasing your
+            artistic skills to highlight the traits that make them a safe
+            individual.
+            <br />
+            <br />
+            Congratulations on completing Chapter 4! Keep up the great work as
+            you continue your journey towards being a smart and safe digital
+            explorer.
+          </>
+        ),
       },
     ],
   },
@@ -331,28 +434,69 @@ export const chapters3to5: Chapter[] = [
         vimeoId: "908739896",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908739896/ba817981f4",
+        facilitationNote: `Facilitation Tip: Begin the chapter with an open discussion about what it means to be a safe person. Ask students to share their thoughts on the qualities of a good friend or a safe individual. Encourage them to brainstorm ways they can contribute to creating a positive and safe environment both online and offline. Emphasize the importance of empathy, kindness, and respect in fostering healthy relationships and communities.`,
+        description: (
+          <>
+            Welcome to Chapter 5: Being a Safe Person! After learning about
+            recognizing unsafe individuals, let&apo;s now focus on identifying
+            safe people. What qualities make someone a good friend or a safe
+            person? Our friends shared thoughts like being there in tough times
+            and bringing happiness to each other.
+            <br />
+            <br />
+            In this chapter, let&apos;s explore how we can embody these traits
+            and be a positive force in our friendships and communities—both
+            online and offline. Get ready to not only keep yourself safe but
+            also make a positive impact in your social circles. Let&apos;s dive
+            in and become awesome friends together!
+          </>
+        ),
       },
       {
         title: "Say it Simple",
         vimeoId: "916843559",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916843559/0c83546b7e",
+        facilitationNote: `Facilitation Tip: After introducing the chapter, lead a group activity where the students create a "Safe Person Pledge" together. Provide materials such as colorful paper, markers, and stickers for them to write down and decorate their pledges with promises to be kind, respectful, and supportive to others. Encourage them to display their pledges in a visible place as a reminder of their commitment to being safe people in their social circles.`,
+        description: `We've learned that online interactions can sometimes be risky, but it can also be a great place for connection and fun. We all play a part in creating a safe online space, and being a safe person is essential for a positive experience. This means avoiding actions that could hurt or make others uncomfortable.  Remember, behind every profile is a real person, and your virtual actions have real impacts.`,
       },
       {
         title: "True or False",
         vimeoId: "908748842",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908748842/792790a5e5",
+        facilitationNote: `Facilitation Tip: Transform the "True or False" segment into an interactive discussion where students respond to thought-provoking questions about kindness and respect. Pause the video at various points to present scenarios challenging their understanding of being a safe person. Encourage them to share their thoughts and experiences related to each scenario, fostering open dialogue and critical thinking about online and offline behavior.`,
+        description: `Can we stand up for ourselves without being mean when faced with negativity? Join us as we navigate scenarios challenging kindness and respect, from responding to negative comments to handling private messages. While we know to be kind and respectful in real life, it can be easy to forget when there's a screen between us. Get ready for some thought-provoking questions.`,
       },
       {
         title: "Imagine This",
         vimeoId: "916102792",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916102792/66b1db28f2",
+        facilitationNote: `Facilitation Tip: After watching the video, facilitate a group reflection activity where students share their own experiences of being safe people online. Provide prompts such as instances where they've stood up for someone or spread kindness through their actions. Encourage them to brainstorm additional ways they can contribute to creating a positive online environment for everyone. This activity promotes self-awareness and empathy while reinforcing the importance of being mindful of our online interactions.`,
+        description: `Join Priya in this video as she learns about the impact of her online actions. While we know to be kind in real life, it's easy to forget when there's a screen between us. Follow Priya and Christopher as they explore the consequences of online comments and why kindness online is super important. After the video, reflect on how you practice being a safe person online. Consider ways, like Priya did, to be even kinder and contribute to a safer online experience for everyone. Your actions matter in creating a positive online space.`,
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades3-5/Gr3-5_Ch5_Part5_Being-a-Safe-Person.pdf",
+        facilitationNote: `Facilitation Tip: Hand out the activity page to the students along with some colorful markers, glitter pens, and stickers. Encourage them to use these fun materials to express their thoughts on being a safe person. Ask them to jot down their ideas, draw symbols representing kindness and respect, and decorate their reflections in a creative way. After they finish, invite them to share their artwork and discuss what it means to be a safe person with the group.`,
+        description: (
+          <>
+            Congratulations! You&apos;ve completed Module 5 on being a safe
+            person. Now, it&apos;s time to reflect and take action. Download or
+            print this activity page to plan how you can be a safe person for
+            others. Recall a time when someone acted as a safe person for you.
+            How did it make you feel? Consider how you can do the same for
+            others. Ready for a creative challenge? Draw a scenario of you being
+            a safe person to a classmate.
+            <br />
+            <br />
+            Great job! You&apos;ve completed The Prevention Project, where
+            we&apos;ve journeyed together to learn about important topics like
+            consent, internet safety, and being a safe person. Give yourselves a
+            round of applause!
+          </>
+        ),
       },
     ],
   },
