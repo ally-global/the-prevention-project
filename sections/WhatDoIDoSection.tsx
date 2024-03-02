@@ -27,6 +27,12 @@ const WhatDoIDoSection = ({ overflow }: { overflow?: boolean }) => {
               justifyContent: overflow ? "flex-start" : "center",
               flexWrap: overflow ? "nowrap" : "wrap",
               overflowX: overflow ? "scroll" : "auto",
+              gap: overflow ? 2 : 0,
+              "-webkit-scrollbar": {
+                display: "none",
+              },
+              "scrollbar-width": "none",
+              "-ms-overflow-style": "none",
             }}
           >
             {numberCardInfo.map((card, i) => (

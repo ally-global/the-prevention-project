@@ -66,7 +66,7 @@ const GradeHero = ({
                 iframe: {
                   borderRadius: "16px",
                 },
-                mb: { xs: 4, sm: 0 },
+                mb: { xs: 4, sm: 4 },
               }}
             >
               <VideoPlayer vimeoId={vimeoId} autoplay muted />

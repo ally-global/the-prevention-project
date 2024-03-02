@@ -75,16 +75,16 @@ const NumberCard = ({
         ...(maxContent
           ? {}
           : {
-              minWidth: "424px",
-              minHeight: { xs: "280px", sm: "280px", md: "348px" },
+              minWidth: { xs: "280px", sm: "320px", md: "420px" },
+              minHeight: { xs: "348px", sm: "320px", md: "348px" },
             }),
-        width: { xs: "max-content", sm: "350px", md: "424px" },
-        height: { xs: "max-content", sm: "280px", md: "348px" },
+        width: { xs: "max-content", sm: "324px", md: "424px" },
+        height: { xs: "max-content", sm: "300px", md: "348px" },
         backgroundColor: "White",
         padding: 4,
         borderRadius: "16px",
-        margin: 2,
-        marginX: { xs: 0, sm: 2 },
+        margin: { xs: 1, sm: 1, md: 2 },
+        marginX: { xs: 0, sm: 1, md: 2 },
       }}
     >
       <NumberCircle number={number} backgroundColor={color} color={"White"} />

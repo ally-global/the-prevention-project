@@ -8,8 +8,8 @@ import Text from "@/components/Text";
 const sharedCardStyles = {
   display: "flex",
   justifyContent: "space-between",
-  width: { xs: "100%", sm: "100%", md: "428px" },
-  height: { md: "480px" },
+  width: { xs: "100%", sm: "340px", md: "488px" },
+  height: { sm: "380px", md: "480px" },
   borderRadius: "16px",
   padding: { xs: 4, sm: 4, md: 6 },
 };
@@ -25,10 +25,10 @@ export const AreYouAParentCard = () => {
       <Stack spacing={3}>
         <Text variant="h4">Are you a parent?</Text>
         <Text variant="body1">
-          It can be hard to know where to begin with topics like
-          exploitation—especially when the online world is changing so quickly.
-          Our resources will help you learn how to navigate these conversations
-          with the young people in your life.
+          It can be hard to know where to begin with topics like exploitation —
+          especially when the online world is changing so quickly. Our resources
+          serve as tools to get these conversations started with your children
+          and youth.
         </Text>
       </Stack>
       <Link href={"/library"}>
@@ -54,10 +54,11 @@ export const AreYouAnEducatorCard = () => {
       <Stack spacing={3}>
         <Text variant="h4">Are you an educator?</Text>
         <Text variant="body1">
-          Helping young people understand the root causes of exploitation is the
-          best way to prevent it from happening. Our modules are designed to be
-          easily incorporated into your classroom learning, and every resource
-          can be downloaded for free.
+          Integrating education on topics like consent, digital safety, healthy
+          relationships and even human trafficking are crucial to keeping your
+          students safe. Our modules are designed to be easily incorporated into
+          your classroom learning, and every resource can be downloaded for
+          free.
         </Text>
       </Stack>
       <Link href={"/library"}>

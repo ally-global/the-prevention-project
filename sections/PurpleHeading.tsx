@@ -25,15 +25,15 @@ const PurpleHeading = () => {
               <>
                 <b>The Prevention Project</b> is a space for kids and teens to
                 feel empowered and confident in their daily connections with
-                others. We’ll look at topics like how to identify safe vs.
-                unsafe people, how to engage in the digital world and how to
-                navigate relationships. From grade 6 onwards, we’ll also begin
-                to discuss the red flags of predatory people and the topics of
-                exploitation and trafficking.
+                others. We&apos;ll look at topics that relate to navigating the
+                digital world and in person relationships. From grade 6 onwards,
+                we will also begin to discuss issues relating to sexual
+                exploitation, human trafficking, and high risk behaviours.
                 <br />
                 <br />
-                Together, we’ll explore not only how to protect ourselves, but
-                also how to be a good friend and safe person for others.
+                Together, we&apos;ll explore how to protect ourselves from
+                unsafe situations, and in turn, how to be a safe person for
+                others.
               </>
             }
           />

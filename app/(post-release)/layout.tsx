@@ -8,6 +8,7 @@ import Stack from "@mui/material/Stack";
 import StandardLayout from "@/components/StandardLayout";
 import NavBar from "@/components/NavBar/NavBar";
 import Footer from "@/sections/Footer";
+import { LogBreakpointWrapper } from "@/hooks/useLogBreakpoints";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,26 +33,28 @@ export default function RootLayout({
           }}
         >
           <ThemeRegistry options={{ key: "mui-theme" }}>
-            <NavBar />
-            <Container
-              maxWidth="xl"
-              sx={{
-                paddingLeft: "0px !important",
-                paddingRight: "0px !important",
-              }}
-            >
-              <Stack
+            <LogBreakpointWrapper>
+              <NavBar />
+              <Container
+                maxWidth="xl"
                 sx={{
-                  mb: 4,
+                  paddingLeft: "0px !important",
+                  paddingRight: "0px !important",
                 }}
-                direction={"column"}
               >
-                {children}
-              </Stack>
-              <StandardLayout>
-                <Footer />
-              </StandardLayout>
-            </Container>
+                <Stack
+                  sx={{
+                    mb: 4,
+                  }}
+                  direction={"column"}
+                >
+                  {children}
+                </Stack>
+                <StandardLayout>
+                  <Footer />
+                </StandardLayout>
+              </Container>
+            </LogBreakpointWrapper>
           </ThemeRegistry>
         </Box>
       </body>
