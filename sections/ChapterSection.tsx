@@ -1,5 +1,6 @@
 "use client";
 
+import useDevice from "@/hooks/useDevice";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { MenuItem } from "@mui/material";
 import Select from "@mui/material/Select";
@@ -10,6 +11,7 @@ const ChapterMenu = ({ chapters }: { chapters: string[] }) => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const chapter = searchParams.get("chapter");
+  const { xsScreen } = useDevice();
 
   return (
     <Select
@@ -65,7 +67,7 @@ const ChapterMenu = ({ chapters }: { chapters: string[] }) => {
             }}
             divider={false}
           >
-            {`CHAPTER ${index + 1}: ${chapterName}`}
+            {`${xsScreen ? "" : `CHAPTER ${index + 1}: `}${chapterName}`}
           </MenuItem>
         );
       })}

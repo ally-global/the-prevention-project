@@ -7,27 +7,27 @@ export const tiles = [
   {
     name: "Canadian Human Trafficking Hotline (24/7 + Text)",
     caption: "HUMAN TRAFFICKING",
-    href: "",
+    href: "https://www.canadianhumantraffickinghotline.ca/",
   },
   {
     name: "Kids Help Phone (24/7 + Text)",
     caption: "MENTAL HEALTH",
-    href: "",
+    href: "https://kidshelpphone.ca/urgent-help",
   },
   {
     name: "Cybertip",
     caption: "ONLINE EXPLOITATION",
-    href: "",
+    href: "https://www.cybertip.ca/en/report/",
   },
   {
     name: "NeedHelpNow",
     caption: "CYBERBULLYING & IMAGE SHARING CONCERNS",
-    href: "",
+    href: "https://needhelpnow.ca/en/contact/",
   },
   {
     name: "PSSTWorld",
     caption: "VIOLENCE REPORTING TOOL FOR SCHOOLS",
-    href: "",
+    href: "https://www.psstworld.com/report-it",
   },
 ];
 
