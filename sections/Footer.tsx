@@ -131,9 +131,9 @@ const Footer = () => {
                   alignItems="flex-start"
                   spacing={0}
                 >
-                  <FooterItem text={"Who we are"} href="/about#who-we-are" />
+                  <FooterItem text={"Who We Are"} href="/about#who-we-are" />
                   <FooterItem
-                    text={"Book a presentation"}
+                    text={"Book a Presentation"}
                     href="/about#book-a-presentation"
                   />
                   <FooterItem text={"Donate"} href="/about#donate" />
@@ -177,8 +177,11 @@ const Footer = () => {
         <Box
           sx={{ display: "flex", gap: { xs: 2, sm: 2, md: 4 }, mt: "-10px" }}
         >
-          <FooterItem text={"Terms & Conditions"} href="" />
-          <FooterItem text={"Privacy Policy"} href="" />
+          <FooterItem
+            text={"Terms & Conditions"}
+            href="https://ally.org/terms"
+          />
+          <FooterItem text={"Privacy Policy"} href="https://ally.org/terms" />
         </Box>
       </Box>
     </Box>
