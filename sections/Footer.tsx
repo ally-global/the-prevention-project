@@ -146,7 +146,7 @@ const Footer = () => {
                     variant="button"
                     component="span"
                   >
-                    LIBRARY
+                    CHOOSE YOUR GRADE
                   </Typography>
                 </Box>
                 <Stack

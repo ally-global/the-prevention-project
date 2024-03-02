@@ -1,3 +1,5 @@
+"use client";
+
 import { Box, Stack } from "@mui/material";
 import VideoPlayer from "@/components/VideoPlayer";
 import StandardLayout from "@/components/StandardLayout";

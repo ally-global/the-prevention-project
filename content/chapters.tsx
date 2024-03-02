@@ -517,7 +517,7 @@ export const chapters6to7: Chapter[] = [
           "https://vimeo.com/user112092565/download/908806931/25294cc752",
         description: (
           <>
-            Welcome to The Prevention Project! Here, we&apos;re diving into some
+            Welcome to The Prevention Project! We&apos;re diving into some
             important conversations about sexual exploitation. Join us as we
             explore topics related to friendships, relationships, and everyday
             situations that intersect with this important issue. We encourage
@@ -542,35 +542,87 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "908753527",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908753527/d535689f37",
-        externalLinks: [
-          { name: "Resource name", caption: "Caption", href: "" },
-        ],
+        facilitationNote: `Facilitation Tip: Encourage students to reflect on their own experiences and share their thoughts and understanding on consent and healthy boundaries. Use open-ended questions like: What does consent mean to you personally? Can you recall a situation where clear communication around consent made you feel respected and comfortable? How do you establish and communicate your own boundaries?`,
+        description: `In this first chapter, we're diving into the topic of Consent. Consent is giving permission and choosing what you are or are not comfortable with. But knowing how to get consent and give consent is more difficult than we think. It's not just a simple 'yes' or 'no'.  True consent is when someone says “yes” with enthusiasm, and because they want to. Feeling pressured to say “yes” is not consent. Join us as we break it all down together.`,
       },
       {
         title: "Say it Simple",
         vimeoId: "916194566",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194566/718526d2e4",
-        externalLinks: [],
+        facilitationNote: `Facilitation tip: Encourage students to pause and notice how their bodies feel when discussing consent. Ask them questions like: "How does your body tell you when you're excited or uncomfortable?”, "Can you think of a time when your gut feelings helped you make a choice?", "Why is it important to pay attention to what your body is telling you during discussions about consent?"`,
+        description: (
+          <>
+            Consent is all about freedom, and having the freedom to choose what
+            you are and aren&apos;t comfortable with. In other words, giving
+            permission. Real consent is expressing an enthusiastic YES, because
+            anything less than a confident &quot;yes&quot; is a &quot;no.&quot;
+            <br />
+            <br />
+            One way to know whether we are giving consent or just going along
+            with something out of pressure is by paying attention to how our
+            body feels. Listen to your gut and body; if it feels happy, relaxed,
+            and excited, you&apos;re giving a genuine &quot;yes.&quot; This rule
+            applies to technology too—always respect and give consent.
+          </>
+        ),
       },
       {
         title: "True or False",
         vimeoId: "908752727",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908752727/57cc28cc8e",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Use this video as an opportunity to discuss the importance of being safe online and careful about what information we share and who we share it with. Equip students with true and false paddles or red and green flags to facilitate live responses while watching the video. You can pause the video after each question, to have a discussion about what everyone thinks their answer would be, and discuss the answers given in the video.`,
+        description: `Join us in a game of TRUE or FALSE where we explore how to respond in challenging situations around the nuances of consent and non-verbal cues. We'll tackle scenarios that help us navigate tricky situations involving consent and non-verbal cues. From decoding mixed signals to setting personal boundaries, we'll discover that consent involves more than just saying yes or no. As we tackle these questions, we'll dive into the complexities of relationships, both online and offline.`,
       },
       {
         title: "Imagine This",
         vimeoId: "916194542",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194542/6cc518fb7c",
-        externalLinks: [],
+        facilitationNote: `Facilitation tip: After watching the video, encourage students to engage in a reflective discussion. Create an inclusive space for sharing by asking questions such as: "Can you think of a time when your instincts played a role in a decision?", "How do you interpret the FRIES acronym in the context of giving consent?", "Share with the group how you would handle a situation similar to those in the video" and “What are some different ways that someone can communicate 'no'?”.`,
+        description: (
+          <>
+            Let&apos;s explore the world of healthy boundaries together, right
+            here in the school lunchroom! We&apos;ll walk through scenarios that
+            highlight the importance of embodied consent - paying attention to
+            your instincts. Sara, Ben, and Alex will show us how genuine
+            enthusiasm plays a crucial role in giving consent. Keep in mind,
+            consent is an ongoing agreement.
+            <br />
+            <br />
+            Don&apos;t forget FRIES:
+            <br />
+            Freely given; Reversible; Informed; Enthusiastic; Specific
+            <br />
+            <br />
+            As you watch, take a moment to pause and think: How would you handle
+            similar situations? What choices would you make? And how can you
+            make sure your &quot;yes&quot; is genuinely enthusiastic?
+          </>
+        ),
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades6-7/Gr6-7_Ch1_Part5_Consent-and-Healthy-Boundaries.pdf",
+        facilitationNote: `Facilitation tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.`,
+        description: (
+          <>
+            Let&apos;s dive a bit deeper and bring what you&apos;ve learned into
+            your personal life. Download or print this infographic and
+            reflection page to contemplate your own personal boundaries.
+            Consider how your body signals comfort or discomfort and reflect on
+            how you communicate &quot;no.&quot; Remember, consent involves
+            understanding both your own limits and being attuned to others&apos;
+            feelings through body language and words. Think about creating a
+            safe space for others to give consent.
+            <br />
+            <br />
+            Congratulations! You finished the first Chapter on Consent & Healthy
+            Boundaries! Keep going!
+          </>
+        ),
       },
     ],
   },
@@ -582,32 +634,106 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "908801853",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908801853/f5bba1a747",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Given the sensitive nature of the topic, create a safe and supportive environment before discussing the chapter on Sexual Exploitation. Begin by emphasizing the importance of respect and confidentiality. Discuss with students the connection between exploitation and consent.`,
+        description:
+          "Welcome to Chapter 2! In this chapter, we'll learn about a serious issue called Sexual Exploitation. It involves feeling pressured into doing sexual things because you want or need something, like belonging, love, or safety. Let's explore this further together.",
+        externalLinks: [
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Say it Simple",
         vimeoId: "916194592",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194592/d63da8165a",
-        externalLinks: [],
+        facilitationNote: `Facilitation tip:  After watching the video, set the tone for a safe and open discussion. Start by ensuring students understand the key terms, such as exploitation and sexual exploitation, through relatable examples. Asking prompting questions like: How can we distinguish between genuine consent and situations involving exploitation? In your opinion, why is it crucial to emphasize having needs met in safe ways by safe people? How can we promote an environment where everyone feels comfortable discussing topics like exploitation and consent? Reinforce the message that everyone has the right to safe and respectful relationships.`,
+        description: `Exploitation is when someone takes advantage of someone else. Sexual exploitation, specifically for individuals under 18, occurs when someone takes advantage of another person sexually. By law, if you're under 18, you can't agree to any sexual activity if you receive something in return. Saying yes to sexual things just to fulfill your needs, like love, attention, or money, isn't genuine consent. It's crucial to remember that it's okay to have needs, but it's important to have them met in safe ways by safe people—ways that don't involve sexual activity.`,
+        externalLinks: [
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "True or False",
         vimeoId: "908802032",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908802032/e577a50f31",
-        externalLinks: [],
+        facilitationNote:
+          "Facilitation Tip: Use this video as an opportunity to discuss the importance of meeting our needs in healthy ways. You can pause the video after each question, to have discussion about what everyone thinks their answer would be, and discuss if you agree with what Camille, Kevin, Nate and Kara share.",
+        description:
+          "Let's continue our conversation about our needs and how we meet them. Get ready for a game of True or False where we’ll dig into the details of meeting our everyday needs in healthy ways. What are the things we need for happiness and fulfillment each day? How can we ensure we meet those needs in healthy and safe ways? Join us as we discuss our various needs and strategies to fulfill them.",
+        externalLinks: [
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Imagine This",
         vimeoId: "916194582",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194582/7392728c8c",
-        externalLinks: [],
+        facilitationNote: `Facilitation tip: After watching the video, encourage students to reflect on the concepts discussed. Use prompts such as: What stood out to you the most in the video, and why? How do you define true consent based on what we've discussed? Can you brainstorm some safe and anonymous resources that might be helpful if you or someone you know needs support? In what ways can we promote a culture of consent in our school or community?`,
+        description: (
+          <>
+            Navigating situations where we feel pressured, both in person and
+            online, is tough, especially when we&apos;re offered something we
+            want or need. It might seem okay, but being pushed into a situation
+            where your needs are met only through a sexual act is not consensual
+            and against the law, even online. But remember it also isn&apos;t
+            your fault. True consent happens when you freely agree without any
+            strings attached.
+            <br />
+            <br />
+            If you ever feel unsure or pressured into something you&apos;re not
+            comfortable with, please reach out to a trusted adult or one of
+            these resources. If you are someone you know needs help, click on
+            the Get Help Now tab for safe and anonymous resources you can reach
+            out to.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades6-7/Gr6-7_Ch2_Part5_Sexual-Exploitation.pdf",
+        facilitationNote: `Facilitation tip: print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.`,
+        description: (
+          <>
+            Now it&apos;s your turn. Take some time to reflect on your own
+            needs. What do you need in your life to be happy and fulfilled?
+            Download or print this infographic and reflection page to brainstorm
+            ways you can meet your needs in healthy ways. Remember, we all have
+            needs. But engaging in sexual activity to meet them is never okay
+            and is not consensual.
+            <br />
+            <br />
+            Great work! You finished Chapter 2 on Sexual Exploitation. Next up,
+            we&apos;re talking about sexting and how we treat one another.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
     ],
   },
@@ -619,33 +745,179 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "908802912",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908802912/414f4dfe3f",
-        externalLinks: [],
+        facilitationNote: `Facilitation tip: Encourage open discussion with students using questions such as: How did the information about sexting resonate with you? Can you identify potential complications when sharing intimate images, as highlighted in the video? What are your thoughts on the legal aspects of sexting, especially considering age restrictions?`,
+        description: (
+          <>
+            In this chapter we are going to be discussing a topic people
+            don&apos;t typically talk about: Sexting. But what exactly is
+            sexting? Sexting is when people exchange sexual messages, pictures,
+            or videos using phones, tablets, or anything else online. This is
+            important to know because sharing intimate images can get
+            complicated and it is against the law if you&apos;re under a certain
+            age. If someone does it because they feel pressured or in exchange
+            for love or acceptance, it&apos;s called sexual exploitation.
+            Let&apos;s navigate this subject together.
+            <br />
+            <br />
+            If you ever need help because of sexting, there are many resources
+            and trusted adults that will help. You are not alone.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Say it Simple",
         vimeoId: "916194627",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194627/a0cfc99472",
-        externalLinks: [],
+        facilitationNote: `Facilitation tip:  Encourage open discussion with students using questions such as: Can you think of real-life situations where respecting digital boundaries is crucial? Reflect on the analogy of digital actions as a superhero code - how can we be superheroes championing respect in our online interactions?`,
+        description: (
+          <>
+            Just like we learned in Chapter 1, consent is our way of showing
+            respect for each other&apos;s boundaries, both in person and online.
+            We like to think of consent as our superhero shield, our superpower.
+            But, here&apos;s the reality check: sharing or pressuring others
+            without permission transforms our shield into a weapon. It breaks
+            not only the superhero code but also the law. Our digital actions
+            carry weight. Let&apos;s use our digital superpower wisely and be
+            the superheroes championing respect.
+            <br />
+            If you ever need help because of sexting, there are many resources
+            and trusted adults that will help. You are not alone.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "True or False",
         vimeoId: "908802480",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908802480/a7544fdc7d",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Use this video as an opportunity to discuss the issue of sexting and how the students are treating one another. You can pause the video after each question, to have discussion about what everyone thinks their answer would be, and discuss if you agree with what Camille, Kevin, Nate and Kara share.`,
+        description: (
+          <>
+            Let&apos;s apply what we&apos;ve learned through a game of True or
+            False, focusing on sexting and how we treat each other. Is it okay
+            to ask for a nude photo? What should you do if you get one? We
+            collected thoughts from friends, and their answers offer insights,
+            though opinions may vary. Remember, even seemingly small actions,
+            like sharing an intimate photo with someone you trust, can have
+            important consequences.
+            <br />
+            <br />
+            If you ever need help because of sexting, there are many resources
+            and trusted adults that will help. You don&apos;t have to deal with
+            this alone.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Imagine This",
         vimeoId: "916194610",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194610/0e52c2d1d1",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Encourage students to engage in a reflective discussion after watching the video, focusing on the concepts of consent and the legal implications of sexting. Provide them with scenarios to discuss how they would respond if they ever felt pressured to engage in sexting or if they became aware of someone sharing intimate images without consent. Emphasize the importance of setting boundaries and seeking support from trusted adults or resources if needed.`,
+        description: (
+          <>
+            In this video, we&apos;ll explore a common scenario about sexting.
+            Focus on two key factors in this video: consent and the law. Genuine
+            consent means a clear and enthusiastic YES; if you ever feel uneasy
+            or pressured, it&apos;s not true consent. Don&apos;t hesitate to set
+            boundaries - a simple &quot;no&quot; is enough. Remember, it&apos;s
+            against the law for anyone under 18 to send a nude, and those under
+            12 cannot consent to any sexual activity. Sending a nude is
+            considered a sexual act.
+            <br />
+            <br />
+            If you ever feel pressured to send nudes or you&apos;re concerned
+            about someone sharing an intimate image of you online, reach out to
+            a trusted adult or one of these resources. You are not alone.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades6-7/Gr6-7_Ch3_Part5_Sexting-and-Peer-Exploitation.pdf",
+        facilitationNote: `Facilitation tip: print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.`,
+        description: (
+          <>
+            It&apos;s time for you to reflect and apply what you&apos;ve learned
+            to your own life. We&apos;re here to support you, so you don&apos;t
+            have to face these challenges alone. Download or print this
+            infographic and reflection page to create a plan for protecting your
+            digital privacy. Consider ways to set boundaries for making safe
+            choices when feeling pressured. Think about a trusted adult in your
+            life who you could talk to about something like this.
+            <br />
+            <br />
+            Remember, if you ever need help because of sexting, there are many
+            resources and trusted adults who can help.
+            <br />
+            <br />
+            You&apos;re doing great! We&apos;re moving on to Chapter 4, where
+            we&apos;ll dive deeper into the internet and information sharing.
+            Keep going!
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
     ],
   },
@@ -657,6 +929,8 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "908804597",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908804597/808ce15b52",
+        facilitationNote: `Facilitation Tip: After introducing the chapter, engage students in a discussion about their online habits and experiences. Use open-ended questions to prompt reflection, such as: "What kind of information do you typically share online?" and "Have you ever considered who might have access to the information you share?". Encourage students to think critically about the potential risks and consequences of sharing personal information online and emphasize the importance of setting boundaries and being cautious about what they share.`,
+        description: `This chapter is all about the internet and how we share information!  When we're online, it's crucial to stick to the same boundaries and rules we follow in public and in person. Just like Camille shares in the video, we can't predict who might come across our online information and how they might use it. In this chapter, we'll explore what information is safe and unsafe to share, why it should matter to you, and how it connects to preventing sexual exploitation.`,
         externalLinks: [],
       },
       {
@@ -664,6 +938,8 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "916194645",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194645/de443d965c",
+        facilitationNote: `Facilitation Tip: Have students reflect on their online presence by checking their profiles and thinking about their online activities. Discuss the messages their online portrait may send to unfriendly accounts and encourage a conversation about what information should be kept private.`,
+        description: `Being online can feel like it's not real life, but it's actually just a different form of reality—except with more people and information that stays forever. Think of the digital world like a portal; unsafe individuals might use it to access your details and potentially manipulate you into risky situations. Everything you do online creates a lasting record, shaping your online portrait. Consider what message your online presence sends to less-friendly accounts. Remember, the only thing you can control online is how much and what you choose to share!`,
         externalLinks: [],
       },
       {
@@ -671,6 +947,8 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "908804813",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908804813/42a2ec5ff0",
+        facilitationNote: `Facilitation Tip: Use this video as an opportunity to discuss the importance of being safe online and careful about what information we share and who we share it with. You can pause the video after each question, to have discussion about what everyone thinks their answer would be, and discuss if you agree with what Camille, Kevin, Nate and Kara share.`,
+        description: `Are you ready for a game of True or False? This round is about staying safe online, especially with who we choose to trust and what information we decide to share. Together we will navigate some common but complex situations many of us run into online. Like what kind of questions are okay to answer, and which ones are red flags? When should you block someone?`,
         externalLinks: [],
       },
       {
@@ -678,12 +956,29 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "916194637",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194637/c8e90bc232",
+        facilitationNote: `Facilitation Tip: Engage students in a discussion about information sharing using the scenario in the video. Prompt reflection by asking questions like: What does this teach us about sharing information online? Encourage students to consider the messages Noah's online portrait communicates, and how friends and potential risks interpret and respond to online information.`,
+        description: `Join Sarah and Anna as they navigate online information sharing. While the video's situation may seem harmless, aside from Sarah scaring off a crush, the underlying truth is that any information we post online is accessible to anyone. This not only includes people like Sarah's friend Anna, but it also includes unsafe individuals online who have bad intentions. Whether in person or online, it's crucial to keep your personal information private.`,
         externalLinks: [],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades6-7/Gr6-7_Ch4_Part5_About-the-Internet-and-Information-Sharing.pdf",
+        facilitationNote: `Facilitation Tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.`,
+        description: (
+          <>
+            So what is safe vs unsafe information sharing online? Download or
+            print this infographic and reflection page to practice what
+            you&apos;ve learned about sharing photos and information online.
+            What is and isn&apos;t ok to share with followers online? Remember,
+            when we&apos;re online, it&apos;s crucial to stick to the same
+            boundaries and rules we follow in public and in person.
+            <br />
+            <br />
+            Great job! Let&apos;s transition to Chapter 5, where we&apos;ll
+            explore and discuss the topic of sextortion.
+          </>
+        ),
       },
     ],
   },
@@ -863,33 +1158,72 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "908805853",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908805853/369d607256",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip:  After watching the video, facilitate a discussion building on the conversation started in the video. Encourage them to share their initial thoughts and reactions. Ask probing questions such as: what signs did they associate with predators, based on what the kids mentioned? Now, think about the term "grooming" - when someone tries to build trust before causing harm. How can we tell if someone is genuinely trustworthy or if they have the wrong intentions?`,
+        description: `Chapter 6 is all about predatory people and grooming. But understanding if someone is a sexual predator can be difficult. We often associate predators with scary actions and appearances, but that's not always the case. It's their actions that define them as predators. When we talk about online predators, we mean individuals engaging in harmful actions and behaviors. Predatory behavior involves building trust with the other person before turning harmful - a process known as 'grooming.' So, how can you distinguish between someone trustworthy and someone trying to build trust for the wrong reasons? Let's explore this together.`,
       },
       {
         title: "Say it Simple",
         vimeoId: "916194694",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194694/e8c2585820",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Pause at the 41 second mark to discuss the 6 red flags to identify predatory behaviour. Ask students to share why each of these red flags on the screen are signs of predatory behaviour. What can we do if we notice these red flags in our online interactions?`,
+        description: (
+          <>
+            Being a predator isn&apos;t about age, gender, or appearance;
+            it&apos;s about actions. They try to take advantage of others
+            sexually, starting with flattery or false promises. It can be tricky
+            to identify predatory behavior and unsafe individuals, so watch out
+            for these red flags:
+            <br />
+            <br />
+            Asking you to keep secrets, offering you gifts, saying mean things
+            about your family, making the conversation sexual, asking you to
+            transfer to a different platform, not respecting your boundaries and
+            consent!
+            <br />
+            <br />
+            If someone you know starts to show even one of these signs, make
+            sure you tell an adult you trust.
+          </>
+        ),
       },
       {
-        title: "True or False",
+        title: "Red Flag/Green Flag",
         vimeoId: "908806030",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908806030/c176da8432",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip:  You can pause the video after each question, to have discussion about what everyone thinks their answer would be, and discuss if you agree with what Camille, Kevin, Nate and Kara share.`,
+        description: `Join Kevin, Camille, Kara, and Nate in a game of Red Flag/Green Flag to sharpen your skills at recognizing warning signs. Today's focus is on understanding the red flags when communicating with people online to help identify predatory behavior. A useful tip is to ask yourself: If this were happening in real life, would it be okay? Let's navigate through different scenarios and discuss whether they would be acceptable in real-life situations.`,
       },
       {
         title: "Imagine This",
         vimeoId: "916194681",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194681/0de43f0012",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: After watching the video, rewind and pause at 1:14 to dive deeper into the 'SUSS' acronym with the students. Prompt them to pinpoint the specific red flags in the SUSS acronym that occurred in the video animation featuring Alex. Encourage students to brainstorm additional examples of red flags for each category letter of the acronym: Stuff, Unusual Age, Sexual, and Switch.`,
+        description: `Interacting with people online can be challenging because it's hard to determine if someone is unsafe. A helpful question to ask ourselves is whether this would be okay if it were happening in real life. This becomes evident in the two nearly identical conversations Alex has, one online and one in person. It was much easier to identify red flags in person than online. Remember, whether in person or online, the signs of someone acting SUSS remain the same: Stuff; Unusual age; Sexual; Switch.`,
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades6-7/Gr6-7_Ch6_Part5_Predatory-People-and-Grooming.pdf",
+        facilitationNote: `Facilitation tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.`,
+        description: (
+          <>
+            Now, take a moment to reflect on your needs, especially those you
+            seek online, like self-esteem, belonging, popularity, fame, and
+            love. Be aware that unsafe people will try to meet those needs as a
+            lure into sexual exploitation. Download or print this infographic
+            and reflection page to list the needs you are trying to meet online
+            brainstorm ways you can meet those needs in healthy vs unhealthy
+            ways. Ensure you meet your needs positively and safely while
+            navigating the online space.
+            <br />
+            <br />
+            The final chapter is up next, and it&apos;s all about Human
+            Trafficking.
+          </>
+        ),
       },
     ],
   },
@@ -901,25 +1235,114 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "908806456",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908806456/3de695ad28",
-        externalLinks: [],
+        description: `Welcome to our final chapter! Today, we're discussing human trafficking. If this term is new to you, it means someone using another person to make money, either through unpaid work or selling their body. It's closely related to sexual exploitation. Let's dive into what human trafficking looks like and talk about how we can prevent it from happening to us or our friends.`,
+        facilitationNote: `Facilitation tip: Pause the video at 0:38, and ask students to answer the question on the screen before hearing the explanation later on in the video. Following the video, engage students in a discussion to gather their reactions and thoughts about the content and the explanation provided.`,
       },
       {
         title: "Say it Simple",
         vimeoId: "916194710",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194710/f89a4d42c0",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: After watching the video, engage students in a discussion about the concept of human trafficking using age-appropriate language. Encourage them to share their thoughts and questions about what they've learned. Emphasize the importance of speaking up if they suspect human trafficking is happening to themselves or someone they know. Provide information about relevant helplines and support services, reminding students that help is available.`,
+        description: (
+          <>
+            This is what we refer to as human trafficking - when individuals are
+            manipulated into working without pay or engaging in sexual
+            activities in exchange for money. It&apos;s a crime! If a friend, a
+            romantic partner, a family member or an online account pressures you
+            into doing something sexual, that&apos;s predatory. If they make
+            money from it, it transforms into human trafficking, and that person
+            would be called a human trafficker.
+            <br />
+            <br />
+            Anyone can be trafficked, and anyone can be a trafficker. If you
+            feel like this might be happening to you or someone you know, speak
+            up and tell someone safe that you trust!
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "Canadian Human Trafficking Hotline",
+            caption: "Call 1-833-900-1010",
+            href: "https://www.canadianhumantraffickinghotline.ca/",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
-        title: "True or False",
+        title: "What Would You Do?",
         vimeoId: "908806613",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908806613/5aa8610fe8",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Use this section as an opportunity for students to consider their responses to different scenarios related to human trafficking. Encourage them to think critically about how they would recognize red flags and support friends who might be in vulnerable situations. Discuss the importance of seeking help from trusted adults or using available resources if they encounter or suspect human trafficking.`,
+        description: (
+          <>
+            Get ready for something different! We&apos;re switching things up
+            and inviting you to consider how you would respond to various
+            situations. Join Kara, Nate, Camille, and Kevin in discussing
+            challenging scenarios, identifying red flags, and exploring ways to
+            support our friends.
+            <br />
+            <br />
+            Remember, if you or someone you know needs help, there are anonymous
+            and safe resources available.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "Canadian Human Trafficking Hotline",
+            caption: "Call 1-833-900-1010",
+            href: "https://www.canadianhumantraffickinghotline.ca/",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades6-7/Gr6-7_Ch7_Part4_Human-Trafficking.pdf",
+        facilitationNote: `Facilitation Tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for reflection and planning. Discuss together the discussion prompt on ways they can help raise awareness
+        about this issue and prevent it in their community.`,
+        description: (
+          <>
+            Print or download this infographic to recap what you&apos;ve learned
+            in this chapter. Take it a step further by using our reflection
+            page. How can being informed about human trafficking help you and
+            your friends stay safe? Take it a step further: Think of ways you
+            can help raise awareness about this issue and prevent it in your
+            community!
+            <br />
+            <br />
+            If you or someone you know needs help, these anonymous resources are
+            there for you. You don&apos;t have to deal with this alone.
+            It&apos;s never too late to reach out and report.
+            <br />
+            <br />
+            Congratulations! You&apos;ve completed The Prevention Project, where
+            we&apos;ve delved into important topics like consent, online safety,
+            and the dangers of exploitation. Give yourselves a well-deserved pat
+            on the back!
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "Canadian Human Trafficking Hotline",
+            caption: "Call 1-833-900-1010",
+            href: "https://www.canadianhumantraffickinghotline.ca/",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
     ],
   },
@@ -934,7 +1357,24 @@ export const chapters8to12: Chapter[] = [
         vimeoId: "908705285",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908705285/e7050108fb",
-        description: <>Welcome!</>,
+        description: (
+          <>
+            Welcome to The Prevention Project, where we&apos;re diving into
+            important conversations around sexual exploitation. Below,
+            you&apos;ll find animations, live-action videos with peers your age,
+            and more content to help you explore the nuances of topics like
+            consent, sexting, online grooming, and more. As you jump in, prepare
+            to challenge your perceptions and think about how some of this stuff
+            may apply in your own life. Remember, if you ever feel unsure or
+            encounter concerning content, reach out to a trusted adult or click
+            “Get Help Now” in the navigation bar to access some helpful
+            resources.
+            <br />
+            <br />
+            Together, let&apos;s make a difference in creating a safe online and
+            offline world for everyone! Click on a chapter below to begin!
+          </>
+        ),
       },
     ],
   },
@@ -1184,9 +1624,9 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Say it Simple",
-        vimeoId: "916194968",
+        vimeoId: "918118157",
         vimeoDownloadUrl:
-          "https://vimeo.com/user112092565/download/916194968/c3d52529e2",
+          "https://vimeo.com/user112092565/download/918118157/25459ae3ea",
         externalLinks: [],
       },
       {
