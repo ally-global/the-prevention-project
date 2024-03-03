@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import { Container } from "@mui/material";
 import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
+import { Analytics } from "@vercel/analytics/react";
 
 import StandardLayout from "@/components/StandardLayout";
 import NavBar from "@/components/NavBar/NavBar";
@@ -25,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Analytics />
         <Box
           sx={{
             maxWidth: `100%`,
