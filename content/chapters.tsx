@@ -796,6 +796,7 @@ export const chapters6to7: Chapter[] = [
             carry weight. Let&apos;s use our digital superpower wisely and be
             the superheroes championing respect.
             <br />
+            <br />
             If you ever need help because of sexting, there are many resources
             and trusted adults that will help. You are not alone.
           </>
@@ -1611,7 +1612,7 @@ export const chapters8to12: Chapter[] = [
         vimeoId: "916542194",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916542194/c7f4f50b5b",
-        facilitationNote: `Facilitation Tip: After watching Jesse's story, facilitate a discussion about the risks and consequences of sexting. Encourage students to reflect on the emotions and challenges faced by Jesse and brainstorm strategies for protecting themselves and their peers from exploitation. Use prompts like: What are some ways Jesse could have responded differently to the situation? How can we support friends who may be experiencing similar challenges?`,
+        facilitationNote: `Facilitation Tip: After watching Jesse's story, facilitate a discussion about the risks and consequences of sexting. Encourage students to reflect on the emotions and challenges faced by Jesse and brainstorm strategies for protecting themselves and their peers from exploitation. Use prompts like: How can we support friends who may be experiencing similar challenges?`,
         description: `Step into the shoes of Jesse as she navigates the aftermath of sharing intimate photos with a peer. Through Jesse's story, you'll witness the real-life consequences of sexting and the importance of seeking help. From the pressure to conform to societal norms to the legal ramifications of sharing intimate images, this story sheds light on the complexities of digital relationships.`,
         externalLinks: [
           {
