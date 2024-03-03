@@ -1153,7 +1153,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Predatory People and Grooming",
-    downloadUrl: `https://thepreventionproject-gr6-7-ch6.paperform.co/`,
+    downloadUrl: `https://thepreventionproject-gr67-ch-6.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",

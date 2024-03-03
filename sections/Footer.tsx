@@ -8,10 +8,12 @@ export const FooterItem = ({
   href,
   text,
   onClick,
+  newTab,
 }: {
   href: string;
   text: string;
   onClick?: () => void;
+  newTab?: boolean;
 }) => (
   <Link
     href={href}
@@ -20,6 +22,7 @@ export const FooterItem = ({
       margin: "2px",
     }}
     onClick={onClick}
+    target={newTab ? "_blank" : "_self"}
   >
     <Typography
       variant="caption"
@@ -137,6 +140,10 @@ const Footer = () => {
                     href="/about#book-a-presentation"
                   />
                   <FooterItem text={"Donate"} href="/about#donate" />
+                  <FooterItem
+                    text={"Acknowledgements"}
+                    href="/about#acknowledgements"
+                  />
                 </Stack>
               </Grid>
               <Grid item xs={2} sm={2} md={2} lg={2} xl={2}>
@@ -178,10 +185,15 @@ const Footer = () => {
           sx={{ display: "flex", gap: { xs: 2, sm: 2, md: 4 }, mt: "-10px" }}
         >
           <FooterItem
+            newTab
             text={"Terms & Conditions"}
             href="https://ally.org/terms"
           />
-          <FooterItem text={"Privacy Policy"} href="https://ally.org/terms" />
+          <FooterItem
+            newTab
+            text={"Privacy Policy"}
+            href="https://ally.org/terms"
+          />
         </Box>
       </Box>
     </Box>
