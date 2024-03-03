@@ -23,14 +23,14 @@ const AllyGlobalTile = () => {
       >
         <Box
           sx={{
-            height: { md: "478px", lg: "400px" },
+            height: { md: "630px", lg: "400px" },
             backgroundColor: "Grey300",
             display: "flex",
             justifyContent: "space-between",
             padding: 4,
           }}
         >
-          <Stack justifyContent={"space-between"}>
+          <Stack justifyContent={""}>
             <Stack spacing={3} sx={{ pr: { xs: 0, sm: 10, md: 2 } }}>
               <Text variant={"h4"} color={"PrimaryBlue"}>
                 {"Ally Global Foundation"}
@@ -63,7 +63,7 @@ const AllyGlobalTile = () => {
         </Box>
         <Box
           sx={{
-            height: { md: "478px", lg: "400px" },
+            height: { md: "630px", lg: "400px" },
             img: { width: "100%", height: "100%" },
           }}
         >

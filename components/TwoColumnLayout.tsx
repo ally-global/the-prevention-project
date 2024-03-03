@@ -50,6 +50,7 @@ const TwoColumnLayout = ({
         marginTop: "0px",
         padding: `0px !important`,
         width: `100%`,
+        height: `100%`,
       }}
       sx={sx || {}}
     >
