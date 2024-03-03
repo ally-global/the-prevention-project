@@ -10,7 +10,7 @@ const AcknowledgmentSectionWrappper = ({
   children: ReactNode;
 }) => {
   return (
-    <Stack spacing={2} alignItems={"center"} maxWidth={"280px"}>
+    <Stack spacing={2} alignItems={"center"} maxWidth={"300px"}>
       {children}
     </Stack>
   );
@@ -55,7 +55,31 @@ const Acknowledgements = () => {
             >
               We are deeply thankful for the invaluable insights and expertise
               provided by our dedicated team of education and lived experience
-              consultants.
+              consultants including Alexandra Ford,{" "}
+              <a
+                href={"https://thelaughingsurvivor.com/"}
+                target={"_blank"}
+                style={{ color: "#5538B7", textDecoration: "none" }}
+              >
+                The Laughing Survivor
+              </a>
+              ; Sarah Dillon,{" "}
+              <a
+                href={"https://youreloved.ca/"}
+                target={"_blank"}
+                style={{ color: "#5538B7", textDecoration: "none" }}
+              >
+                You&apos;re Loved
+              </a>
+              ; Carol Todd,{" "}
+              <a
+                href={"https://www.amandatoddlegacy.org/"}
+                target={"_blank"}
+                style={{ color: "#5538B7", textDecoration: "none" }}
+              >
+                Amanda Todd Legacy Society
+              </a>
+              .
             </Text>
           </AcknowledgmentSectionWrappper>
           <AcknowledgmentSectionWrappper>

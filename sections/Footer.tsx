@@ -68,7 +68,7 @@ const Footer = () => {
             minHeight: "250px",
           }}
         >
-          <Grid item xs={4} sm={4} md={8} lg={8} xl={8}>
+          <Grid item xs={4} sm={4} md={12} lg={12} xl={12}>
             <Grid
               container
               spacing={{
@@ -78,7 +78,7 @@ const Footer = () => {
                 lg: 3,
                 xl: 3,
               }}
-              columns={{ xs: 4, sm: 4, md: 8, lg: 8, xl: 8 }}
+              columns={{ xs: 4, sm: 4, md: 12, lg: 12, xl: 12 }}
               justifyContent="flex-start"
               alignItems="flex-start"
               height="100%"
@@ -86,7 +86,7 @@ const Footer = () => {
                 marginTop: "0px",
               }}
             >
-              <Grid item xs={4} sm={4} md={4} lg={4} xl={4}>
+              <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
                 <Box mb={2}>
                   <Typography
                     color={"PrimaryPurple"}
@@ -166,6 +166,24 @@ const Footer = () => {
                   <FooterItem text="Grades 6-7" href="/grades6-7" />
                   <FooterItem text="Grades 8-12" href="/grades8-12" />
                 </Stack>
+              </Grid>
+              <Grid item xs={2} sm={2} md={2} lg={2} xl={2}>
+                <Box mb={2}>
+                  <Typography
+                    color={"PrimaryPurple"}
+                    variant="button"
+                    component="span"
+                  >
+                    QUESTIONS?
+                  </Typography>
+                </Box>
+                <Typography
+                  variant={"caption"}
+                  color={`Grey800`}
+                  lineHeight={"24px"}
+                >
+                  Email us at thepreventionproject@ally.org
+                </Typography>
               </Grid>
             </Grid>
           </Grid>
