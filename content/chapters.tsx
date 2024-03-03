@@ -796,6 +796,7 @@ export const chapters6to7: Chapter[] = [
             carry weight. Let&apos;s use our digital superpower wisely and be
             the superheroes championing respect.
             <br />
+            <br />
             If you ever need help because of sexting, there are many resources
             and trusted adults that will help. You are not alone.
           </>
@@ -1410,7 +1411,7 @@ export const chapters8to12: Chapter[] = [
         description: `Get ready to challenge your understanding of consent with our interactive game of True or False. Together, we'll navigate through complex scenarios and explore the nuances of consent beyond verbal cues. From deciphering mixed signals to setting personal boundaries, this game will test your knowledge and deepen your understanding of consent in various contexts.`,
       },
       {
-        title: "Imagine This p1",
+        title: "Imagine This Pt1",
         vimeoId: "916194753",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194753/4e24a9ee6d",
@@ -1432,7 +1433,7 @@ export const chapters8to12: Chapter[] = [
         ),
       },
       {
-        title: "Imagine This p2",
+        title: "Imagine This Pt2",
         vimeoId: "916194791",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194791/9810efa152",
@@ -1611,7 +1612,7 @@ export const chapters8to12: Chapter[] = [
         vimeoId: "916542194",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916542194/c7f4f50b5b",
-        facilitationNote: `Facilitation Tip: After watching Jesse's story, facilitate a discussion about the risks and consequences of sexting. Encourage students to reflect on the emotions and challenges faced by Jesse and brainstorm strategies for protecting themselves and their peers from exploitation. Use prompts like: What are some ways Jesse could have responded differently to the situation? How can we support friends who may be experiencing similar challenges?`,
+        facilitationNote: `Facilitation Tip: After watching Jesse's story, facilitate a discussion about the risks and consequences of sexting. Encourage students to reflect on the emotions and challenges faced by Jesse and brainstorm strategies for protecting themselves and their peers from exploitation. Use prompts like: How can we support friends who may be experiencing similar challenges?`,
         description: `Step into the shoes of Jesse as she navigates the aftermath of sharing intimate photos with a peer. Through Jesse's story, you'll witness the real-life consequences of sexting and the importance of seeking help. From the pressure to conform to societal norms to the legal ramifications of sharing intimate images, this story sheds light on the complexities of digital relationships.`,
         externalLinks: [
           {
@@ -2049,7 +2050,7 @@ export const chapters8to12: Chapter[] = [
         description: `Ever heard of sugar baby relationships or selling your photos online for cash? It might seem innocent, even empowering, but let's delve deeper. These behaviors can pave the way to exploitation and trafficking. Join us as we unpack the realities behind these seemingly harmless activities and explore the risks that lurk beneath the surface.`,
       },
       {
-        title: "Say it Simple p1",
+        title: "Say it Simple Pt1",
         vimeoId: "916194993",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194993/a90e098d03",
@@ -2057,7 +2058,7 @@ export const chapters8to12: Chapter[] = [
         description: `Think making easy money by selling sexual content online sounds like a dream? Think again. Platforms like OnlyFans often glamorize this, but the truth is far from glamorous. These platforms profit off people's bodies, perpetuating the commodification of human beings. And once you post something online, you lose control over it, risking your privacy and reputation.`,
       },
       {
-        title: "Say it Simple p2",
+        title: "Say it Simple Pt2",
         vimeoId: "916195003",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916195003/25daeb9888",
