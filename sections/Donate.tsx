@@ -8,6 +8,7 @@ import Image from "next/image";
 import TitleAndParagraph from "@/components/TitleAndParagraph";
 import TwoColumnLayout, { ColumnWrapOrder } from "@/components/TwoColumnLayout";
 import AllyButton from "@/components/AllyButton";
+import Link from "next/link";
 
 const Donate = () => {
   return (
@@ -43,7 +44,9 @@ const Donate = () => {
                 </>
               }
             />
-            <AllyButton color={"PrimaryBlue"} text={"DONATE"} />
+            <Link href={"https://ally.org/?form=donate"} target={"_blank"}>
+              <AllyButton color={"PrimaryBlue"} text={"DONATE"} />
+            </Link>
           </Stack>
         </TwoColumnLayout>
       </StandardLayout>

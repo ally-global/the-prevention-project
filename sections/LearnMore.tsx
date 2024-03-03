@@ -8,6 +8,7 @@ import Image from "next/image";
 import TitleAndParagraph from "@/components/TitleAndParagraph";
 import TwoColumnLayout, { ColumnWrapOrder } from "@/components/TwoColumnLayout";
 import AllyButton from "@/components/AllyButton";
+import Link from "next/link";
 
 const LearnMore = () => {
   return (
@@ -31,7 +32,12 @@ const LearnMore = () => {
                 </>
               }
             />
-            <AllyButton color={"PurpleDark"} text={"BOOK A PRESENTATION"} />
+            <Link
+              href={"https://www.exploitationeducation.org/contact"}
+              target={"_blank"}
+            >
+              <AllyButton color={"PurpleDark"} text={"BOOK A PRESENTATION"} />
+            </Link>
           </Stack>
           <Box
             sx={{

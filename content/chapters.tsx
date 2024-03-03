@@ -935,7 +935,6 @@ export const chapters6to7: Chapter[] = [
           "https://vimeo.com/user112092565/download/908804597/808ce15b52",
         facilitationNote: `Facilitation Tip: After introducing the chapter, engage students in a discussion about their online habits and experiences. Use open-ended questions to prompt reflection, such as: "What kind of information do you typically share online?" and "Have you ever considered who might have access to the information you share?". Encourage students to think critically about the potential risks and consequences of sharing personal information online and emphasize the importance of setting boundaries and being cautious about what they share.`,
         description: `This chapter is all about the internet and how we share information!  When we're online, it's crucial to stick to the same boundaries and rules we follow in public and in person. Just like Camille shares in the video, we can't predict who might come across our online information and how they might use it. In this chapter, we'll explore what information is safe and unsafe to share, why it should matter to you, and how it connects to preventing sexual exploitation.`,
-        externalLinks: [],
       },
       {
         title: "Say it Simple",
@@ -944,7 +943,6 @@ export const chapters6to7: Chapter[] = [
           "https://vimeo.com/user112092565/download/916194645/de443d965c",
         facilitationNote: `Facilitation Tip: Have students reflect on their online presence by checking their profiles and thinking about their online activities. Discuss the messages their online portrait may send to unfriendly accounts and encourage a conversation about what information should be kept private.`,
         description: `Being online can feel like it's not real life, but it's actually just a different form of reality—except with more people and information that stays forever. Think of the digital world like a portal; unsafe individuals might use it to access your details and potentially manipulate you into risky situations. Everything you do online creates a lasting record, shaping your online portrait. Consider what message your online presence sends to less-friendly accounts. Remember, the only thing you can control online is how much and what you choose to share!`,
-        externalLinks: [],
       },
       {
         title: "True or False",
@@ -953,7 +951,6 @@ export const chapters6to7: Chapter[] = [
           "https://vimeo.com/user112092565/download/908804813/42a2ec5ff0",
         facilitationNote: `Facilitation Tip: Use this video as an opportunity to discuss the importance of being safe online and careful about what information we share and who we share it with. You can pause the video after each question, to have discussion about what everyone thinks their answer would be, and discuss if you agree with what Camille, Kevin, Nate and Kara share.`,
         description: `Are you ready for a game of True or False? This round is about staying safe online, especially with who we choose to trust and what information we decide to share. Together we will navigate some common but complex situations many of us run into online. Like what kind of questions are okay to answer, and which ones are red flags? When should you block someone?`,
-        externalLinks: [],
       },
       {
         title: "Imagine This",
@@ -962,7 +959,6 @@ export const chapters6to7: Chapter[] = [
           "https://vimeo.com/user112092565/download/916194637/c8e90bc232",
         facilitationNote: `Facilitation Tip: Engage students in a discussion about information sharing using the scenario in the video. Prompt reflection by asking questions like: What does this teach us about sharing information online? Encourage students to consider the messages Noah's online portrait communicates, and how friends and potential risks interpret and respond to online information.`,
         description: `Join Sarah and Anna as they navigate online information sharing. While the video's situation may seem harmless, aside from Sarah scaring off a crush, the underlying truth is that any information we post online is accessible to anyone. This not only includes people like Sarah's friend Anna, but it also includes unsafe individuals online who have bad intentions. Whether in person or online, it's crucial to keep your personal information private.`,
-        externalLinks: [],
       },
       {
         title: "Knowledge Snapshot",
@@ -1387,141 +1383,289 @@ export const chapters8to12: Chapter[] = [
   },
   {
     title: "Consent and Healthy Boundaries",
+    downloadUrl: `https://thepreventionproject-gr812-ch1.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
         vimeoId: "908705427",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908705427/04e0ec865e",
-        externalLinks: [
-          { name: "Resource name", caption: "Caption", href: "" },
-        ],
+        facilitationNote: `Facilitation Tip: Encourage students to reflect on their own experiences and share their thoughts on how media and societal norms shape their understanding of consent. Use open-ended questions like: How do you think movies and TV shows portray consent? Can you think of any examples where consent was misunderstood or misrepresented in media?`,
+        description: `Consent might sound simple, but it's more than just a yes or no. It's about freely giving permission and feeling comfortable with your choices. Join us as we unravel the complexities of consent and discover why it's such a big deal in our lives.`,
       },
       {
         title: "Say it Simple",
         vimeoId: "916194767",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194767/1eaafa2007",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Encourage students to reflect on times when they felt pressured to give consent or when they respected someone else's boundaries. Prompt questions like: How do you know when you're genuinely giving consent? Can you think of a time when you respected someone else's boundaries? How did it make you feel?`,
+        description: `Consent is all about freedom and choice. It's about having the power to decide what you're comfortable with and expressing that with enthusiasm. In this segment, we'll explore how consent isn't just a simple yes or no—it's about listening to your gut feelings and respecting your own boundaries. Join us as we delve into the importance of clear communication and respecting others' autonomy.`,
       },
       {
         title: "True or False",
         vimeoId: "908743419",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908743419/0fdb78ae25",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Use this segment as an opportunity to discuss the importance of recognizing non-verbal cues and respecting boundaries in relationships. You can pause the video after each question, to have discussion about what everyone thinks their answer would be, and discuss if you agree with what Ben, Salma, Shayna and Kevin share.`,
+        description: `Get ready to challenge your understanding of consent with our interactive game of True or False. Together, we'll navigate through complex scenarios and explore the nuances of consent beyond verbal cues. From deciphering mixed signals to setting personal boundaries, this game will test your knowledge and deepen your understanding of consent in various contexts.`,
       },
       {
         title: "Imagine This p1",
         vimeoId: "916194753",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194753/4e24a9ee6d",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: After watching Part 1, encourage students to discuss the dynamics of consent depicted in the scenario. Prompt questions like: How did Ryan and Jesse's miscommunication affect their relationship? What could Ryan have done differently to ensure Jesse felt respected and heard? Use this opportunity to explore the importance of active listening and respecting boundaries in all interactions.`,
+        description: (
+          <>
+            Join Ryan, Jesse and their friends in the school cafeteria as
+            tensions rise and miscommunications about consent surface. Through
+            their story, you&apos;ll witness the complexities of navigating
+            consent in relationships and the importance of clear communication.
+            As Ryan and Jesse grapple with their feelings and experiences,
+            you&apos;ll have the opportunity to reflect on the nuances of
+            consent and the impact of pressure on decision-making.
+            <br />
+            <br />
+            Remember Consent is like FRIES: Freely given; Reversible; Informed;
+            Enthusiastic; Specific
+          </>
+        ),
       },
       {
         title: "Imagine This p2",
         vimeoId: "916194791",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194791/9810efa152",
+        facilitationNote: `Facilitation Tip: After watching Part 2, facilitate a discussion about rejection and boundaries in relationships. Prompt questions like: How did Ryan handle rejection in the second scenario compared to the first? What can we learn from his growth in understanding consent and respecting boundaries? Encourage students to share their perspectives on handling rejection gracefully and fostering healthy relationships built on mutual respect.`,
+        description: (
+          <>
+            In this scenario, we see Ryan and Jesse&apos;s story play out in a
+            different way. Observe Ryan&apos;s growth as he learns to respect
+            Jesse&apos;s boundaries. Through their story, you&apos;ll gain
+            insights into the complexities of rejection and the importance of
+            honouring someone&apos;s decision, even if it differs from your own
+            desires.
+            <br />
+            <br />
+            Remember BEAR: Be understanding (even though it can sting);
+            Everything can be talked through; Accepting rejection and boundaries
+            shows confidence; Rejection is a natural part of relationships
+          </>
+        ),
         externalLinks: [],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch1_Part6_Consent-and-Healthy-Boundaries.pdf",
+        facilitationNote: `Facilitation Tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for self-discovery and introspection. Prompt questions like: How can you create a safe space for yourself to express your boundaries? How can you ensure that your actions align with your values and beliefs about consent?`,
+        description: `Reflect on your own personal boundaries and consider how you express consent in different situations. Download or print this infographic as a summary of all that you've learned in this chapter. Remember, consent is about understanding and respecting both your own boundaries and the boundaries of others.`,
       },
     ],
   },
   {
     title: "Sexual Exploitation",
+    downloadUrl: `https://thepreventionproject-gr812-ch2.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
         vimeoId: "908705594",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908705594/e85808f115",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Initiate a conversation about sexual exploitation by asking open-ended questions like: What comes to mind when you hear the term "exploitation"? Can you think of any examples of exploitation in the media or your community? Encourage students to share their thoughts and experiences to foster a deeper understanding of the topic.`,
+        description: `What do you think of when you hear the word exploitation? Like Salma mentions, exploitation means taking advantage of someone, and sexual exploitation refers to someone being taken advantage of sexually. It involves the element of exchange. In this chapter, we're going to unravel what some of these needs can look like, how we see exploitation happening, and how you can ensure it doesn’t happen to you.`,
+        externalLinks: [
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Say it Simple",
         vimeoId: "916194822",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194822/456afb75ea",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Encourage students to reflect on their understanding of exploitation and its implications for individuals' rights and autonomy. Prompt questions like: How would you explain sexual exploitation to someone who's never heard of it before? Can you think of any examples of exploitation in your own lives or communities? Use these questions to stimulate discussion and encourage critical thinking.`,
+        description: `Here, we're breaking down what exploitation means and why it's important to understand. Anyone under eighteen can't freely consent to sexual activity if it involves any form of exchange by law. Whether it's for money, relationships, popularity, or security, exploitation manifests in various ways, all devoid of genuine consent. Any exchange of sexual activity for something else undermines the essence of consent.`,
+        externalLinks: [
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "True or False",
         vimeoId: "916540823",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916540823/1c77f10339",
-        externalLinks: [],
+        description: `In this game of True or False, Ben, Kevin, Salma and Shayna explore healthy and unhealthy methods of fulfilling our needs. Whether it's seeking connection, financial security, or love, understanding the difference is crucial. From recognizing red flags in online interactions to promoting healthy ways of support, this game sheds light on navigating relationships and safeguarding personal boundaries.`,
+        facilitationNote: `Facilitation Tip: Use this segment as an opportunity to discuss the importance of identifying healthy and unhealthy ways of fulfilling our needs. You can pause the video after each question, to have discussion about what everyone thinks their answer would be, and discuss if you agree with what Ben, Salma, Shayna and Kevin share.`,
+        externalLinks: [
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Imagine This",
         vimeoId: "916194837",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194837/98ca40184b",
-        externalLinks: [],
+        description: `Sexual exploitation involves the exchange of a sexual act to meet a need. In this scenario, we can observe many of the red flags of grooming into sexual exploitation. These signs can be really subtle and many of them can feel good in the moment - but sexual activity should be given freely. You should never feel forced into any type of sexual activity, or feel like you “owe it” to somebody. It is always your choice and your right to give consent.`,
+        facilitationNote: `Facilitation Tip: Prompt a discussion around the red flags of sexual exploitation. You can ask questions like, “What are some other red flags that you notice?” or “What are the changes in Juliette's behaviour that you could observe as her friend?”.`,
+        externalLinks: [
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades8-12/Gr8-12_Ch2_Part5_Sexual-Exploitation.pdf",
+        facilitationNote: `Facilitation Tip: Utilize the reflection page as a valuable resource/reference when talking about sexual exploitation.`,
+        description: `Download or print this infographic as a concise summary of the key insights from this chapter. By understanding sexual exploitation and what it can look like, you’re empowered to navigate relationships with awareness and respect for yourself and others.`,
+        externalLinks: [
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
     ],
   },
   {
     title: "Sexting and Peer Exploitation",
+    downloadUrl: `https://thepreventionproject-gr812-ch3.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
         vimeoId: "908705792",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908705792/26c906aadc",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Start a discussion with teens about their perceptions of sexting and peer pressure. Encourage them to share their thoughts on the risks involved and how they can protect themselves and their peers from exploitation. Use open-ended questions like: What are some ways peer exploitation can happen? How do you think sharing intimate images without consent can affect relationships?`,
+        description: `What's the big deal with nude sharing? Peer exploitation happens when someone takes advantage of others in their own age group, often through coercive or manipulative behavior. This includes actions like sexting, where sharing intimate photos or videos can lead to serious consequences. Join us as we unpack the complexities of peer exploitation and its impact on relationships and trust.`,
+        externalLinks: [
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Say it Simple",
         vimeoId: "916542168",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916542168/32fff9f6b1",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Initiate a conversation about the importance of consent and respecting boundaries in digital communication. Encourage students to reflect on their own experiences and discuss strategies for setting boundaries and maintaining privacy online. Ask questions like: How do you define consent in the context of sexting? What steps can you take to ensure that your digital interactions are consensual and respectful?`,
+        description: `Let's clear the air about sexting. Contrary to popular belief, not everyone is doing it. In fact, less than half of youth have ever sent a nude. It's essential to understand that our bodies belong to us, and sharing intimate images without consent is a violation of trust and privacy. By knowing your rights and seeking help when needed, you can take control of your digital footprint and protect yourself from exploitation.`,
+        externalLinks: [
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "True or False",
         vimeoId: "916542036",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916542036/d81aa94c05",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Use this interactive segment to engage students in critical thinking and discussion about sexting and peer exploitation. Pause the video after each question to allow time for reflection and group discussion. Encourage students to consider the implications of their digital actions and the importance of consent in all aspects of relationships.`,
+        description: `Let's play a game of True or False to test your knowledge about sexting and consent. From the prevalence of sexting among teens to the legality of sharing intimate images without consent, we'll explore common misconceptions and uncover the truth behind these issues. Get ready to challenge your understanding and learn how to navigate digital relationships responsibly.`,
+        externalLinks: [
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Imagine This",
         vimeoId: "916542194",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916542194/c7f4f50b5b",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: After watching Jesse's story, facilitate a discussion about the risks and consequences of sexting. Encourage students to reflect on the emotions and challenges faced by Jesse and brainstorm strategies for protecting themselves and their peers from exploitation. Use prompts like: What are some ways Jesse could have responded differently to the situation? How can we support friends who may be experiencing similar challenges?`,
+        description: `Step into the shoes of Jesse as she navigates the aftermath of sharing intimate photos with a peer. Through Jesse's story, you'll witness the real-life consequences of sexting and the importance of seeking help. From the pressure to conform to societal norms to the legal ramifications of sharing intimate images, this story sheds light on the complexities of digital relationships.`,
+        externalLinks: [
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch3_Part5_Sexting-and-Peer-Exploitation.pdf",
+        description: `Let's break down the facts about sexting and peer exploitation. Despite common misconceptions, not everyone is engaged in sexting, and the majority of youth prioritize respect and consent in their relationships. However, the risks of peer exploitation are real, with a significant number of teens experiencing the unauthorized sharing of intimate images. By understanding your rights and taking proactive steps to protect yourself and others, you can help create a culture of respect and consent in your community.`,
+        facilitationNote: `Facilitation Tip: Use this summary to reinforce key takeaways from the chapter and encourage students to advocate for their rights and well-being in digital spaces. Provide resources and support for those who may have experienced peer exploitation, and emphasize the importance of seeking help from trusted adults or professionals. Encourage students to take an active role in promoting healthy relationships and digital citizenship among their peers.`,
+        externalLinks: [
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
     ],
   },
   {
     title: "Exploiters and Predators",
+    downloadUrl: `https://thepreventionproject-gr812-ch4.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
         vimeoId: "908705992",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908705992/08b0460c68",
-        externalLinks: [],
+        description: `Ever wondered what exploiters and predators look like? It's not about age or appearance—it's about behavior. In this chapter, we delve into the world of predatory behavior and explore what makes someone exploitative. From seeking special attention to engaging in inappropriate behavior, learn how to recognize the signs and protect yourself from potential harm.`,
+        facilitationNote: `Facilitation Tip: Encourage open discussion about the misconceptions surrounding predators. Ask questions like: What do you think are common misconceptions about predators? How can understanding the behavior rather than appearance help us stay safe?`,
       },
       {
         title: "Say it Simple",
         vimeoId: "916194897",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194897/f1e23e158c",
+        facilitationNote: `Facilitation Tip: Use this segment as an opportunity to discuss healthy boundaries with students. Ask questions like: How can you tell if someone is trying to manipulate you into doing something you're not comfortable with? What are some strategies for setting and maintaining boundaries in relationships?`,
+        description: `Did you know that the average age of a predatory person in Canada is only 24? Acting predatory isn't about age — it's about engaging in inappropriate behavior with a minor for sexual reasons. Predatory individuals may try to make you feel mature for your age, give you special attention, or engage you in provocative sexual behaviors. Learn to recognize these behaviors to protect yourself from potential exploitation.`,
         externalLinks: [],
       },
       {
@@ -1529,181 +1673,442 @@ export const chapters8to12: Chapter[] = [
         vimeoId: "908749718",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908749718/3fca0d7d55",
-        externalLinks: [],
+        description: `Welcome to True or False, where we debunk common myths about exploitative behavior. Test your knowledge and learn how to identify red flags. Remember, understanding the signs of exploitation is key to protecting yourself and others from harm.`,
+        facilitationNote: `Facilitation Tip: After the video, discuss the importance of trusting your instincts. Ask questions like: How can you differentiate between genuine interest and manipulative behavior? What role do instincts play in recognizing potentially dangerous situations?`,
       },
       {
         title: "Imagine This",
         vimeoId: "916194885",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194885/6d8027c60c",
+        facilitationNote: `Facilitation Tip: Use this scenario as a starting point for discussing online safety. Ask questions like: What are some strategies for staying safe online? How can you differentiate between genuine connections and exploitative behavior in online interactions?`,
+        description: `Join us as we explore a scenario where Jesse encounters potentially exploitative individuals online. Through her experience, you'll gain insight into the tactics used by predators and exploitative people. Learn how to spot warning signs and protect yourself from online threats.`,
         externalLinks: [],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades8-12/Gr8-12_Ch4_Part5_Exploiters-and-Predators.pdf",
+        facilitationNote: `Facilitation Tip: Print out the Knowledge Snapshot as a reference for students to recognize red flags. Encourage them to share what they've learned with their peers and discuss ways to support each other in staying safe from exploitation.`,
+        description: `Predators and exploiters are not defined by age or appearance but by their behavior. Understanding the red flags of exploitative behavior can help you stay safe. Remember, it's important to trust your instincts and seek help if you feel uncomfortable or threatened.`,
       },
     ],
   },
   {
     title: "Internet Dynamics and Grooming",
+    downloadUrl: `https://thepreventionproject-gr812-ch5.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
         vimeoId: "908706157",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908706157/25093123b4",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Start a discussion with students about their perceptions of online interactions and the concept of grooming. Encourage them to share their thoughts on how they perceive trust-building online and any experiences they've had that felt uncomfortable. Use open-ended questions like: What do you think grooming means in an online context? Have you ever felt uneasy during an online interaction? How do you differentiate between genuine connections and potential grooming attempts?`,
+        description: `Grooming isn't just about trimming beards or fixing hair—it's a serious tactic used by predators online to build trust and exploit vulnerabilities. In this chapter, we'll delve into the murky waters of internet dynamics and grooming. From understanding how online interactions can be manipulated to spotting the signs of grooming, join us as we navigate the digital landscape and uncover the importance of staying vigilant.`,
       },
       {
         title: "Say it Simple",
         vimeoId: "916194919",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194919/51e3e09633",
-        externalLinks: [],
+        description: `Ever wonder why your online platforms seem to know you so well? It's because every click, like, and comment you make leaves a digital footprint. But here's the catch: while platforms use this data to personalize your experience, predators can use it to target you. From flattering compliments to offers that seem too good to be true, predators know how to exploit your needs and vulnerabilities. In this segment, we'll break down the dangers of oversharing online and how to stay safe in the digital realm.`,
+        facilitationNote: `Facilitation Tip: Lead a conversation with students about the information they share online and its potential consequences. Discuss the difference between harmless interactions and red flags that may indicate grooming behavior. Encourage critical thinking by asking questions like: How do you think platforms use your data to personalize your experience? Can you identify any examples of oversharing online? What precautions do you take to protect your privacy online?`,
       },
       {
-        title: "True or False",
+        title: "Red Flag/Green Flag",
         vimeoId: "908750312",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908750312/3a0b22bb8a",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Engage students in an interactive activity where they identify and discuss various online scenarios presented as red flags or green flags. Encourage them to share their reasoning behind their choices and facilitate a dialogue about digital safety. Prompt questions like: What signals do you look for to determine if an online interaction is safe? How can you protect yourself from potential grooming tactics? What strategies can you use to maintain boundaries online?`,
+        description: `Welcome to Red Flag - Green Flag, where we decipher the signs of grooming in online interactions. From seemingly innocent compliments to requests for personal information, we'll explore the nuances of online behavior and how to distinguish between safe and risky interactions.`,
       },
       {
         title: "Imagine This",
         vimeoId: "916194908",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194908/82a2001f93",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: After watching the scenario unfold, facilitate a discussion about the risks and realities of online grooming. Encourage students to reflect on their own online experiences and share strategies for staying safe. Ask questions like: How did Ava and Sonya's online interactions differ from their real-life perceptions? What warning signs did you notice in the scenario? How can you support a friend who may be experiencing grooming or exploitation online?`,
+        description: `Step into the digital world where the lines between friend and foe blur, and trust can be easily manipulated. Through the eyes of Ava and Sonya, we'll explore the stark reality of online grooming and its impact on unsuspecting victims. From seemingly harmless interactions to dangerous encounters, their stories shed light on the dangers lurking behind screens.`,
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch5_Part5_Internet-Dynamics-and-Grooming.pdf",
+        facilitationNote: `Facilitation Tip: Use the knowledge snapshot as a springboard for discussing the prevalence of online exploitation and the importance of digital literacy. Encourage students to critically analyze their online interactions and seek support if they encounter suspicious behavior. Prompt discussions about strategies for staying safe online and empowering peers to recognize and report grooming attempts.`,
+        description: `Luring and grooming may sound like abstract concepts, but they're real threats in the digital age. From deceptive tactics to alarming statistics, understanding the dangers of online exploitation is crucial for staying safe online.`,
       },
     ],
   },
   {
     title: "Sextortion",
+    downloadUrl: `https://thepreventionproject-gr812-ch6.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
         vimeoId: "908706340",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908706340/aeeb5fd019",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Start by asking students what they think sextortion means and if they've heard about it before. This can open up a discussion about online safety and the importance of being cautious with sharing personal information and images online.`,
+        description: (
+          <>
+            Sextortion may seem like a distant threat, but it&apos;s a real and
+            growing issue, especially for young males. It&aposs a form of
+            digital blackmail where someone coerces you into sending sexual
+            content and then uses that to manipulate you into sending more or
+            giving them money. Join us as we explore the dangers of sextortion
+            and how to protect yourself online.
+            <br />
+            <br />
+            If you are facing being pressured or blackmailed online, there are
+            many resources and trusted adults that will help. You don&apos;t
+            have to deal with this alone.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "Cybertip",
+            caption: "Sextortion reporting",
+            href: "https://cybertip.ca/",
+          },
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+        ],
       },
       {
         title: "Say it Simple",
         vimeoId: "916194935",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194935/58f2b3802c",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Discuss the importance of setting boundaries online and recognizing red flags in digital interactions. Encourage students to think about ways they can protect themselves from potential threats and to always trust their instincts if something feels wrong.`,
+        description: (
+          <>
+            Online interactions can be fun, but they can also be risky.
+            Sextortion is a serious threat where someone might use your intimate
+            photos against you to get what they want. Remember, it&apos;s never
+            okay for someone to pressure you into sharing explicit images or
+            videos. If you ever find yourself in this situation, stop
+            communicating with the person, save all the information, and seek
+            help from a trusted adult immediately.
+            <br />
+            <br />
+            If you are facing being pressured or blackmailed online, there are
+            many resources and trusted adults that will help. You don&apos;t
+            have to deal with this alone.
+          </>
+        ),
+
+        externalLinks: [
+          {
+            name: "Cybertip",
+            caption: "Sextortion reporting",
+            href: "https://cybertip.ca/",
+          },
+          {
+            name: "DontGetSextorted.ca",
+            caption: "Send a Naked Mole Rat instead",
+            href: "https://dontgetsextorted.ca/",
+          },
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+        ],
       },
       {
-        title: "True or False",
+        title: "What Would You Do?",
         vimeoId: "908750660",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908750660/0a97b387c7",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Use these scenarios as a starting point for a role-playing activity. Ask students to act out how they would respond in each situation and discuss the pros and cons of their chosen actions. Emphasize the importance of staying calm and seeking help from trusted adults.`,
+        description: (
+          <>
+            In this scenario-based segment, we&apos;ll explore different
+            situations involving sextortion and discuss how to respond if you
+            ever find yourself in a similar predicament. From receiving
+            unsolicited explicit messages to being threatened with exposure,
+            we&apos;ll cover practical steps you can take to protect yourself
+            and seek help.
+            <br />
+            <br />
+            If you are facing being pressured or blackmailed online, there are
+            many resources and trusted adults that will help. You don&apos;t
+            have to deal with this alone.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "Cybertip",
+            caption: "Sextortion reporting",
+            href: "https://cybertip.ca/",
+          },
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+        ],
       },
       {
         title: "Imagine This",
         vimeoId: "916194927",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194927/5627aaa244",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: After watching the scenario, facilitate a discussion about the warning signs of sextortion and the importance of seeking help if you feel uncomfortable or threatened online. Encourage students to share their thoughts and experiences with online interactions.`,
+        description: (
+          <>
+            Step into the shoes of Ryan as he navigates a dangerous online
+            interaction that leads to sextortion. Witness the tactics used by
+            predators to manipulate and coerce individuals into sharing intimate
+            content. Through Ryan&apos;s story, you&apos;ll gain insight into
+            the complexities of online exploitation and the importance of
+            staying vigilant in digital spaces.
+            <br />
+            <br />
+            If you are facing being pressured or blackmailed online, there are
+            many resources and trusted adults that will help. You don&apos;t
+            have to deal with this alone.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "Cybertip",
+            caption: "Sextortion reporting",
+            href: "https://cybertip.ca/",
+          },
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+        ],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades8-12/Gr8-12_Ch6_Part5_Sextortion.pdf",
+        facilitationNote: `Facilitation Tip: Use this summary as a reference point for discussing the key takeaways from the chapter. Encourage students to ask questions.`,
+        description: (
+          <>
+            Sextortion is a serious crime that can have devastating
+            consequences. It predominantly targets young males and involves
+            coercing victims into sending sexual content, which is then used to
+            blackmail them for money or more explicit material. Understanding
+            the risks and knowing how to protect yourself online is crucial.
+            Remember, if you ever experience sextortion, stop communicating with
+            the perpetrator, save all evidence, and report it to the
+            authorities.
+            <br />
+            <br />
+            If you are facing being pressured or blackmailed online, there are
+            many resources and trusted adults that will help. You don&apos;t
+            have to deal with this alone.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "Cybertip",
+            caption: "Sextortion reporting",
+            href: "https://cybertip.ca/",
+          },
+          {
+            name: "NeedHelpNow.ca",
+            caption: "Support for what to do",
+            href: "http://NeedHelpNow.ca",
+          },
+        ],
       },
     ],
   },
   {
     title: "Pimps and Human Trafficking",
+    downloadUrl: `https://thepreventionproject-gr812-ch7.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
         vimeoId: "908706529",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908706529/af3e350de8",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Start the discussion by asking students what they understand about pimps and human trafficking. Use their responses as a springboard to delve into the complexities of exploitation and the tactics used by traffickers. Encourage critical thinking by asking questions like: How have you seen human trafficking represented in the media? What are some common misconceptions about human trafficking?`,
+        description: (
+          <>
+            Ever wondered about the connection between pimps and human
+            trafficking? In this chapter, we dive deep into the world of
+            exploitation, revealing how pimps profit off of the sexual services
+            of others. From grooming to coercion, we unravel the tactics used by
+            traffickers to manipulate and control their victims. Join us as we
+            shed light on the dark realities of human trafficking and empower
+            ourselves with knowledge to recognize the warning signs.
+          </>
+        ),
+        externalLinks: [
+          {
+            name: "Canadian Human Trafficking Hotline",
+            caption: "Call 1-833-900-1010",
+            href: "https://www.canadianhumantraffickinghotline.ca/",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Say it Simple",
         vimeoId: "918118157",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/918118157/25459ae3ea",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Foster a safe space for discussion by emphasizing the importance of recognizing coercion in relationships. Encourage students to reflect on the dynamics of power and control, using scenarios from the video as starting points. Prompt questions like: How can we differentiate between a healthy relationship and one involving coercion? What are some red flags that someone might be exploiting their partner?`,
+        description: `Human trafficking isn't often about kidnapping or smuggling across borders—it's about coercion and exploitation. In this segment, we break down the reality of human trafficking and how anyone, even someone you trust, can be involved. Learn to recognize the warning signs and understand that coercion can come in many forms, from pressure by a romantic partner to promises of financial gain. Together, let's arm ourselves with knowledge to stay safe and support those who may be at risk.`,
+        externalLinks: [
+          {
+            name: "Canadian Human Trafficking Hotline",
+            caption: "Call 1-833-900-1010",
+            href: "https://www.canadianhumantraffickinghotline.ca/",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
-        title: "True or False",
+        title: "He's Just a Bad Boyfriend",
         vimeoId: "908750942",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908750942/db82ce577c",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Use this game as a springboard for discussing the complexities of abusive relationships and exploitation. Encourage students to analyze each scenario critically, considering the underlying power dynamics and potential consequences. Prompt questions like: How can we support a friend who may be in an unhealthy relationship? What resources are available for those who need help escaping exploitation?`,
+        description: `Welcome to "He's Just a Bad Boyfriend," where we playfully challenge common perceptions of unhealthy relationships. In this interactive game, we navigate through scenarios to distinguish between bad behavior and potential signs of trafficking. From missed birthdays to financial manipulation, we unpack the behaviors that may indicate abuse and exploitation. Join us as we sharpen our awareness and learn to recognize the warning signs of trafficking.`,
+        externalLinks: [
+          {
+            name: "Canadian Human Trafficking Hotline",
+            caption: "Call 1-833-900-1010",
+            href: "https://www.canadianhumantraffickinghotline.ca/",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Imagine This",
         vimeoId: "916194948",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194948/115e7ae149",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: After watching the scenario, facilitate a discussion about the warning signs of trafficking and the importance of seeking help. Encourage students to reflect on the ways in which coercion can manifest in their own lives, using Kate and Sara's story as a reference point. Prompt questions like: How can we support a friend who may be experiencing exploitation? What resources are available for those in need of assistance?`,
+        description: `Step into the shoes of Kate and Sara as we explore a chilling scenario of manipulation and coercion. Through their story, we witness how seemingly innocent gestures can mask darker intentions. From lavish gifts to coercive demands, we unravel an example of the tactics used by traffickers.`,
+        externalLinks: [
+          {
+            name: "Canadian Human Trafficking Hotline",
+            caption: "Call 1-833-900-1010",
+            href: "https://www.canadianhumantraffickinghotline.ca/",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
       {
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch7_Part5_Pimps-and-Human-Trafficking.pdf",
+        facilitationNote: `Facilitation Tip: Use the knowledge snapshot as a tool for deeper understanding and reflection. Encourage students to discuss each myth and truth, exploring their implications for recognizing and addressing human trafficking. Prompt questions like: How can we raise awareness about human trafficking in our community? What steps can we take to support survivors and prevent exploitation?`,
+        description: `Challenge common misconceptions about human trafficking with this knowledge snapshot. Bust myths and uncover truths about exploitation, from the demographics of victims to the tactics used by traffickers. Empower yourself with essential knowledge to recognize the warning signs and take action against exploitation in your community. Together, let's build a safer, more informed society where everyone can thrive free from coercion and exploitation.`,
+        externalLinks: [
+          {
+            name: "Canadian Human Trafficking Hotline",
+            caption: "Call 1-833-900-1010",
+            href: "https://www.canadianhumantraffickinghotline.ca/",
+          },
+          {
+            name: "Kids Help Phone (24/7)",
+            caption: `Text 'CONNECT' to 686868 OR CALL 1-800-668-6868`,
+            href: "https://kidshelpphone.ca/urgent-help",
+          },
+        ],
       },
     ],
   },
   {
     title: "High-Risk Behaviours",
+    downloadUrl: `https://thepreventionproject-gr812-ch8.paperform.co/`,
     content: [
       {
         title: "What's the Big Deal?",
         vimeoId: "908706690",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908706690/517b7aa158",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Encourage open discussion about the perceptions and realities of sugar baby relationships and online content selling. Prompt questions like: How do you perceive these activities? What risks do you think might be associated with them? This sets the stage for a deeper exploration of the topic.`,
+        description: `Ever heard of sugar baby relationships or selling your photos online for cash? It might seem innocent, even empowering, but let's delve deeper. These behaviors can pave the way to exploitation and trafficking. Join us as we unpack the realities behind these seemingly harmless activities and explore the risks that lurk beneath the surface.`,
       },
       {
         title: "Say it Simple p1",
         vimeoId: "916194993",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194993/a90e098d03",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Start a conversation about online platforms and their impact on society's perception of human worth. Encourage critical thinking by asking questions like: What messages do these platforms send about human value? How can we navigate online spaces while protecting our privacy and dignity?`,
+        description: `Think making easy money by selling sexual content online sounds like a dream? Think again. Platforms like OnlyFans often glamorize this, but the truth is far from glamorous. These platforms profit off people's bodies, perpetuating the commodification of human beings. And once you post something online, you lose control over it, risking your privacy and reputation.`,
       },
       {
         title: "Say it Simple p2",
         vimeoId: "916195003",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916195003/25daeb9888",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Prompt a discussion about power dynamics in relationships and how they affect consent. Encourage students to reflect on what makes a relationship healthy and equal. Ask questions like: What does a healthy relationship look like to you? How can we ensure that relationships are based on mutual respect and consent?`,
+        description: `Sugar dating may sound sweet, but it's anything but. These relationships often involve a power imbalance, with younger individuals disadvantaged by their lack of financial stability and life experience. True healthy relationships are built on equality, not transactions. It's essential to question pop culture narratives and consider who truly benefits from these arrangements.`,
       },
       {
         title: "True or False",
         vimeoId: "908751430",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908751430/ef558787e9",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: Use this segment as an interactive learning opportunity. Encourage participants to critically analyze each statement and discuss their reasoning behind their answers. Foster a safe environment for open dialogue and exploration of different perspectives.`,
+        description: `Welcome to True or False, where we challenge common beliefs about high-risk behaviors. From selling sexual content online to sugar dating, let's separate myth from reality. Engage with the questions and join the discussion to deepen your understanding of these complex issues.`,
       },
       {
         title: "Imagine This",
         vimeoId: "916194974",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/916194974/cfdd30314d",
-        externalLinks: [],
+        facilitationNote: `Facilitation Tip: After viewing the scenario, facilitate a reflection on the risks and consequences depicted. Encourage students to consider the pressures and challenges faced by John and Jane, and discuss strategies for making safer choices online.`,
+        description: `Step into the shoes of John and Jane as their paths intersect in the digital realm. Through their story, we'll explore the real-life implications of seemingly innocent choices and the importance of informed decision-making.`,
       },
       {
         title: "Knowledge Snapshot 1",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch8_Part6_High-Risk-Behaviours-OnlyFans.pdf",
+        facilitationNote: `Facilitation Tip: Use this snapshot as a springboard for discussing online safety and informed decision-making. Encourage students to critically evaluate online platforms and their potential risks. Facilitate a brainstorming session on strategies for mitigating these risks and promoting digital well-being.`,
+        description: `Let's debunk the myths surrounding platforms like OnlyFans. Despite promises of quick wealth, the reality is far less glamorous. From financial disputes to privacy breaches, there are numerous risks associated with selling sexual content online. By understanding the truth behind the hype, we can empower ourselves to make informed choices and protect our well-being.`,
       },
       {
         title: "Knowledge Snapshot 2",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch8_Part7_High-Risk-Behaviours-Sugaring.pdf",
+        description: (
+          <>
+            Explore the allure and dangers of sugar baby relationships. Despite
+            their portrayal as luxury dating, these arrangements often exploit
+            power imbalances and perpetuate harmful stereotypes. By examining
+            the realities of sugar dating, we can challenge misconceptions and
+            advocate for authentic relationships based on mutual respect and
+            consent.
+            <br />
+            <br />
+            Congratulations! You&apos;ve completed The Prevention Project,
+            equipping yourself with knowledge and insights to navigate complex
+            issues surrounding exploitation and healthy relationships. Remember,
+            education is just the beginning. Now, it&apos;s time to take what
+            you&apos;ve learned and put it into action.
+          </>
+        ),
+        facilitationNote: `Facilitation Tip: Encourage a deeper exploration of power dynamics and consent in relationships. Prompt discussions on the societal influences that shape our perceptions of romance and intimacy. Foster empathy and understanding by encouraging students to consider the experiences of individuals involved in sugar dating.`,
       },
     ],
   },

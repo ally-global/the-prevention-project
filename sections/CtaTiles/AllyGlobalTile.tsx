@@ -5,6 +5,7 @@ import Text from "@/components/Text";
 import TwoColumnLayout, { ColumnWrapOrder } from "@/components/TwoColumnLayout";
 import { Box, Stack } from "@mui/material";
 import Image from "next/image";
+import Link from "next/link";
 
 const AllyGlobalTile = () => {
   return (
@@ -39,19 +40,19 @@ const AllyGlobalTile = () => {
                 rebuild their lives. In Canada, our focus is to prevent
                 exploitation and human trafficking by empowering individuals and
                 communities with essential information about what this issue
-                looks like locally. <br />
-                <br />
-                We are working alongside organizations and individuals with
-                lived experience across Canada to expand the research in this
-                area, and to develop survivor-informed educational
-                resources—like The Prevention Project.
+                looks like locally. We are working alongside organizations and
+                individuals with lived experience across Canada to expand the
+                research in this area and to develop survivor-informed
+                educational resources—like The Prevention Project.
               </Text>
             </Stack>
-            <AllyButton
-              text={"LEARN MORE"}
-              color={"PrimaryBlue"}
-              sx={{ mt: 4 }}
-            />
+            <Link href={"https://ally.org/"} target={"_blank"}>
+              <AllyButton
+                text={"LEARN MORE"}
+                color={"PrimaryBlue"}
+                sx={{ mt: 4 }}
+              />
+            </Link>
           </Stack>
           <Image
             src={"/images/Ally-Global-Logo.png"}
