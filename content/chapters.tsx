@@ -1752,7 +1752,7 @@ export const chapters8to12: Chapter[] = [
         description: (
           <>
             Sextortion may seem like a distant threat, but it&apos;s a real and
-            growing issue, especially for young males. It&aposs a form of
+            growing issue, especially for young males. It&apos;s a form of
             digital blackmail where someone coerces you into sending sexual
             content and then uses that to manipulate you into sending more or
             giving them money. Join us as we explore the dangers of sextortion
