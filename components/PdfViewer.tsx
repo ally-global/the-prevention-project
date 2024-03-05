@@ -4,7 +4,7 @@ const PdfViewer = ({ pathToFile }: { pathToFile: string }) => {
   return (
     <Box
       sx={{
-        display: { xs: "none", sm: "flex" },
+        display: { xs: "none", sm: "none", md: "flex" },
         justifyContent: "center",
         alignItems: "center",
       }}
