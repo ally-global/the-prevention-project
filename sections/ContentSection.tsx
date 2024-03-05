@@ -57,7 +57,7 @@ const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
                 {selectedChapterSection.title}
               </Text>
               {selectedChapterSection.pdfUrl && (
-                <RenderOn breakPoints={["xs", "sm"]}>
+                <RenderOn breakPoints={["xs", "sm", "md"]}>
                   <Link target="_blank" href={selectedChapterSection.pdfUrl}>
                     <AllyButton
                       text={"Download PDF"}

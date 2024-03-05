@@ -97,7 +97,7 @@ export const theme = createTheme({
   spacing: 8,
   breakpoints: {
     keys: ["xs", "sm", "md", "lg", "xl"],
-    values: { xs: 0, sm: 600, md: 900, lg: 1536, xl: 1744 },
+    values: { xs: 0, sm: 600, md: 900, lg: 1370, xl: 1744 },
   },
   direction: "ltr",
   typography: {
