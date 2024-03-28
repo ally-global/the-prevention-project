@@ -31,7 +31,7 @@ export const AreYouAParentCard = () => {
           and youth.
         </Text>
       </Stack>
-      <Link href={"/library"}>
+      <Link href={"/library"} style={{ textDecoration: "none" }}>
         <AllyButton
           sx={{ mt: 4 }}
           text="BROWSE THE RESOURCE LIBRARY"
@@ -61,7 +61,7 @@ export const AreYouAnEducatorCard = () => {
           free.
         </Text>
       </Stack>
-      <Link href={"/library"}>
+      <Link href={"/library"} style={{ textDecoration: "none" }}>
         <AllyButton
           sx={{ mt: 4 }}
           text="BROWSE THE RESOURCE LIBRARY"

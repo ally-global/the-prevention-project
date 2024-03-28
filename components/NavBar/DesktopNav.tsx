@@ -60,7 +60,7 @@ const DesktopNav: FC = () => {
         </AllyButton>
       </Box>
       <Box>
-        <Link href={"/"}>
+        <Link href={"/"} style={{ textDecoration: "none" }}>
           <AllyButton text={"CHOOSE YOUR GRADE"} />
         </Link>
       </Box>

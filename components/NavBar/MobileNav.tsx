@@ -147,7 +147,11 @@ const MobileNav: FC = () => {
           </AllyButton>
         </MobileMenuItem>
         <MobileMenuItem sx={{ height: "72px", pt: 2 }}>
-          <Link href={"/"} onClick={handleDrawerClose}>
+          <Link
+            href={"/"}
+            onClick={handleDrawerClose}
+            style={{ textDecoration: "none" }}
+          >
             <AllyButton text={"CHOOSE YOUR GRADE"} />
           </Link>
         </MobileMenuItem>
