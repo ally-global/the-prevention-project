@@ -35,6 +35,7 @@ const LearnMore = () => {
             <Link
               href={"https://www.exploitationeducation.org/contact"}
               target={"_blank"}
+              style={{ textDecoration: "none" }}
             >
               <AllyButton color={"PurpleDark"} text={"BOOK A PRESENTATION"} />
             </Link>

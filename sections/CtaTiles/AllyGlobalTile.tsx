@@ -46,7 +46,11 @@ const AllyGlobalTile = () => {
                 educational resources—like The Prevention Project.
               </Text>
             </Stack>
-            <Link href={"https://ally.org/"} target={"_blank"}>
+            <Link
+              href={"https://ally.org/"}
+              target={"_blank"}
+              style={{ textDecoration: "none" }}
+            >
               <AllyButton
                 text={"LEARN MORE"}
                 color={"PrimaryBlue"}

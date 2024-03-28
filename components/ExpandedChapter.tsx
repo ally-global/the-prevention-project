@@ -115,7 +115,11 @@ const ExpandedChapter = ({
                 minHeight: { xs: "240px", sm: "396px" },
               }}
             >
-              <Link target="_blank" href={content[selected].pdfUrl!}>
+              <Link
+                target="_blank"
+                href={content[selected].pdfUrl!}
+                style={{ textDecoration: "none" }}
+              >
                 <AllyButton
                   text={"Download PDF"}
                   color={"PrimaryBlue"}
@@ -142,7 +146,11 @@ const ExpandedChapter = ({
         }}
       >
         {content[selected].vimeoDownloadUrl && (
-          <Link target="_blank" href={content[selected].vimeoDownloadUrl!}>
+          <Link
+            target="_blank"
+            href={content[selected].vimeoDownloadUrl!}
+            style={{ textDecoration: "none" }}
+          >
             <AllyButton
               text={"DOWNLOAD VIDEO"}
               color="PrimaryBlue"
@@ -151,7 +159,11 @@ const ExpandedChapter = ({
           </Link>
         )}
         {chapterDownloadUrl && (
-          <Link target="_blank" href={chapterDownloadUrl}>
+          <Link
+            target="_blank"
+            href={chapterDownloadUrl}
+            style={{ textDecoration: "none" }}
+          >
             <AllyButton
               text="DOWNLOAD FULL CHAPTER"
               color={"PrimaryBlue"}

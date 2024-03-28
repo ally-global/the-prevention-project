@@ -44,7 +44,11 @@ const Donate = () => {
                 </>
               }
             />
-            <Link href={"https://ally.org/?form=donate"} target={"_blank"}>
+            <Link
+              href={"https://ally.org/?form=donate"}
+              target={"_blank"}
+              style={{ textDecoration: "none" }}
+            >
               <AllyButton color={"PrimaryBlue"} text={"DONATE"} />
             </Link>
           </Stack>
