@@ -14,7 +14,7 @@ const ChooseYourGrade = ({
   mobile?: boolean;
 }) => {
   return (
-    <Link href={href} style={{ width: "100%" }}>
+    <Link href={href} style={{ width: "100%", textDecoration: "none" }}>
       <AllyButton
         sx={{
           width: "100%",
