@@ -167,7 +167,7 @@ const Footer = () => {
                   <FooterItem text="Grades 8-12" href="/grades8-12" />
                 </Stack>
               </Grid>
-              <Grid item xs={2} sm={2} md={2} lg={2} xl={2}>
+              <Grid item xs={2} sm={2} md={3} lg={3} xl={3}>
                 <Box mb={2}>
                   <Typography
                     color={"PrimaryPurple"}
@@ -177,13 +177,35 @@ const Footer = () => {
                     QUESTIONS?
                   </Typography>
                 </Box>
-                <Typography
-                  variant={"caption"}
-                  color={`Grey800`}
-                  lineHeight={"24px"}
-                >
-                  Email us at thepreventionproject@ally.org
-                </Typography>
+                <Box gap={2} sx={{ display: "flex", flexDirection: "column" }}>
+                  <Typography
+                    variant={"caption"}
+                    color={`Grey800`}
+                    lineHeight={"24px"}
+                  >
+                    Email us at thepreventionproject@ally.org
+                  </Typography>
+                  <Box>
+                    <Typography
+                      variant={"caption"}
+                      color={`Grey800`}
+                      lineHeight={"24px"}
+                    >
+                      Looking for The Prevention Project™ program (US)? Click
+                      here:{" "}
+                    </Typography>
+                    <Typography
+                      component={"a"}
+                      href="https://www.prevention-project.org/"
+                      target="_blank"
+                      color="Grey800"
+                      variant={"caption"}
+                      lineHeight={"24px"}
+                    >
+                      prevention-project.org
+                    </Typography>
+                  </Box>
+                </Box>
               </Grid>
             </Grid>
           </Grid>
