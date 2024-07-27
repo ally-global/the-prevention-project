@@ -573,7 +573,7 @@ export const chapters6to7: Chapter[] = [
         vimeoId: "908752727",
         vimeoDownloadUrl:
           "https://vimeo.com/user112092565/download/908752727/57cc28cc8e",
-        facilitationNote: `Facilitation Tip: Use this video as an opportunity to discuss the importance of being safe online and careful about what information we share and who we share it with. Equip students with true and false paddles or red and green flags to facilitate live responses while watching the video. You can pause the video after each question, to have a discussion about what everyone thinks their answer would be, and discuss the answers given in the video.`,
+        facilitationNote: `Facilitation Tip: Use this video as an opportunity to discuss the importance of paying attention to social cues and body language when deciphering whether someone is giving consent. Equip students with true and false paddles or red and green flags to facilitate live responses while watching the video. You can pause the video after each question, to have a discussion about what everyone thinks their answer would be, and discuss the answers given in the video.`,
         description: `Join us in a game of TRUE or FALSE where we explore how to respond in challenging situations around the nuances of consent and non-verbal cues. We'll tackle scenarios that help us navigate tricky situations involving consent and non-verbal cues. From decoding mixed signals to setting personal boundaries, we'll discover that consent involves more than just saying yes or no. As we tackle these questions, we'll dive into the complexities of relationships, both online and offline.`,
       },
       {
