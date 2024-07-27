@@ -15,17 +15,15 @@ export const NavItem = ({
   text: string;
   onClick?: () => void;
 }) => (
-  <Link
-    href={href}
-    style={{
-      textDecoration: "none",
-      whiteSpace: "nowrap",
-    }}
-    onClick={onClick}
-  >
-    <Typography variant="button" color={`White`}>
-      {text}
-    </Typography>
+  <Link href={href} style={{ textDecoration: "none" }}>
+    <AllyButton
+      sx={{ backgroundColor: "transparent", mt: "4px", ml: "-16px" }}
+      onClick={onClick}
+    >
+      <Typography variant="button" color={`White`}>
+        {text.toUpperCase()}
+      </Typography>
+    </AllyButton>
   </Link>
 );
 
@@ -48,8 +46,8 @@ const DesktopNav: FC = () => {
         </Link>
       </Box>
       <Box sx={{ display: "flex", gap: 10, alignItems: "center" }}>
-        <NavItem href={"/library"} text="LIBRARY" />
-        <NavItem href={"/about"} text="ABOUT US" />
+        <NavItem text={"Library"} href="/library" />
+        <NavItem text={"About us"} href="/about" />
         <AllyButton
           onClick={scrollToHelpRightNow}
           sx={{ backgroundColor: "transparent", mt: "4px", ml: "-16px" }}

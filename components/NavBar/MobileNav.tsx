@@ -11,7 +11,6 @@ import { NavItem } from "./DesktopNav";
 import AllyButton from "../AllyButton";
 import { SxProps, Typography } from "@mui/material";
 import { scrollToHelpRightNow } from "@/utils/helpers";
-import { usePathname } from "next/navigation";
 
 const MobileMenuItem = ({
   children,
@@ -47,7 +46,6 @@ const MobileMenuItem = ({
 
 const MobileNav: FC = () => {
   const [open, setOpen] = useState(false);
-  const pathname = usePathname();
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -133,7 +131,7 @@ const MobileNav: FC = () => {
             onClick={handleDrawerClose}
           />
         </MobileMenuItem>
-        <MobileMenuItem>
+        <MobileMenuItem sx={{ pt: 1 }}>
           <AllyButton
             onClick={() => {
               handleDrawerClose();
