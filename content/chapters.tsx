@@ -556,6 +556,10 @@ export const chapters6to7: Chapter[] = [
           </>
         ),
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_General_EFG.pdf"
+      },
     ],
   },
   {
@@ -648,6 +652,10 @@ export const chapters6to7: Chapter[] = [
             Boundaries! Keep going!
           </>
         ),
+      },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf"
       },
     ],
   },
@@ -760,6 +768,10 @@ export const chapters6to7: Chapter[] = [
             href: "https://kidshelpphone.ca/urgent-help",
           },
         ],
+      },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch2_EFG_Sexual-Exploitation.pdf"
       },
     ],
   },
@@ -947,6 +959,10 @@ export const chapters6to7: Chapter[] = [
           },
         ],
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch3_EFG_Sexting-and-Peer-Exploitation.pdf"
+      },
     ],
   },
   {
@@ -1004,6 +1020,10 @@ export const chapters6to7: Chapter[] = [
             explore and discuss the topic of sextortion.
           </>
         ),
+      },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch4_EFG_About-the-Internet-and-Information-Sharing.pdf"
       },
     ],
   },
@@ -1174,6 +1194,10 @@ export const chapters6to7: Chapter[] = [
           },
         ],
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch5_EFG_Sextortion.pdf"
+      },
     ],
   },
   {
@@ -1251,6 +1275,10 @@ export const chapters6to7: Chapter[] = [
             Trafficking.
           </>
         ),
+      },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch6_EFG_Predatory-People-and-Grooming.pdf"
       },
     ],
   },
@@ -1371,6 +1399,10 @@ export const chapters6to7: Chapter[] = [
             href: "https://kidshelpphone.ca/urgent-help",
           },
         ],
+      },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch7_EFG_Human-Trafficking.pdf"
       },
     ],
   },
