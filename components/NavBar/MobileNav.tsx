@@ -120,7 +120,7 @@ const MobileNav: FC = () => {
         <MobileMenuItem>
           <NavItem
             href={`/library`}
-            text={`LIBRARY`}
+            text={`PARENTS & EDUCATORS`}
             onClick={handleDrawerClose}
           />
         </MobileMenuItem>
