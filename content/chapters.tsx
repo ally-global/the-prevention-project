@@ -43,7 +43,7 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Educator Facilitation Guides",
         pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_General_EFG.pdf"
-      }
+      },
     ],
   },
   {
@@ -157,7 +157,7 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Educator Facilitation Guides",
         pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf"
-      }
+      },
     ],
   },
   {
@@ -266,7 +266,7 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Educator Facilitation Guides",
         pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch2_EFG_The-Internet.pdf"
-      }
+      },
     ],
   },
   {
