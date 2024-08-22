@@ -40,6 +40,10 @@ export const chapters3to5: Chapter[] = [
           </>
         ),
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_General_EFG.pdf"
+      }
     ],
   },
   {
@@ -150,6 +154,10 @@ export const chapters3to5: Chapter[] = [
           </>
         ),
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf"
+      }
     ],
   },
   {
@@ -255,6 +263,10 @@ export const chapters3to5: Chapter[] = [
           </>
         ),
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch2_EFG_The-Internet.pdf"
+      }
     ],
   },
   {
@@ -330,6 +342,10 @@ export const chapters3to5: Chapter[] = [
             Sharing Online! Keep making informed choices in the digital world.
           </>
         ),
+      },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch3_EFG_Information-Sharing-Online.pdf"
       },
     ],
   },
@@ -427,6 +443,10 @@ export const chapters3to5: Chapter[] = [
           </>
         ),
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch4_EFG_Unsafe-People-and-Unhealthy-Accounts.pdf"
+      },
     ],
   },
   {
@@ -501,6 +521,10 @@ export const chapters3to5: Chapter[] = [
             round of applause!
           </>
         ),
+      },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch5_EFG_Being-a-Safe-Person.pdf"
       },
     ],
   },
