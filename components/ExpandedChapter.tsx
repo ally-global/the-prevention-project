@@ -22,6 +22,7 @@ const ExpandedChapter = ({
     vimeoDownloadUrl?: string;
     pdfUrl?: string;
     externalLinks?: { name: string; caption?: string; href: string }[];
+    backgroundImage?: string;
   }[];
 }) => {
   const SectionChip = ({

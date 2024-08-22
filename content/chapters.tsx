@@ -11,6 +11,7 @@ export type Chapter = {
     vimeoDownloadUrl?: string;
     pdfUrl?: string;
     externalLinks?: { name: string; caption?: string; href: string }[];
+    backgroundImage?: string;
   }[];
 };
 
@@ -42,7 +43,7 @@ export const chapters3to5: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_General_EFG.pdf"
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_General_EFG.pdf",
       },
     ],
   },
@@ -156,7 +157,8 @@ export const chapters3to5: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf"
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf",
+        backgroundImage: "images/Gr3-5/Gr3-5_Ch1_EFG_Consent-and-Healthy-Boundaries_Preview.png"
       },
     ],
   },
