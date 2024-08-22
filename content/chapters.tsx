@@ -1436,6 +1436,10 @@ export const chapters8to12: Chapter[] = [
           </>
         ),
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_General_EFG.pdf"
+      },
     ],
   },
   {
@@ -1518,6 +1522,10 @@ export const chapters8to12: Chapter[] = [
         facilitationNote: `Facilitation Tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for self-discovery and introspection. Prompt questions like: How can you create a safe space for yourself to express your boundaries? How can you ensure that your actions align with your values and beliefs about consent?`,
         description: `Reflect on your own personal boundaries and consider how you express consent in different situations. Download or print this infographic as a summary of all that you've learned in this chapter. Remember, consent is about understanding and respecting both your own boundaries and the boundaries of others.`,
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf"
+      },
     ],
   },
   {
@@ -1596,6 +1604,10 @@ export const chapters8to12: Chapter[] = [
             href: "https://kidshelpphone.ca/urgent-help",
           },
         ],
+      },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch2_EFG_Sexual-Exploitation.pdf"
       },
     ],
   },
@@ -1702,6 +1714,10 @@ export const chapters8to12: Chapter[] = [
           },
         ],
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch3_EFG_Sexting-and-Peer-Exploitation.pdf"
+      },
     ],
   },
   {
@@ -1748,6 +1764,10 @@ export const chapters8to12: Chapter[] = [
         facilitationNote: `Facilitation Tip: Print out the Knowledge Snapshot as a reference for students to recognize red flags. Encourage them to share what they've learned with their peers and discuss ways to support each other in staying safe from exploitation.`,
         description: `Predators and exploiters are not defined by age or appearance but by their behavior. Understanding the red flags of exploitative behavior can help you stay safe. Remember, it's important to trust your instincts and seek help if you feel uncomfortable or threatened.`,
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch4_EFG_Exploiters-and-Predators.pdf"
+      },
     ],
   },
   {
@@ -1792,6 +1812,10 @@ export const chapters8to12: Chapter[] = [
           "pdfs/grades8-12/Gr8-12_Ch5_Part5_Internet-Dynamics-and-Grooming.pdf",
         facilitationNote: `Facilitation Tip: Use the knowledge snapshot as a springboard for discussing the prevalence of online exploitation and the importance of digital literacy. Encourage students to critically analyze their online interactions and seek support if they encounter suspicious behavior. Prompt discussions about strategies for staying safe online and empowering peers to recognize and report grooming attempts.`,
         description: `Luring and grooming may sound like abstract concepts, but they're real threats in the digital age. From deceptive tactics to alarming statistics, understanding the dangers of online exploitation is crucial for staying safe online.`,
+      },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch5_EFG_Internet-Dynamics-and-Grooming.pdf"
       },
     ],
   },
@@ -1976,6 +2000,10 @@ export const chapters8to12: Chapter[] = [
           },
         ],
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch6_EFG_Sextortion.pdf"
+      },
     ],
   },
   {
@@ -2091,6 +2119,10 @@ export const chapters8to12: Chapter[] = [
           },
         ],
       },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch7_EFG_Pimps-and-Human-Trafficking.pdf"
+      },
     ],
   },
   {
@@ -2166,6 +2198,10 @@ export const chapters8to12: Chapter[] = [
           </>
         ),
         facilitationNote: `Facilitation Tip: Encourage a deeper exploration of power dynamics and consent in relationships. Prompt discussions on the societal influences that shape our perceptions of romance and intimacy. Foster empathy and understanding by encouraging students to consider the experiences of individuals involved in sugar dating.`,
+      },
+      {
+        title: "Educator Facilitation Guides",
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch8_EFG_High-Risk-Behaviours.pdf"
       },
     ],
   },
