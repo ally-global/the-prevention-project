@@ -42,7 +42,8 @@ const ExpandedChapter = ({
         color={selected ? "PrimaryBlue" : "Grey300"}
         sx={{
           width: "100%",
-          height: { xs: "48px", sm: "64px" },
+          height: { xs: "48px", sm: "64px", md: 'fit-content' },
+          textWrap: "pretty",
         }}
       >
         <Box
