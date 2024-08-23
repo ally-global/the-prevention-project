@@ -23,6 +23,7 @@ const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
   const section = sectionParam ? Number(sectionParam) : 1;
 
   const selectedChapterSection = chapters[chapter].content[section - 1];
+	const filteredChapters = chapters[chapter].content.filter((chapter) => chapter.hideOnGradesPage !== true);
 
   return (
     <>
@@ -30,7 +31,7 @@ const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
         <StandardLayout>
           <Stack spacing={2} sx={{ pt: 2 }}>
             <VideoMenu
-              content={chapters[chapter].content.map((c) => c.title)}
+              content={filteredChapters.map((c) => c.title)}
             />
             {selectedChapterSection.vimeoId && (
               <VideoPlayer vimeoId={selectedChapterSection.vimeoId} />

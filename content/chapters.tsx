@@ -12,6 +12,7 @@ export type Chapter = {
     pdfUrl?: string;
     externalLinks?: { name: string; caption?: string; href: string }[];
     backgroundImage?: string;
+    hideOnGradesPage?: boolean;
   }[];
 };
 
@@ -44,6 +45,7 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Educator Facilitation Guides",
         pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_General_EFG.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -158,7 +160,8 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Educator Facilitation Guides",
         pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf",
-        backgroundImage: "images/Gr3-5/Gr3-5_Ch1_EFG_Consent-and-Healthy-Boundaries_Preview.png"
+        backgroundImage: "images/Gr3-5/Gr3-5_Ch1_EFG_Consent-and-Healthy-Boundaries_Preview.png",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -267,7 +270,8 @@ export const chapters3to5: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch2_EFG_The-Internet.pdf"
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch2_EFG_The-Internet.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -347,7 +351,8 @@ export const chapters3to5: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch3_EFG_Information-Sharing-Online.pdf"
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch3_EFG_Information-Sharing-Online.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -447,7 +452,8 @@ export const chapters3to5: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch4_EFG_Unsafe-People-and-Unhealthy-Accounts.pdf"
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch4_EFG_Unsafe-People-and-Unhealthy-Accounts.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -526,7 +532,8 @@ export const chapters3to5: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch5_EFG_Being-a-Safe-Person.pdf"
+        pdfUrl: "pdfs/grades3-5/educator-guides/Gr3-5_Ch5_EFG_Being-a-Safe-Person.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -560,7 +567,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_General_EFG.pdf"
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_General_EFG.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -657,7 +665,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf"
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -773,7 +782,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch2_EFG_Sexual-Exploitation.pdf"
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch2_EFG_Sexual-Exploitation.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -963,7 +973,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch3_EFG_Sexting-and-Peer-Exploitation.pdf"
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch3_EFG_Sexting-and-Peer-Exploitation.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -1025,7 +1036,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch4_EFG_About-the-Internet-and-Information-Sharing.pdf"
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch4_EFG_About-the-Internet-and-Information-Sharing.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -1198,7 +1210,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch5_EFG_Sextortion.pdf"
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch5_EFG_Sextortion.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -1280,7 +1293,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch6_EFG_Predatory-People-and-Grooming.pdf"
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch6_EFG_Predatory-People-and-Grooming.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -1404,7 +1418,8 @@ export const chapters6to7: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch7_EFG_Human-Trafficking.pdf"
+        pdfUrl: "pdfs/grades6-7/educator-guides/Gr6-7_Ch7_EFG_Human-Trafficking.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -1440,7 +1455,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_General_EFG.pdf"
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_General_EFG.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -1526,7 +1542,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf"
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch1_EFG_Consent-and-Healthy-Boundaries.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -1609,7 +1626,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch2_EFG_Sexual-Exploitation.pdf"
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch2_EFG_Sexual-Exploitation.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -1718,7 +1736,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch3_EFG_Sexting-and-Peer-Exploitation.pdf"
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch3_EFG_Sexting-and-Peer-Exploitation.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -1768,7 +1787,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch4_EFG_Exploiters-and-Predators.pdf"
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch4_EFG_Exploiters-and-Predators.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -1817,7 +1837,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch5_EFG_Internet-Dynamics-and-Grooming.pdf"
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch5_EFG_Internet-Dynamics-and-Grooming.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -2004,7 +2025,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch6_EFG_Sextortion.pdf"
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch6_EFG_Sextortion.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -2123,7 +2145,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch7_EFG_Pimps-and-Human-Trafficking.pdf"
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch7_EFG_Pimps-and-Human-Trafficking.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
@@ -2203,7 +2226,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Educator Facilitation Guides",
-        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch8_EFG_High-Risk-Behaviours.pdf"
+        pdfUrl: "pdfs/grades8-12/educator-guides/Gr8-12_Ch8_EFG_High-Risk-Behaviours.pdf",
+        hideOnGradesPage: true,
       },
     ],
   },
