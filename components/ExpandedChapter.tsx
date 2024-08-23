@@ -110,7 +110,14 @@ const ExpandedChapter = ({
             <Box
               sx={{
                 mb: 3,
-                backgroundColor: "Grey300",
+                ...(content[selected].backgroundImage ? {
+                  backgroundImage: `url(${content[selected].backgroundImage})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "top",
+                  boxShadow: "inset 0 0 0 2000px rgba(0, 0, 0, 0.25)",
+                } : {
+                  backgroundColor: "Grey300",
+                }),
                 borderRadius: "16px",
                 display: "flex",
                 justifyContent: "center",
@@ -124,6 +131,10 @@ const ExpandedChapter = ({
                 style={{ textDecoration: "none" }}
               >
                 <AllyButton
+                  sx={{
+                    ...(content[selected].backgroundImage) && {
+                      boxShadow: `0px 1px 4px 2px #BDBDBD`,}
+                  }}
                   text={"Download PDF"}
                   color={"PrimaryBlue"}
                   endIcon={<CloudDownloadOutlinedIcon />}
