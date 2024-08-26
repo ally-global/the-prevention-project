@@ -3,7 +3,7 @@ import Text from '@/components/Text';
 import { Box, Typography, Grid, Link } from '@mui/material';
 
 const content = {
-	title: 'How to browse the library',
+	title: 'How to browse the library:',
 	description:
 		'Follow these steps to easily navigate and use our library resources:',
 	features: [
@@ -111,15 +111,14 @@ const CallOutSection = () => {
 
 const HowToBrowseSection = () => {
 	return (
-		<StandardLayout sx={{ py: 6 }}>
-			<Typography
+		<StandardLayout sx={{ py: { xs: 4, md: 8 } }}>
+			<Text
 				variant={'h4'}
-				align="center"
 				color="PrimaryPurple"
-				sx={{ my: { xs: 2, md: 4 } }}
+				sx={{ textAlign: 'center' }}
 			>
 				{content.title}
-			</Typography>
+			</Text>
 			<Grid container>
 				{content.features.map((feature) => (
 					<Grid item xs={12} md={4} key={feature.number}>
