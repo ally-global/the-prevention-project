@@ -98,7 +98,7 @@ const CallOutSection = () => {
 				These resources should only be used with their intended audiences, in
 				order to maintain the integrity and safety of the material. Please{' '}
 				<Link
-					href="mailto:thepreventionproject@ally.or"
+					href="mailto:thepreventionproject@ally.org"
 					sx={{ color: 'PrimaryPurple' }}
 				>
 					contact us
