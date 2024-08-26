@@ -1,6 +1,6 @@
 import StandardLayout from '@/components/StandardLayout';
 import Text from '@/components/Text';
-import { Box, Typography, Grid, Paper, Link } from '@mui/material';
+import { Box, Typography, Grid, Link } from '@mui/material';
 
 const content = {
 	title: 'How to browse the library',
@@ -87,7 +87,11 @@ const CallOutSection = () => {
 				maxWidth: { xs: '90%', sm: '90%', md: '720px' },
 			}}
 		>
-			<Text variant="h6" color="PrimaryPurple" sx={{ textAlign: 'center', mb: 1 }}>
+			<Text
+				variant="h6"
+				color="PrimaryPurple"
+				sx={{ textAlign: 'center', mb: 1 }}
+			>
 				Please Note:
 			</Text>
 			<Typography variant="body1" color="Grey800" sx={{ textAlign: 'center' }}>
@@ -107,7 +111,7 @@ const CallOutSection = () => {
 
 const HowToBrowseSection = () => {
 	return (
-		<StandardLayout sx={{ py: 6}}>
+		<StandardLayout sx={{ py: 6 }}>
 			<Typography
 				variant={'h4'}
 				align="center"
