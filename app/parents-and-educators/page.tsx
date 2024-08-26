@@ -3,6 +3,7 @@ import ParentsAndEducatorsHero from '@/sections/Heros/ParentsAndEducatorsHero';
 import LibrarySection, { Section } from '@/sections/LibrarySection';
 import EducatorGuidesInfo from '@/sections/ParentsAndEducators/EducatorGuidesInfo';
 import HowToBrowseSection from '@/sections/ParentsAndEducators/HowToBrowse';
+import LibraryTitle from '@/sections/ParentsAndEducators/LibraryTitle';
 import WhatDoIDoSection from '@/sections/WhatDoIDoSection';
 import { Stack } from '@mui/material';
 
@@ -16,6 +17,7 @@ export default function Library() {
 			/>
 			<HowToBrowseSection />
       <EducatorGuidesInfo />
+      <LibraryTitle />
 			<LibrarySection section={Section.THREE_TO_FIVE} />
 			<LibrarySection section={Section.SIX_TO_SEVEN} />
 			<LibrarySection section={Section.EIGHT_TO_TWELVE} />
