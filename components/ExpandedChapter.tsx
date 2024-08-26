@@ -111,10 +111,9 @@ const ExpandedChapter = ({
               sx={{
                 mb: 3,
                 ...(content[selected].backgroundImage ? {
-                  backgroundImage: `url(${content[selected].backgroundImage})`,
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(${content[selected].backgroundImage})`,
                   backgroundSize: "cover",
                   backgroundPosition: "top",
-                  boxShadow: "inset 0 0 0 2000px rgba(0, 0, 0, 0.25)",
                 } : {
                   backgroundColor: "Grey300",
                 }),
@@ -133,7 +132,7 @@ const ExpandedChapter = ({
                 <AllyButton
                   sx={{
                     ...(content[selected].backgroundImage) && {
-                      boxShadow: `0px 1px 4px 2px #BDBDBD`,}
+                      boxShadow: `0 2px 4px #BDBDBD`,}
                   }}
                   text={"Download PDF"}
                   color={"PrimaryBlue"}
