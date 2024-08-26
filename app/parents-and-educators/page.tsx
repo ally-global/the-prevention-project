@@ -1,6 +1,7 @@
 import HelpRightNowSection from '@/sections/HelpRightNowSection';
 import ParentsAndEducatorsHero from '@/sections/Heros/ParentsAndEducatorsHero';
 import LibrarySection, { Section } from '@/sections/LibrarySection';
+import EducatorGuidesInfo from '@/sections/ParentsAndEducators/EducatorGuidesInfo';
 import HowToBrowseSection from '@/sections/ParentsAndEducators/HowToBrowse';
 import WhatDoIDoSection from '@/sections/WhatDoIDoSection';
 import { Stack } from '@mui/material';
@@ -14,6 +15,7 @@ export default function Library() {
 				subtext="Whether you're guiding young minds in the classroom or supporting your child’s education at home, The Prevention Project has all the materials you need to deliver this vital education with confidence."
 			/>
 			<HowToBrowseSection />
+      <EducatorGuidesInfo />
 			<LibrarySection section={Section.THREE_TO_FIVE} />
 			<LibrarySection section={Section.SIX_TO_SEVEN} />
 			<LibrarySection section={Section.EIGHT_TO_TWELVE} />
