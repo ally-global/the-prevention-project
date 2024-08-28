@@ -151,7 +151,7 @@ const VideoHero = () => {
 		<Hero
 			sx={{
 				backgroundImage:
-					'linear-gradient(to bottom, transparent, 75%, white), linear-gradient(to right, #673BDC, #00B8C5)',
+					'linear-gradient(to bottom, transparent, 80%, white), linear-gradient(to right, #673BDC, #00B8C5)',
 				height: {
 					xs: 'auto',
 				},
@@ -346,8 +346,8 @@ const VideoHero = () => {
 							Choose a grade below to get started.
 						</Text>
 					</Stack>
+					<ChooseYourGradeSection />
 				</StandardLayout>
-				<ChooseYourGradeSection />
 			</Box>
 		</Hero>
 	);
