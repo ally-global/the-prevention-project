@@ -117,7 +117,7 @@ export const tabletTextStyles = {
     textAlign: 'center',
 };
 
-const textStyles = {
+export const textStyles = {
     fontSize: '20px',
     lineHeight: '24px',
     fontWeight: '700',
