@@ -111,7 +111,8 @@ const VideoHero = () => {
 		fontSize: '10px',
 		lineHeight: '12px',
 		fontWeight: '500',
-		padding: '6px',
+		paddingX: '6px',
+		paddingY: '8px',
 		borderRadius: 3,
 		textAlign: 'center',
 	};
@@ -120,7 +121,8 @@ const VideoHero = () => {
 		fontSize: '16px',
 		lineHeight: '18px',
 		fontWeight: '700',
-		padding: '6px',
+		paddingX: '6px',
+		paddingY: '8px',
 		borderRadius: 3,
 		textAlign: 'center',
 	};
@@ -129,7 +131,8 @@ const VideoHero = () => {
 		fontSize: '20px',
 		lineHeight: '24px',
 		fontWeight: '700',
-		padding: '6px',
+		paddingX: '6px',
+		paddingY: '10px',
 		borderRadius: 3,
 		textAlign: 'center',
 	};
@@ -164,7 +167,7 @@ const VideoHero = () => {
 						display="flex"
 						flexDirection="column"
 						alignItems="center"
-						spacing={4}
+						spacing={{ xs: 2, sm: 4, md: 4 }}
 					>
 						<Text
 							variant="h3"
