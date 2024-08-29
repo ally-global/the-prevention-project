@@ -136,6 +136,8 @@ export const chapters3to5: Chapter[] = [
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades3-5/Gr3-5_Ch1_Part5_Consent-and-Healthy-Boundaries.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr3-5_Ch1_Consent-and-Healthy-Boundaries_KnowledgeSnapshotPreview.png",
         facilitationNote:
           "Facilitation Tip: Provide students with the activity page along with additional materials such as stickers, glitter pens, and colorful markers to enhance their creativity. Encourage them to personalize their activity page with drawings, collages, or written reflections about consent and healthy boundaries. As they work on their creations, facilitate discussions about the importance of setting boundaries and respecting each other's autonomy. Celebrate their unique ideas and contributions, fostering a sense of empowerment and self-expression.",
         description: (
@@ -253,6 +255,8 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades3-5/Gr3-5_Ch2_Part5_The-Internet.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr3-5_Ch2_The-Internet_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Provide students with the activity page along with additional materials such as stickers, glitter pens, and colorful markers to enhance their creativity and give them time to reflect on their online experiences. Encourage them to list activities that make them feel happy and safe online and to discuss the rules they have for internet use with their parents or guardians. After completing the activity, invite them to share their thoughts and drawings with the group, fostering creativity and discussion about online safety.`,
         description: (
           <>
@@ -332,6 +336,8 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades3-5/Gr3-5_Ch3_Part5_Information-Sharing-Online.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr3-5_Ch3_Information-Sharing-Online_KnowledgeSnapshotPreview.png",
         facilitationNote:
           "Facilitation Tip: Provide students with the activity page along with additional materials such as stickers, glitter pens, and colorful markers to enhance their creativity. Encourage them to personalize their activity page with drawings, collages, or written reflections about information sharing online. As they work on their creations, facilitate discussions about strategies for protecting personal information and staying safe online. Celebrate their unique ideas and contributions, fostering a sense of empowerment and ownership over their digital footprint.",
         description: (
@@ -434,6 +440,8 @@ export const chapters3to5: Chapter[] = [
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades3-5/Gr3-5_Ch4_Part5_Unsafe-People-and-Unhealthy-Social-Accounts.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr3-5_Ch4_Unsafe-People-and-Unhealthy-Social-Accounts_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Provide students with the activity page along with additional materials such as stickers, glitter pens, and colorful markers to enhance their creativity and guide them through reflecting on what they've learned about online safety. Encourage them to jot down their thoughts on personal boundaries and indicators of unsafe people or accounts online. After completing the activity, invite them to share their ideas and artistic creations with the group.`,
         description: (
           <>
@@ -521,6 +529,8 @@ export const chapters3to5: Chapter[] = [
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades3-5/Gr3-5_Ch5_Part5_Being-a-Safe-Person.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr3-5_Ch5_Being-a-Safe-Person_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Hand out the activity page to the students along with some colorful markers, glitter pens, and stickers. Encourage them to use these fun materials to express their thoughts on being a safe person. Ask them to jot down their ideas, draw symbols representing kindness and respect, and decorate their reflections in a creative way. After they finish, invite them to share their artwork and discuss what it means to be a safe person with the group.`,
         description: (
           <>
@@ -659,6 +669,8 @@ export const chapters6to7: Chapter[] = [
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades6-7/Gr6-7_Ch1_Part5_Consent-and-Healthy-Boundaries.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr6-7_Ch1_Consent-and-Healthy-Boundaries_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.`,
         description: (
           <>
@@ -774,6 +786,8 @@ export const chapters6to7: Chapter[] = [
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades6-7/Gr6-7_Ch2_Part5_Sexual-Exploitation.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr6-7_Ch2_Sexual-Exploitation_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation tip: print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.`,
         description: (
           <>
@@ -957,6 +971,8 @@ export const chapters6to7: Chapter[] = [
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades6-7/Gr6-7_Ch3_Part5_Sexting-and-Peer-Exploitation.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr6-7_Ch3_Sexting-and-Peer-Exploitation_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation tip: print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.`,
         description: (
           <>
@@ -1041,6 +1057,8 @@ export const chapters6to7: Chapter[] = [
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades6-7/Gr6-7_Ch4_Part5_About-the-Internet-and-Information-Sharing.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr6-7_Ch4_About-the-Internet-and-Information-Sharing_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.`,
         description: (
           <>
@@ -1204,6 +1222,8 @@ export const chapters6to7: Chapter[] = [
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades6-7/Gr6-7_Ch5_Part5_Sextortion.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr6-7_Ch5_Sextortion_KnowledgeSnapshotPreview.png",
         description: (
           <>
             Print or download this infographic to recap what you&apos;ve learned
@@ -1300,6 +1320,8 @@ export const chapters6to7: Chapter[] = [
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades6-7/Gr6-7_Ch6_Part5_Predatory-People-and-Grooming.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr6-7_Ch6_Predatory-People-and-Grooming_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for practice and applying what they've learned.`,
         description: (
           <>
@@ -1410,6 +1432,8 @@ export const chapters6to7: Chapter[] = [
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades6-7/Gr6-7_Ch7_Part4_Human-Trafficking.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr6-7_Ch7_Human-Trafficking_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for reflection and planning. Discuss together the discussion prompt on ways they can help raise awareness
         about this issue and prevent it in their community.`,
         description: (
@@ -1571,6 +1595,8 @@ export const chapters8to12: Chapter[] = [
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch1_Part6_Consent-and-Healthy-Boundaries.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr8-12_Ch1_Consent-and-Healthy-Boundaries_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Print out the page to keep in the classroom or at home as a summary of the key learnings from this chapter. Encourage students to use the reflection page as a tool for self-discovery and introspection. Prompt questions like: How can you create a safe space for yourself to express your boundaries? How can you ensure that your actions align with your values and beliefs about consent?`,
         description: `Reflect on your own personal boundaries and consider how you express consent in different situations. Download or print this infographic as a summary of all that you've learned in this chapter. Remember, consent is about understanding and respecting both your own boundaries and the boundaries of others.`,
       },
@@ -1651,6 +1677,8 @@ export const chapters8to12: Chapter[] = [
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades8-12/Gr8-12_Ch2_Part5_Sexual-Exploitation.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr8-12_Ch2_Sexual-Exploitation_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Utilize the reflection page as a valuable resource/reference when talking about sexual exploitation.`,
         description: `Download or print this infographic as a concise summary of the key insights from this chapter. By understanding sexual exploitation and what it can look like, you’re empowered to navigate relationships with awareness and respect for yourself and others.`,
         externalLinks: [
@@ -1759,6 +1787,8 @@ export const chapters8to12: Chapter[] = [
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch3_Part5_Sexting-and-Peer-Exploitation.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr8-12_Ch3_Sexting-and-Peer-Exploitation_KnowledgeSnapshotPreview.png",
         description: `Let's break down the facts about sexting and peer exploitation. Despite common misconceptions, not everyone is engaged in sexting, and the majority of youth prioritize respect and consent in their relationships. However, the risks of peer exploitation are real, with a significant number of teens experiencing the unauthorized sharing of intimate images. By understanding your rights and taking proactive steps to protect yourself and others, you can help create a culture of respect and consent in your community.`,
         facilitationNote: `Facilitation Tip: Use this summary to reinforce key takeaways from the chapter and encourage students to advocate for their rights and well-being in digital spaces. Provide resources and support for those who may have experienced peer exploitation, and emphasize the importance of seeking help from trusted adults or professionals. Encourage students to take an active role in promoting healthy relationships and digital citizenship among their peers.`,
         externalLinks: [
@@ -1825,6 +1855,8 @@ export const chapters8to12: Chapter[] = [
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades8-12/Gr8-12_Ch4_Part5_Exploiters-and-Predators.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr8-12_Ch4_Exploiters-and-Predators_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Print out the Knowledge Snapshot as a reference for students to recognize red flags. Encourage them to share what they've learned with their peers and discuss ways to support each other in staying safe from exploitation.`,
         description: `Predators and exploiters are not defined by age or appearance but by their behavior. Understanding the red flags of exploitative behavior can help you stay safe. Remember, it's important to trust your instincts and seek help if you feel uncomfortable or threatened.`,
       },
@@ -1878,6 +1910,8 @@ export const chapters8to12: Chapter[] = [
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch5_Part5_Internet-Dynamics-and-Grooming.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr8-12_Ch5_Internet-Dynamics-and-Grooming_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Use the knowledge snapshot as a springboard for discussing the prevalence of online exploitation and the importance of digital literacy. Encourage students to critically analyze their online interactions and seek support if they encounter suspicious behavior. Prompt discussions about strategies for staying safe online and empowering peers to recognize and report grooming attempts.`,
         description: `Luring and grooming may sound like abstract concepts, but they're real threats in the digital age. From deceptive tactics to alarming statistics, understanding the dangers of online exploitation is crucial for staying safe online.`,
       },
@@ -2041,6 +2075,8 @@ export const chapters8to12: Chapter[] = [
       {
         title: "Knowledge Snapshot",
         pdfUrl: "pdfs/grades8-12/Gr8-12_Ch6_Part5_Sextortion.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr8-12_Ch6_Sextortion_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Use this summary as a reference point for discussing the key takeaways from the chapter. Encourage students to ask questions.`,
         description: (
           <>
@@ -2178,6 +2214,8 @@ export const chapters8to12: Chapter[] = [
         title: "Knowledge Snapshot",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch7_Part5_Pimps-and-Human-Trafficking.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr8-12_Ch7_Pimps-and-Human-Trafficking_KnowledgeSnapshotPreview.png",
         facilitationNote: `Facilitation Tip: Use the knowledge snapshot as a tool for deeper understanding and reflection. Encourage students to discuss each myth and truth, exploring their implications for recognizing and addressing human trafficking. Prompt questions like: How can we raise awareness about human trafficking in our community? What steps can we take to support survivors and prevent exploitation?`,
         description: `Challenge common misconceptions about human trafficking with this knowledge snapshot. Bust myths and uncover truths about exploitation, from the demographics of victims to the tactics used by traffickers. Empower yourself with essential knowledge to recognize the warning signs and take action against exploitation in your community. Together, let's build a safer, more informed society where everyone can thrive free from coercion and exploitation.`,
         externalLinks: [
@@ -2249,6 +2287,8 @@ export const chapters8to12: Chapter[] = [
       },
       {
         title: "Knowledge Snapshot 1",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr8-12_Ch8_High-Risk-Behaviours-OnlyFans_KnowledgeSnapshot1Preview.png",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch8_Part6_High-Risk-Behaviours-OnlyFans.pdf",
         facilitationNote: `Facilitation Tip: Use this snapshot as a springboard for discussing online safety and informed decision-making. Encourage students to critically evaluate online platforms and their potential risks. Facilitate a brainstorming session on strategies for mitigating these risks and promoting digital well-being.`,
@@ -2258,6 +2298,8 @@ export const chapters8to12: Chapter[] = [
         title: "Knowledge Snapshot 2",
         pdfUrl:
           "pdfs/grades8-12/Gr8-12_Ch8_Part7_High-Risk-Behaviours-Sugaring.pdf",
+        backgroundImage:
+          "images/knowledge-snapshot-previews/Gr8-12_Ch8_High-Risk-Behaviours-Sugaring_KnowledgeSnapshot2Preview.png",
         description: (
           <>
             Explore the allure and dangers of sugar baby relationships. Despite
