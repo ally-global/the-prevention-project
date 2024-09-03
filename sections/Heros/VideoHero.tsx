@@ -37,7 +37,6 @@ const VideoHero = () => {
 		: textStyles;
 
 	const handlePlayClick = () => {
-		// Handle play button click (e.g., open a modal with the video, or play the video)
 		setToggler(!toggler);
 	};
 
