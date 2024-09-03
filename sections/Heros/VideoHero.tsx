@@ -153,6 +153,7 @@ const VideoHero = () => {
 										style={{
 											borderRadius: 15,
 										}}
+										poster='/images/desktop-video-poster.jpg'
 									>
 										<source
 											src={'/videos/TPP-Header-Reel.mp4'}
