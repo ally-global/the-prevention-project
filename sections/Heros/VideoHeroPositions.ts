@@ -12,23 +12,23 @@ type PositionsType = {
 
 export const mobilePositions: PositionsType = {
     topLeft: {
-        width: '150px',
+        width: '180px',
         top: '-12px',
-        left: '6px',
+        left: '-10px',
     },
     middleLeft: {
-        width: '83px',
+        width: '100px',
         top: '46px',
         left: '-24px',
     },
     bottomLeft: {
-        width: '102px',
+        width: '120px',
         left: '-12px',
-        bottom: '20px',
+        bottom: '6px',
     },
     topRight: {
-        width: '106px',
-        top: '36px',
+        width: '126px',
+        top: '16px',
         right: '-30px',
     },
     middleRight: {
@@ -98,7 +98,7 @@ export const positions: PositionsType = {
 };
 
 export const mobileTextStyle = {
-    fontSize: '10px',
+    fontSize: '12px',
     lineHeight: '12px',
     fontWeight: '500',
     paddingX: '6px',

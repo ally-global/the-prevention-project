@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Hero from '@/components/Hero';
 import { Box, Stack } from '@mui/material';
 import ChooseYourGradeSection from '@/sections/ChooseYourGradeSection';
@@ -130,20 +131,32 @@ const VideoHero = () => {
 									maxWidth: '600px',
 								}}
 							>
-								<video
-									loop
-									autoPlay
-									muted
-									width={'100%'}
-									style={{
-										borderRadius: 15,
-									}}
-								>
-									<source
-										src={'/videos/TPP-Header-Reel.mp4'}
-										type="video/mp4"
+								{!isMobile ? (
+									<video
+										loop
+										autoPlay
+										muted
+										width={'100%'}
+										style={{
+											borderRadius: 15,
+										}}
+									>
+										<source
+											src={'/videos/TPP-Header-Reel.mp4'}
+											type="video/mp4"
+										/>
+									</video>
+								) : (
+									<Image
+										src={'/images/mobile-hero-fallback.jpg'}
+										alt={'TPP-Header-Reel'}
+										width={300}
+										height={200}
+										style={{
+											borderRadius: 15,
+										}}
 									/>
-								</video>
+								)}
 							</Box>
 							<Box
 								sx={{
