@@ -151,7 +151,7 @@ const VideoHero = () => {
 										src={'/images/mobile-hero-fallback.jpg'}
 										alt={'TPP-Header-Reel'}
 										width={300}
-										height={200}
+										height={180}
 										style={{
 											borderRadius: 15,
 										}}
