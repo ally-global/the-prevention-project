@@ -1,11 +1,14 @@
 'use client';
 
+import { useState } from 'react';
 import Image from 'next/image';
+import FsLightbox from 'fslightbox-react';
 import Hero from '@/components/Hero';
-import { Box, Stack } from '@mui/material';
+import { Box, Stack, IconButton } from '@mui/material';
 import ChooseYourGradeSection from '@/sections/ChooseYourGradeSection';
 import StandardLayout from '@/components/StandardLayout';
 import Text from '@/components/Text';
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import useDevice from '@/hooks/useDevice';
 import {
 	positions,
@@ -17,6 +20,7 @@ import {
 } from './VideoHeroPositions';
 
 const VideoHero = () => {
+	const [toggler, setToggler] = useState(false);
 	const { xsScreen: isMobile, smScreen: isTablet } = useDevice();
 
 	const responsivePositions = (position: string) =>
@@ -32,6 +36,11 @@ const VideoHero = () => {
 		? tabletTextStyles
 		: textStyles;
 
+	const handlePlayClick = () => {
+		// Handle play button click (e.g., open a modal with the video, or play the video)
+		setToggler(!toggler);
+	};
+
 	return (
 		<Hero
 			sx={{
@@ -45,6 +54,10 @@ const VideoHero = () => {
 		>
 			<Box sx={{ py: { xs: 0, sm: 2 } }}>
 				<StandardLayout>
+					<FsLightbox
+						toggler={toggler}
+						sources={['/videos/TPP-Header-Reel.mp4']}
+					/>
 					<Stack
 						display="flex"
 						flexDirection="column"
@@ -129,6 +142,7 @@ const VideoHero = () => {
 									alignItems: 'center',
 									width: { xs: '100%', sm: '80%' },
 									maxWidth: '600px',
+									position: 'relative',
 								}}
 							>
 								{!isMobile ? (
@@ -157,6 +171,23 @@ const VideoHero = () => {
 										}}
 									/>
 								)}
+								<IconButton
+									sx={{
+										position: 'absolute',
+										top: '50%',
+										left: '50%',
+										transform: 'translate(-50%, -50%)',
+										backgroundColor: 'PrimaryPurple',
+										border: '2px solid white',
+										color: 'white',
+										'&:hover': {
+											backgroundColor: 'PurpleDark',
+										},
+									}}
+									onClick={handlePlayClick}
+								>
+									<PlayArrowIcon sx={{ fontSize: 60 }} />
+								</IconButton>
 							</Box>
 							<Box
 								sx={{
