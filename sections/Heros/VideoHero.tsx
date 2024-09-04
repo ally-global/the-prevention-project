@@ -55,7 +55,22 @@ const VideoHero = () => {
 				<StandardLayout>
 					<FsLightbox
 						toggler={toggler}
-						sources={['/videos/TPP-Header-Reel.mp4']}
+						type="video"
+						sources={[
+							<iframe
+								key={1}
+								id="vimeo"
+								style={{
+									borderRadius: '16px',
+								}}
+								src="https://player.vimeo.com/video/1004156625?h=41da92eefc&amp;badge=0&amp;autopause=0&amp;transparent=0&amp;player_id=0&amp;app_id=58479"
+								width="600px"
+								height="400px"
+								frameBorder="0"
+								allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+								title="The Prevention Project | Main Promo Video"
+							></iframe>,
+						]}
 					/>
 					<Stack
 						display="flex"
@@ -153,7 +168,7 @@ const VideoHero = () => {
 										style={{
 											borderRadius: 15,
 										}}
-										poster='/images/desktop-video-poster.jpg'
+										poster="/images/desktop-video-poster.jpg"
 									>
 										<source
 											src={'/videos/TPP-Header-Reel.mp4'}
