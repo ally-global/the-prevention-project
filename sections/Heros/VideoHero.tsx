@@ -2,9 +2,8 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import FsLightbox from 'fslightbox-react';
 import Hero from '@/components/Hero';
-import { Box, Stack, IconButton } from '@mui/material';
+import { Box, Stack, IconButton, Modal } from '@mui/material';
 import ChooseYourGradeSection from '@/sections/ChooseYourGradeSection';
 import StandardLayout from '@/components/StandardLayout';
 import Text from '@/components/Text';
@@ -19,8 +18,21 @@ import {
 	textStyles,
 } from './VideoHeroPositions';
 
+const style = {
+	position: 'absolute' as 'absolute',
+	top: { xs: '40%', md: '50%' },
+	left: '50%',
+	transform: 'translate(-50%, -50%)',
+	width: { xs: '315px', sm: '80vw', md: '842px' },
+	height: { xs: '191px', sm: '40vh', md: '511px' },
+	bgcolor: 'white',
+	boxShadow: 24,
+	borderRadius: '16px',
+	p: { xs: 2, sm: 4, md: 10 },
+};
+
 const VideoHero = () => {
-	const [toggler, setToggler] = useState(false);
+	const [modalIsOpen, setIsOpen] = useState(false);
 	const { xsScreen: isMobile, smScreen: isTablet } = useDevice();
 
 	const responsivePositions = (position: string) =>
@@ -37,7 +49,7 @@ const VideoHero = () => {
 		: textStyles;
 
 	const handlePlayClick = () => {
-		setToggler(!toggler);
+		setIsOpen(true);
 	};
 
 	return (
@@ -53,25 +65,22 @@ const VideoHero = () => {
 		>
 			<Box sx={{ py: { xs: 0, sm: 2 } }}>
 				<StandardLayout>
-					<FsLightbox
-						toggler={toggler}
-						type="video"
-						sources={[
+					<Modal open={modalIsOpen} onClose={() => setIsOpen(false)}>
+						<Box sx={style}>
 							<iframe
-								key={1}
 								id="vimeo"
 								style={{
 									borderRadius: '16px',
 								}}
 								src="https://player.vimeo.com/video/1004156625?h=41da92eefc&amp;badge=0&amp;autopause=0&amp;transparent=0&amp;player_id=0&amp;app_id=58479"
-								width="600px"
-								height="400px"
-								frameBorder="0"
+								width="100%"
+								height="100%"
+								frameBorder=""
 								allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
 								title="The Prevention Project | Main Promo Video"
-							></iframe>,
-						]}
-					/>
+							></iframe>
+						</Box>
+					</Modal>
 					<Stack
 						display="flex"
 						flexDirection="column"
