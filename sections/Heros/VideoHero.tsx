@@ -8,6 +8,7 @@ import ChooseYourGradeSection from '@/sections/ChooseYourGradeSection';
 import StandardLayout from '@/components/StandardLayout';
 import Text from '@/components/Text';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import CloseIcon from '@mui/icons-material/Close';
 import useDevice from '@/hooks/useDevice';
 import {
 	positions,
@@ -23,12 +24,12 @@ const style = {
 	top: { xs: '40%', md: '50%' },
 	left: '50%',
 	transform: 'translate(-50%, -50%)',
-	width: { xs: '315px', sm: '550px', md: '792px' },
-	height: { xs: '191px', sm: '345px', md: '511px' },
+	width: { xs: '340px', sm: '550px', md: '792px' },
+	height: { xs: '219px', sm: '355px', md: '511px' },
 	bgcolor: 'white',
 	boxShadow: 24,
 	borderRadius: '16px',
-	p: { xs: 2, sm: 4, md: 10 },
+	p: { xs: 4, sm: 6, md: 10 },
 };
 
 const VideoHero = () => {
@@ -67,6 +68,29 @@ const VideoHero = () => {
 				<StandardLayout>
 					<Modal open={modalIsOpen} onClose={() => setIsOpen(false)}>
 						<Box sx={style}>
+							<Box
+								sx={{
+									position: 'absolute',
+									top: { xs: '0', sm: '6px', md: '12px' },
+									right: { xs: '0', sm: '6px', md: '12px' },
+									zIndex: 2,
+								}}
+							>
+								<IconButton
+									onClick={() => setIsOpen(false)}
+									sx={{
+										backgroundColor: 'transparent',
+
+										color: 'PrimaryPurple',
+										'&:hover': {
+											backgroundColor: 'PrimaryPurple',
+											color: 'white',
+										},
+									}}
+								>
+									<CloseIcon fontSize={isMobile ? 'medium' : 'large'} />
+								</IconButton>
+							</Box>
 							<iframe
 								id="vimeo"
 								style={{
