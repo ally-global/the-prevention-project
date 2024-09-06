@@ -22,6 +22,7 @@ const ExpandedChapter = ({
     vimeoDownloadUrl?: string;
     pdfUrl?: string;
     externalLinks?: { name: string; caption?: string; href: string }[];
+    backgroundImage?: string;
   }[];
 }) => {
   const SectionChip = ({
@@ -41,7 +42,9 @@ const ExpandedChapter = ({
         color={selected ? "PrimaryBlue" : "Grey300"}
         sx={{
           width: "100%",
-          height: { xs: "48px", sm: "64px" },
+          height: { xs: "48px", sm: "64px", md: "fit-content" },
+          minHeight: { xs: "48px", sm: "64px" },
+          textWrap: "pretty",
         }}
       >
         <Box
@@ -107,7 +110,13 @@ const ExpandedChapter = ({
             <Box
               sx={{
                 mb: 3,
-                backgroundColor: "Grey300",
+                ...(content[selected].backgroundImage ? {
+                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(${content[selected].backgroundImage})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "top",
+                } : {
+                  backgroundColor: "Grey300",
+                }),
                 borderRadius: "16px",
                 display: "flex",
                 justifyContent: "center",
@@ -121,6 +130,10 @@ const ExpandedChapter = ({
                 style={{ textDecoration: "none" }}
               >
                 <AllyButton
+                  sx={{
+                    ...(content[selected].backgroundImage) && {
+                      boxShadow: `0 2px 4px #BDBDBD`,}
+                  }}
                   text={"Download PDF"}
                   color={"PrimaryBlue"}
                   endIcon={<CloudDownloadOutlinedIcon />}
