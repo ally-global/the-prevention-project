@@ -1,8 +1,8 @@
-import Hero from '@/components/Hero';
-import StandardLayout from '@/components/StandardLayout';
-import Text from '@/components/Text';
-import { Stack } from '@mui/material';
-import { ReactNode } from 'react';
+import Hero from "@/components/Hero";
+import StandardLayout from "@/components/StandardLayout";
+import Text from "@/components/Text";
+import { Stack } from "@mui/material";
+import { ReactNode } from "react";
 
 const ParentsAndEducatorsHero = ({
 	text,
@@ -16,7 +16,7 @@ const ParentsAndEducatorsHero = ({
 	return (
 		<Hero
 			sx={{
-				background: 'linear-gradient(to right, #673BDC, #00B8C5)',
+				background: "linear-gradient(to right, #673BDC, #00B8C5)",
 				pb: {
 					xs: 6,
 					sm: 6,
