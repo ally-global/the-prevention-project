@@ -52,8 +52,8 @@ const ParentsAndEducatorsHero = ({
 						<Text
 							variant="body1"
 							sx={{
-								textAlign: 'center',
-								maxWidth: '700px',
+								textAlign: "center",
+								maxWidth: "700px",
 							}}
 						>
 							{subtext}
