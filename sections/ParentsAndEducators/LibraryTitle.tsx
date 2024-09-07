@@ -6,10 +6,10 @@ const LibraryTitle = () => {
 		<StandardLayout
 			sx={{
 				backgroundColor: 'PrimaryBlue',
-				padding: 6,
+				padding: { xs: 4, md: 6 },
 			}}
 		>
-			<Text variant="h3" sx={{ textAlign: 'center' }}>
+			<Text variant="h3" sx={{ textAlign: 'center', fontSize: {xs: '36px', md:'44px'} }}>
 				The Prevention Project Library
 			</Text>
 		</StandardLayout>

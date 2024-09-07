@@ -28,18 +28,14 @@ const ParentsAndEducatorsHero = ({
 		>
 			<StandardLayout>
 				<Stack
-					sx={{
-						display: 'flex',
-						alignItems: { xs: 'start', sm: 'center' },
-					}}
 					spacing={4}
 				>
 					{title ? (
 						<Text
 							variant="h5"
 							sx={{
+								textAlign: 'center',
 								maxWidth: '900px',
-								textAlign: { xs: 'left', sm: 'center' },
 							}}
 						>
 							{title}
@@ -48,8 +44,8 @@ const ParentsAndEducatorsHero = ({
 					<Text
 						variant="h4"
 						sx={{
+							textAlign: 'center',
 							maxWidth: '700px',
-							textAlign: { xs: 'left', sm: 'center' },
 						}}
 					>
 						{text}
@@ -58,8 +54,8 @@ const ParentsAndEducatorsHero = ({
 						<Text
 							variant="body1"
 							sx={{
+								textAlign: 'center',
 								maxWidth: '700px',
-								textAlign: { xs: 'left', sm: 'center' },
 							}}
 						>
 							{subtext}

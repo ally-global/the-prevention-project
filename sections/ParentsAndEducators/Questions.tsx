@@ -10,13 +10,13 @@ const QuestionsSection = () => {
 				justifyContent="center"
 				alignItems="center"
 				spacing={2}
-				width={{ xs: '90%', sm: '90%', md: '497px' }}
+				maxWidth={{ md: '497px' }}
 			>
 				<Text variant={'h4'} color="PrimaryPurple" sx={{ mb: 2 }}>
 					Questions?
 				</Text>
 				<Text variant={'h6'} color="PrimaryPurple" sx={{ fontSize: '20px' }}>
-					We're here to help.
+					We&apos;re here to help.
 				</Text>
 				<Text variant={'body1'} color={'Grey900'} sx={{ textAlign: 'center' }}>
 					If you need further support, reach out to us by emailing{' '}
@@ -26,7 +26,7 @@ const QuestionsSection = () => {
 					>
 						thepreventionproject@ally.org
 					</Link>{' '}
-					We're committed to ensuring you feel equipped and empowered to use The
+					We&apos;re committed to ensuring you feel equipped and empowered to use The
 					Prevention Project effectively.
 				</Text>
 			</Stack>

@@ -77,26 +77,26 @@ const EducatorGuidesInfo = () => {
 					leftCol={5}
 					rightCol={6}
 				>
-					{!isMobile ? (
-						<Box
-							sx={{
-								img: {
-									maxWidth: { xs: '50%', md: '100%' },
-									height: 'auto',
-									borderRadius: '16px',
-								},
-							}}
-						>
-							<Image
-								src={'/images/EFG-PDFs-Stacked.png'}
-								alt={'Two PDFs stacked on top of each other'}
-								width={800}
-								height={400}
-							/>
-						</Box>
-					) : (
-						<></>
-					)}
+					<Box
+						sx={{
+							img: {
+								maxWidth: { xs: '50%', md: '100%' },
+								height: 'auto',
+								borderRadius: '16px',
+								marginX: 'auto',
+								marginBottom: { xs: 4, md: 0 },
+							},
+							display: 'flex',
+						}}
+					>
+						<Image
+							src={'/images/EFG-PDFs-Stacked.png'}
+							alt={'Two PDFs stacked on top of each other'}
+							width={800}
+							height={400}
+						/>
+					</Box>
+
 					<Box>
 						<Stack spacing={3}>
 							<Text
