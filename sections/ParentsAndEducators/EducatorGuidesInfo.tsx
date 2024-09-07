@@ -102,12 +102,12 @@ const EducatorGuidesInfo = () => {
 							<Text
 								variant="h6"
 								sx={{
-									backgroundColor: 'PrimaryBlue',
+									backgroundColor: "PrimaryBlue",
 									py: 1,
 									px: 2,
 									borderRadius: 8,
-									width: 'fit-content',
-									fontSize: '16px',
+									width: "fit-content",
+									fontSize: "16px",
 								}}
 							>
 								NOW AVAILABLE!
@@ -123,8 +123,8 @@ const EducatorGuidesInfo = () => {
 							<Text variant="h6">Each guide includes:</Text>
 							<ul
 								style={{
-									listStyleType: 'square',
-									paddingLeft: '20px',
+									listStyleType: "square",
+									paddingLeft: "20px",
 								}}
 							>
 								<li>Essential background information on the topic</li>
