@@ -27,15 +27,13 @@ const ParentsAndEducatorsHero = ({
 			}}
 		>
 			<StandardLayout>
-				<Stack
-					spacing={4}
-				>
+				<Stack spacing={4}>
 					{title ? (
 						<Text
 							variant="h5"
 							sx={{
-								textAlign: 'center',
-								maxWidth: '900px',
+								textAlign: "center",
+								maxWidth: "900px",
 							}}
 						>
 							{title}
@@ -44,8 +42,8 @@ const ParentsAndEducatorsHero = ({
 					<Text
 						variant="h4"
 						sx={{
-							textAlign: 'center',
-							maxWidth: '700px',
+							textAlign: "center",
+							maxWidth: "700px",
 						}}
 					>
 						{text}
