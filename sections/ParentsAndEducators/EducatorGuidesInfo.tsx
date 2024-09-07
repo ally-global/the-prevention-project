@@ -1,33 +1,33 @@
-'use client';
+"use client";
 
-import StandardLayout from '@/components/StandardLayout';
-import { Box, Link, Stack } from '@mui/material';
+import StandardLayout from "@/components/StandardLayout";
+import { Box, Link, Stack } from "@mui/material";
 
-import Image from 'next/image';
+import Image from "next/image";
 
-import Text from '@/components/Text';
-import TwoColumnLayout, { ColumnWrapOrder } from '@/components/TwoColumnLayout';
-import useDevice from '@/hooks/useDevice';
+import Text from "@/components/Text";
+import TwoColumnLayout, { ColumnWrapOrder } from "@/components/TwoColumnLayout";
+import useDevice from "@/hooks/useDevice";
 
 const DownloadGuidesButtons = () => {
 	const linkStyles = {
-		color: 'PrimaryPurple',
-		backgroundColor: 'white',
+		color: "PrimaryPurple",
+		backgroundColor: "white",
 		borderRadius: 12,
 		py: 1,
 		px: 2,
-		textDecoration: 'none',
-		fontSize: '16px',
-		fontWeight: 'bold',
-		maxWidth: '332px',
+		textDecoration: "none",
+		fontSize: "16px",
+		fontWeight: "bold",
+		maxWidth: "332px",
 	};
 
 	return (
-		<Stack spacing={4} sx={{ textAlign: 'center' }} mt={6}>
+		<Stack spacing={4} sx={{ textAlign: "center" }} mt={6}>
 			<Stack
-				direction={{ xs: 'column', sm: 'row' }}
+				direction={{ xs: "column", sm: "row" }}
 				spacing={2}
-				sx={{ marginX: 'auto' }}
+				sx={{ marginX: "auto" }}
 				justifyContent="center"
 				alignItems="center"
 			>

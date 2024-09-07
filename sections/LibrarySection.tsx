@@ -45,8 +45,8 @@ const LibrarySection = ({ section }: { section: Section }) => {
 			<StandardLayout>
 				<Stack spacing={6}>
 					<Text
-						variant={'h3'}
-						sxMobile={{ textAlign: 'center', fontSize: '32px' }}
+						variant={"h3"}
+						sxMobile={{ textAlign: "center", fontSize: "32px" }}
 					>
 						{title}
 					</Text>
