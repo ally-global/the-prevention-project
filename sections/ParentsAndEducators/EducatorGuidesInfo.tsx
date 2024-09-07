@@ -49,9 +49,9 @@ const DownloadGuidesButtons = () => {
 			<Text
 				variant="body1"
 				sx={{
-					width: { xs: '90%', md: '472px' },
-					marginX: 'auto',
-					textAlign: 'center',
+					width: { xs: "90%", md: "472px" },
+					marginX: "auto",
+					textAlign: "center",
 				}}
 			>
 				Alternatively, browse the library below to download individual assets or
@@ -80,18 +80,18 @@ const EducatorGuidesInfo = () => {
 					<Box
 						sx={{
 							img: {
-								maxWidth: { xs: '50%', md: '100%' },
-								height: 'auto',
-								borderRadius: '16px',
-								marginX: 'auto',
+								maxWidth: { xs: "50%", md: "100%" },
+								height: "auto",
+								borderRadius: "16px",
+								marginX: "auto",
 								marginBottom: { xs: 4, md: 0 },
 							},
-							display: 'flex',
+							display: "flex",
 						}}
 					>
 						<Image
-							src={'/images/EFG-PDFs-Stacked.png'}
-							alt={'Two PDFs stacked on top of each other'}
+							src={"/images/EFG-PDFs-Stacked.png"}
+							alt={"Two PDFs stacked on top of each other"}
 							width={800}
 							height={400}
 						/>
