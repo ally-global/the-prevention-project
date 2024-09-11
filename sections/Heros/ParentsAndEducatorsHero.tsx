@@ -27,13 +27,19 @@ const ParentsAndEducatorsHero = ({
 			}}
 		>
 			<StandardLayout>
-				<Stack spacing={4}>
+				<Stack
+					spacing={4}
+					sx={{
+						display: 'flex',
+						alignItems: 'center',
+					}}
+				>
 					{title ? (
 						<Text
 							variant="h5"
 							sx={{
-								textAlign: "center",
-								maxWidth: "900px",
+								textAlign: 'center',
+								maxWidth: '900px',
 							}}
 						>
 							{title}
