@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 
 export type Chapter = {
   title: string;
+  cardImage?: string;
   downloadUrl?: string;
   content: {
     title: string;
@@ -52,6 +53,8 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Consent and Healthy Boundaries",
+    cardImage:
+      "/images/chapter-cards/Gr3-5_Ch1_Consent and Healthy Boundaries.jpg",
     downloadUrl: "https://thepreventionproject-gr35-ch1.paperform.co/",
     content: [
       {
@@ -172,6 +175,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "The Internet",
+    cardImage: "/images/chapter-cards/Gr3-5_Ch2_The Internet.jpg",
     downloadUrl: "https://thepreventionproject-gr35-ch2.paperform.co/",
     content: [
       {
@@ -285,6 +289,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Information Sharing Online",
+    cardImage: "/images/chapter-cards/Gr3-5_Ch3_Information Sharing Online.jpg",
     downloadUrl: "https://thepreventionproject-gr35-ch3.paperform.co/",
     content: [
       {
@@ -371,6 +376,8 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Unsafe People and Unhealthy Social Accounts",
+    cardImage:
+      "/images/chapter-cards/Gr3-5_Ch4_Unsafe People and Unhealthy Social Accounts.jpg",
     downloadUrl: "https://thepreventionproject-gr35-ch4.paperform.co/",
     content: [
       {
@@ -477,6 +484,7 @@ export const chapters3to5: Chapter[] = [
   },
   {
     title: "Being a Safe Person",
+    cardImage: "/images/chapter-cards/Gr3-5_Ch5_Being a Safe Person.jpg",
     downloadUrl: "https://thepreventionproject-gr35-ch5.paperform.co/",
     content: [
       {
@@ -598,6 +606,8 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Consent and Healthy Boundaries",
+    cardImage:
+      "/images/chapter-cards/Gr6-7_Ch1_Consent and Healthy Boundaries.jpg",
     downloadUrl: `https://thepreventionproject-gr67-ch1.paperform.co/`,
     content: [
       {
@@ -701,6 +711,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Sexual Exploitation",
+    cardImage: "/images/chapter-cards/Gr6-7_Ch2_Sexual Exploitation.jpg",
     downloadUrl: `https://thepreventionproject-gr6-7-ch2.paperform.co/`,
     content: [
       {
@@ -823,6 +834,8 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Sexting and Peer Exploitation",
+    cardImage:
+      "/images/chapter-cards/Gr6-7_Ch3_Sexting and Peer Exploitation.jpg",
     downloadUrl: `https://thepreventionproject-gr6-7-ch3.paperform.co/`,
     content: [
       {
@@ -1019,6 +1032,8 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "About the Internet and Information Sharing",
+    cardImage:
+      "/images/chapter-cards/Gr6-7_Ch4_About the Internet and Information Sharing.jpg",
     downloadUrl: `https://thepreventionproject-gr6-7-ch4.paperform.co/`,
     content: [
       {
@@ -1087,6 +1102,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Sextortion",
+    cardImage: "/images/chapter-cards/Gr6-7_Ch5_Sextortion.jpg",
     downloadUrl: `https://thepreventionproject-gr6-7-ch5.paperform.co/`,
     content: [
       {
@@ -1264,6 +1280,8 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Predatory People and Grooming",
+    cardImage:
+      "/images/chapter-cards/Gr6-7_Ch6_Predatory People and Grooming.jpg",
     downloadUrl: `https://thepreventionproject-gr67-ch-6.paperform.co/`,
     content: [
       {
@@ -1352,6 +1370,7 @@ export const chapters6to7: Chapter[] = [
   },
   {
     title: "Human Trafficking",
+    cardImage: "/images/chapter-cards/Gr6-7_Ch7_Human trafficking.jpg",
     downloadUrl: `https://thepreventionproject-gr6-7-ch7.paperform.co/`,
     content: [
       {
@@ -1520,6 +1539,8 @@ export const chapters8to12: Chapter[] = [
   },
   {
     title: "Consent and Healthy Boundaries",
+    cardImage:
+      "/images/chapter-cards/Gr8-12_Ch1_Consent and Healthy Boundaries.jpg",
     downloadUrl: `https://thepreventionproject-gr812-ch1.paperform.co/`,
     content: [
       {
@@ -1612,6 +1633,7 @@ export const chapters8to12: Chapter[] = [
   },
   {
     title: "Sexual Exploitation",
+    cardImage: "/images/chapter-cards/Gr8-12_Ch2_Sexual Exploitation.jpg",
     downloadUrl: `https://thepreventionproject-gr812-ch2.paperform.co/`,
     content: [
       {
@@ -1701,6 +1723,8 @@ export const chapters8to12: Chapter[] = [
   },
   {
     title: "Sexting and Peer Exploitation",
+    cardImage:
+      "/images/chapter-cards/Gr8-12_Ch3_Sexting and Peer Exploitation.jpg",
     downloadUrl: `https://thepreventionproject-gr812-ch3.paperform.co/`,
     content: [
       {
@@ -1816,6 +1840,7 @@ export const chapters8to12: Chapter[] = [
   },
   {
     title: "Exploiters and Predators",
+    cardImage: "/images/chapter-cards/Gr8-12_Ch4_Exploiters and Predators.jpg",
     downloadUrl: `https://thepreventionproject-gr812-ch4.paperform.co/`,
     content: [
       {
@@ -1872,6 +1897,8 @@ export const chapters8to12: Chapter[] = [
   },
   {
     title: "Internet Dynamics and Grooming",
+    cardImage:
+      "/images/chapter-cards/Gr8-12_Ch5_Internet Dynamics and Grooming.jpg",
     downloadUrl: `https://thepreventionproject-gr812-ch5.paperform.co/`,
     content: [
       {
@@ -1927,6 +1954,7 @@ export const chapters8to12: Chapter[] = [
   },
   {
     title: "Sextortion",
+    cardImage: "/images/chapter-cards/Gr8-12_Ch6_Sextortion.jpg",
     downloadUrl: `https://thepreventionproject-gr812-ch6.paperform.co/`,
     content: [
       {
@@ -2118,6 +2146,8 @@ export const chapters8to12: Chapter[] = [
   },
   {
     title: "Pimps and Human Trafficking",
+    cardImage:
+      "/images/chapter-cards/Gr8-12_Ch7_Pimps and Human Trafficking.jpg",
     downloadUrl: `https://thepreventionproject-gr812-ch7.paperform.co/`,
     content: [
       {
@@ -2243,6 +2273,7 @@ export const chapters8to12: Chapter[] = [
   },
   {
     title: "High-Risk Behaviours",
+    cardImage: "/images/chapter-cards/Gr8-12_Ch8_High-Risk Behaviours.jpg",
     downloadUrl: `https://thepreventionproject-gr812-ch8.paperform.co/`,
     content: [
       {

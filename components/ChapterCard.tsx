@@ -1,45 +1,72 @@
-import { Box, Stack } from "@mui/material";
+import { Box, Button, Stack, SxProps } from "@mui/material";
 import Image from "next/image";
 import Text from "./Text";
+import Link from "next/link";
 
-const ChapterCard = () => {
+const ChapterCard = ({
+  chapterNumber,
+  chapterName,
+  backgroundImageSrc,
+  href,
+  sx,
+}: {
+  chapterNumber: number;
+  chapterName: string;
+  backgroundImageSrc: string;
+  href: string;
+  sx?: SxProps;
+}) => {
   return (
-    <Stack
-      sx={{
-        width: "250px",
-        height: "250px",
-        borderRadius: 3,
-        margin: 3,
-        backgroundColor: "PrimaryPurple",
-        gap: 0,
-      }}
-    >
-      <Box>
-        <Image
-          width={250}
-          height={133}
-          alt=""
-          src={
-            "/images/chapter-cards/Gr3-5_Ch1_Consent and Healthy Boundaries.jpg"
-          }
-          style={{ borderTopLeftRadius: "12px", borderTopRightRadius: "12px" }}
-        />
-      </Box>
+    <Link href={href} style={{ textDecoration: "none" }}>
       <Stack
         sx={{
-          paddingX: 2,
-          paddingY: 1,
+          width: { xs: "100%", sm: "250px" },
+          height: { xs: "240px", sm: "250px" },
+          borderRadius: 3,
+          backgroundColor: "PrimaryPurple",
+          gap: 0,
+          ...sx,
         }}
-        gap={1}
       >
-        <Text variant="caption" color="White" sx={{ fontWeight: "bold" }}>
-          CHAPTER 1
-        </Text>
-        <Text variant="body1" color="White" sx={{ fontWeight: "bold" }}>
-          Consent and Healthy Boundaries
-        </Text>
+        <Box
+          sx={{
+            height: "131px",
+            width: { xs: "100%", sm: "250px" },
+          }}
+        >
+          <Image
+            // width={500}
+            // height={500}
+            width={0}
+            height={0}
+            sizes="100vw"
+            alt=""
+            src={backgroundImageSrc}
+            style={{
+              width: "100%",
+              height: "131px",
+              borderTopLeftRadius: "12px",
+              borderTopRightRadius: "12px",
+            }}
+          />
+        </Box>
+        <Stack
+          sx={{
+            paddingX: 2,
+            paddingY: 1,
+            height: { xs: "84px", sm: "121px" },
+          }}
+          gap={1}
+        >
+          <Text variant="caption" color="White" sx={{ fontWeight: "bold" }}>
+            {`CHAPTER ${chapterNumber} `}
+          </Text>
+          <Text variant="body1" color="White" sx={{ fontWeight: "bold" }}>
+            {chapterName}
+          </Text>
+        </Stack>
       </Stack>
-    </Stack>
+    </Link>
   );
 };
 
