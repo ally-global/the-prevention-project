@@ -74,7 +74,7 @@ const CallOutSection = () => {
 			sx={{
 				backgroundColor: 'Grey200',
 				p: 3,
-				mt: 6,
+				mt: 4,
 				borderRadius: 4,
 				textAlign: 'center',
 				marginX: 'auto',
