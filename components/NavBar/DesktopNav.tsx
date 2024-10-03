@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import AllyButton from "@/components/AllyButton";
 import { scrollToHelpRightNow } from "@/utils/helpers";
+import { NavItemDropdown } from "./NavItemDropdown";
 
 export const NavItem = ({
   href,
@@ -58,9 +59,7 @@ const DesktopNav: FC = () => {
         </AllyButton>
       </Box>
       <Box>
-        <Link href={"/"} style={{ textDecoration: "none" }}>
-          <AllyButton text={"CHOOSE YOUR GRADE"} />
-        </Link>
+        <NavItemDropdown title="CHOOSE YOUR GRADE" />
       </Box>
     </Box>
   );
