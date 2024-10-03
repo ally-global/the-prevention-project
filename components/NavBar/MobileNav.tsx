@@ -109,7 +109,7 @@ const MobileNav: FC = () => {
 						pt: 2,
 						pb: 4,
 						backgroundColor: "PrimaryBlue",
-						height: "calc(100% - 64px)",
+						height: "100vh",
 						boxShadow:
 							"0px 2px 4px -4px rgba(0, 0, 0, 0.2), 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px -10px rgba(0, 0, 0, 0.12)",
 					},
