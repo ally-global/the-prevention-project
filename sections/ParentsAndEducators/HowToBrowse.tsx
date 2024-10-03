@@ -10,20 +10,14 @@ const content = {
 		{
 			number: 1,
 			title: 'Choose a Grade Level',
-			description:
-				'The library below is organized by grade level and topic, making it easy to find the resources you need.',
 		},
 		{
 			number: 2,
 			title: 'Choose a Topic',
-			description:
-				"When you click into a topic, you'll be able to preview each video and PDF associated with that chapter.",
 		},
 		{
 			number: 3,
 			title: 'Download What You Need',
-			description:
-				'To use these resources offline, you can easily download an entire chapter bundle, or just the video or PDF you need.',
 		},
 	],
 };
@@ -80,7 +74,6 @@ const CallOutSection = () => {
 			sx={{
 				backgroundColor: 'Grey200',
 				p: 3,
-				mt: 6,
 				borderRadius: 4,
 				textAlign: 'center',
 				marginX: 'auto',
@@ -111,12 +104,8 @@ const CallOutSection = () => {
 
 const HowToBrowseSection = () => {
 	return (
-		<StandardLayout sx={{ py: { xs: 4, md: 8 } }}>
-			<Text
-				variant={'h4'}
-				color="PrimaryPurple"
-				sx={{ textAlign: 'center' }}
-			>
+		<StandardLayout sx={{ py: { xs: 4, md: 6 } }}>
+			<Text variant={'h4'} color="PrimaryPurple" sx={{ textAlign: 'center' }}>
 				{content.title}
 			</Text>
 			<Grid container>

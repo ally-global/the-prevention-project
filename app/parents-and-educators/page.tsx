@@ -14,7 +14,6 @@ export default function Library() {
 			<ParentsAndEducatorsHero
 				title="For Parents and Educators"
 				text="Find the tools you need to facilitate conversations about safety, consent and exploitation prevention."
-				subtext="Whether you're guiding young minds in the classroom or supporting your child’s education at home, The Prevention Project has all the materials you need to deliver this vital education with confidence."
 			/>
 			<HowToBrowseSection />
 			<EducatorGuidesInfo />
