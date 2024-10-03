@@ -5,9 +5,11 @@ import Link from "next/link";
 export const NavItemDropdown = ({
 	title,
 	isOpen,
+	handleDrawerClose,
 }: {
 	title: string;
 	isOpen?: () => void;
+	handleDrawerClose: () => void;
 }) => {
 	const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 	const open = Boolean(anchorEl);
@@ -16,6 +18,7 @@ export const NavItemDropdown = ({
 	};
 	const handleClose = () => {
 		setAnchorEl(null);
+		handleDrawerClose()
 	};
 
 	const MenuItemStyles = {
