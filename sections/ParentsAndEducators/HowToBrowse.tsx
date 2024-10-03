@@ -74,7 +74,6 @@ const CallOutSection = () => {
 			sx={{
 				backgroundColor: 'Grey200',
 				p: 3,
-				mt: 4,
 				borderRadius: 4,
 				textAlign: 'center',
 				marginX: 'auto',
@@ -105,7 +104,7 @@ const CallOutSection = () => {
 
 const HowToBrowseSection = () => {
 	return (
-		<StandardLayout sx={{ py: { xs: 4, md: 8 } }}>
+		<StandardLayout sx={{ py: { xs: 4, md: 6 } }}>
 			<Text variant={'h4'} color="PrimaryPurple" sx={{ textAlign: 'center' }}>
 				{content.title}
 			</Text>
