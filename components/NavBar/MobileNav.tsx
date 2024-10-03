@@ -1,17 +1,17 @@
-import { FC, ReactNode, useState } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import CloseIcon from '@mui/icons-material/Close';
-import MenuIcon from '@mui/icons-material/Menu';
-import IconButton from '@mui/material/IconButton';
-import Drawer from '@mui/material/Drawer';
-import { NavItem } from './DesktopNav';
-import AllyButton from '../AllyButton';
-import { SxProps, Typography } from '@mui/material';
-import { scrollToHelpRightNow } from '@/utils/helpers';
-import { NavItemDropdown } from './NavItemDropdown';
+import { FC, ReactNode, useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import CloseIcon from "@mui/icons-material/Close";
+import MenuIcon from "@mui/icons-material/Menu";
+import IconButton from "@mui/material/IconButton";
+import Drawer from "@mui/material/Drawer";
+import { NavItem } from "./DesktopNav";
+import AllyButton from "../AllyButton";
+import { SxProps, Typography } from "@mui/material";
+import { scrollToHelpRightNow } from "@/utils/helpers";
+import { NavItemDropdown } from "./NavItemDropdown";
 
 const MobileMenuItem = ({
 	children,
@@ -23,19 +23,19 @@ const MobileMenuItem = ({
 	return (
 		<Box
 			sx={{
-				backgroundColor: 'PrimaryBlue',
-				height: '48px',
-				width: '100%',
-				display: 'flex',
-				alignItems: 'stretch',
-				justifyContent: 'center',
+				backgroundColor: "PrimaryBlue",
+				height: "48px",
+				width: "100%",
+				display: "flex",
+				alignItems: "stretch",
+				justifyContent: "center",
 				px: { xs: 3, sm: 6 },
 				a: {
-					width: '100%',
-					height: '100%',
-					alignItems: 'center',
-					justifyContent: 'center',
-					display: 'flex',
+					width: "100%",
+					height: "100%",
+					alignItems: "center",
+					justifyContent: "center",
+					display: "flex",
 				},
 				...sx,
 			}}
@@ -60,7 +60,7 @@ const MobileNav: FC = () => {
 				component="div"
 				color="transparent"
 				sx={{
-					boxShadow: 'none',
+					boxShadow: "none",
 				}}
 			>
 				<Box
@@ -72,11 +72,11 @@ const MobileNav: FC = () => {
 						xs: 3,
 						sm: 3,
 					}}
-					sx={{ backgroundColor: open ? 'PrimaryBlue' : 'transparent' }}
+					sx={{ backgroundColor: open ? "PrimaryBlue" : "transparent" }}
 				>
 					<Link href="/">
 						<Image
-							src={'/images/ally-exed-logo.png'}
+							src={"/images/ally-exed-logo.png"}
 							width={96}
 							height={40}
 							alt="Ally exed logo"
@@ -105,13 +105,13 @@ const MobileNav: FC = () => {
 				open={open}
 				PaperProps={{
 					sx: {
-						marginTop: '64px',
+						marginTop: "64px",
 						pt: 2,
 						pb: 4,
-						backgroundColor: 'PrimaryBlue',
-						height: 'calc(100% - 64px)',
+						backgroundColor: "PrimaryBlue",
+						height: "calc(100% - 64px)",
 						boxShadow:
-							'0px 2px 4px -4px rgba(0, 0, 0, 0.2), 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px -10px rgba(0, 0, 0, 0.12)',
+							"0px 2px 4px -4px rgba(0, 0, 0, 0.2), 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px -10px rgba(0, 0, 0, 0.12)",
 					},
 				}}
 				SlideProps={{
@@ -138,7 +138,7 @@ const MobileNav: FC = () => {
 							handleDrawerClose();
 							scrollToHelpRightNow();
 						}}
-						sx={{ backgroundColor: 'transparent' }}
+						sx={{ backgroundColor: "transparent" }}
 					>
 						<Typography variant="button" color={`White`}>
 							GET HELP NOW
@@ -146,7 +146,7 @@ const MobileNav: FC = () => {
 					</AllyButton>
 				</MobileMenuItem>
 				<MobileMenuItem
-					sx={{ minHeight: '72px', pt: 2, maxHeight: 'fit-content' }}
+					sx={{ minHeight: "72px", pt: 2, maxHeight: "fit-content" }}
 				>
 					<NavItemDropdown title="CHOOSE YOUR GRADE" />
 				</MobileMenuItem>

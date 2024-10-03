@@ -1,6 +1,6 @@
-import { Box, Button, Menu, MenuItem, Typography } from '@mui/material';
-import { useState } from 'react';
-import Link from 'next/link';
+import { Box, Button, Menu, MenuItem, Typography } from "@mui/material";
+import { useState } from "react";
+import Link from "next/link";
 
 export const NavItemDropdown = ({
 	title,
@@ -19,36 +19,36 @@ export const NavItemDropdown = ({
 	};
 
 	const MenuItemStyles = {
-		fontSize: '16px',
-		'&:hover': { backgroundColor: 'PurpleMid' },
+		fontSize: "16px",
+		"&:hover": { backgroundColor: "PurpleMid" },
 	};
-	const LinkStyles = { textDecoration: 'none' };
+	const LinkStyles = { textDecoration: "none" };
 
 	return (
 		<Box
 			sx={{
-				width: 'max-content',
+				width: "max-content",
 			}}
 		>
 			<Button
 				id="basic-button"
 				aria-haspopup="true"
-				aria-expanded={open ? 'true' : undefined}
-				aria-controls={open ? 'choose-grade-menu' : undefined}
+				aria-expanded={open ? "true" : undefined}
+				aria-controls={open ? "choose-grade-menu" : undefined}
 				onClick={(e: React.MouseEvent<HTMLButtonElement>) => handleClick(e)}
 				sx={{
-					textAlign: 'center',
-					height: '36px',
-					width: '100%',
+					textAlign: "center",
+					height: "36px",
+					width: "100%",
 					backgroundColor: `PrimaryPurple`,
 					color: `White`,
 					paddingX: 2,
-					borderRadius: '24px',
-					whiteSpace: 'nowrap',
-					'&:hover': {
+					borderRadius: "24px",
+					whiteSpace: "nowrap",
+					"&:hover": {
 						backgroundColor: `PrimaryPurple`,
 					},
-					'&:active': {
+					"&:active": {
 						backgroundColor: `PrimaryPurple`,
 					},
 				}}
@@ -63,15 +63,15 @@ export const NavItemDropdown = ({
 				open={open}
 				onClose={handleClose}
 				MenuListProps={{
-					'aria-labelledby': 'basic-button',
+					"aria-labelledby": "basic-button",
 				}}
 				sx={{
-					overflow: 'visible',
-					'& .MuiMenu-paper': {
-						borderRadius: '24px',
-						backgroundColor: 'PrimaryPurple',
-						width: '192px',
-						marginTop: '4px',
+					overflow: "visible",
+					"& .MuiMenu-paper": {
+						borderRadius: "24px",
+						backgroundColor: "PrimaryPurple",
+						width: "192px",
+						marginTop: "4px",
 					},
 				}}
 			>
