@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import AllyButton from "@/components/AllyButton";
 import { scrollToHelpRightNow } from "@/utils/helpers";
+import { NavItemDropdown } from "./NavItemDropdown";
 
 export const NavItem = ({
   href,
@@ -15,9 +16,9 @@ export const NavItem = ({
   text: string;
   onClick?: () => void;
 }) => (
-  <Link href={href} style={{ textDecoration: "none" }}>
+  <Link href={href} style={{ textDecoration: "none", width: "fit-content" }}>
     <AllyButton
-      sx={{ backgroundColor: "transparent", mt: "4px", ml: "-16px" }}
+      sx={{ backgroundColor: "transparent", mt: "4px", ml: "-16px", margin: "auto" }}
       onClick={onClick}
     >
       <Typography variant="button" color={`White`}>
@@ -58,9 +59,7 @@ const DesktopNav: FC = () => {
         </AllyButton>
       </Box>
       <Box>
-        <Link href={"/"} style={{ textDecoration: "none" }}>
-          <AllyButton text={"CHOOSE YOUR GRADE"} />
-        </Link>
+        <NavItemDropdown title="CHOOSE YOUR GRADE"/>
       </Box>
     </Box>
   );
