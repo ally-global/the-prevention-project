@@ -183,7 +183,14 @@ const Footer = () => {
                     color={`Grey800`}
                     lineHeight={"24px"}
                   >
-                    Email us at thepreventionproject@ally.org
+                    Email us at <Typography
+                      component={"a"}
+                      href="mailto:info@thepreventionproject.ca"
+                      target="_blank"
+                      color="Grey800"
+                      variant={"caption"}
+                      lineHeight={"24px"}
+                    >info@thepreventionproject.ca</Typography>
                   </Typography>
                   <Box>
                     <Typography
