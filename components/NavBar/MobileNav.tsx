@@ -148,7 +148,10 @@ const MobileNav: FC = () => {
 				<MobileMenuItem
 					sx={{ minHeight: "72px", pt: 2, maxHeight: "fit-content" }}
 				>
-					<NavItemDropdown title="CHOOSE YOUR GRADE" handleDrawerClose={handleDrawerClose}/>
+					<NavItemDropdown
+						title="CHOOSE YOUR GRADE"
+						handleDrawerClose={handleDrawerClose}
+					/>
 				</MobileMenuItem>
 			</Drawer>
 		</>

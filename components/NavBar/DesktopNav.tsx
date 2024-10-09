@@ -59,7 +59,7 @@ const DesktopNav: FC = () => {
         </AllyButton>
       </Box>
       <Box>
-        <NavItemDropdown title="CHOOSE YOUR GRADE" />
+        <NavItemDropdown title="CHOOSE YOUR GRADE"/>
       </Box>
     </Box>
   );
