@@ -61,6 +61,7 @@ export const NavItemDropdown = ({
 				</Typography>
 			</Button>
 			<Menu
+				disableScrollLock={true}
 				id="basic-menu"
 				anchorEl={anchorEl}
 				open={open}
