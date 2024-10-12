@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <>
       <VideoHero />
-      <ChapterCardSection showChapters={GradeGroup.GRADES_8_TO_12} />
       <PurpleHeading />
       <QuestionCardSection />
       <Stack

@@ -1,7 +1,6 @@
-import { Box, Button, Stack, SxProps } from "@mui/material";
+import { Box, Stack, SxProps } from "@mui/material";
 import Image from "next/image";
 import Text from "./Text";
-import Link from "next/link";
 
 const ChapterCard = ({
   chapterNumber,
@@ -17,7 +16,11 @@ const ChapterCard = ({
   sx?: SxProps;
 }) => {
   return (
-    <Link href={href} style={{ textDecoration: "none" }}>
+    <Box
+      component="a"
+      href={href}
+      sx={{ textDecoration: "none", width: { xs: "100%", sm: "250px" } }}
+    >
       <Stack
         sx={{
           width: { xs: "100%", sm: "250px" },
@@ -32,21 +35,22 @@ const ChapterCard = ({
           sx={{
             height: "131px",
             width: { xs: "100%", sm: "250px" },
+            overflow: "hidden",
           }}
         >
           <Image
-            // width={500}
-            // height={500}
             width={0}
             height={0}
             sizes="100vw"
             alt=""
+            objectFit={"contain"}
             src={backgroundImageSrc}
             style={{
               width: "100%",
-              height: "131px",
+              height: "auto",
               borderTopLeftRadius: "12px",
               borderTopRightRadius: "12px",
+              zIndex: 1,
             }}
           />
         </Box>
@@ -66,7 +70,7 @@ const ChapterCard = ({
           </Text>
         </Stack>
       </Stack>
-    </Link>
+    </Box>
   );
 };
 

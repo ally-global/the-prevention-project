@@ -26,6 +26,7 @@ const ChapterCardSection = ({
   let data: Chapter[] = [];
   let slug: undefined | string;
   let backgroundColor: string;
+
   if (showChapters === GradeGroup.GRADES_3_TO_5) {
     data = chapters3to5;
     slug = "grades3-5";
@@ -41,33 +42,32 @@ const ChapterCardSection = ({
   }
 
   return (
-    <StandardLayout>
-      <Box
-        sx={{
-          display: "flex",
-          flexWrap: "wrap",
-          width: "100%",
-          gap: 4,
-        }}
-      >
-        {data.map((chapter, index) => {
-          if (index === 0) {
-            // Don't show introduction
-            return <></>;
-          }
-          return (
-            <ChapterCard
-              key={`chapter-card-${index}`}
-              chapterName={chapter.title}
-              chapterNumber={index}
-              sx={{ backgroundColor }}
-              backgroundImageSrc={chapter.cardImage ?? ""}
-              href={`/${slug}?chapter=${index}`}
-            />
-          );
-        })}
-      </Box>
-    </StandardLayout>
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "align-left",
+        flexWrap: "wrap",
+        width: "100%",
+        gap: 4,
+      }}
+    >
+      {data.map((chapter, index) => {
+        if (index === 0) {
+          // Don't show introduction
+          return <></>;
+        }
+        return (
+          <ChapterCard
+            key={`chapter-card-${index}`}
+            chapterName={chapter.title}
+            chapterNumber={index}
+            sx={{ backgroundColor }}
+            backgroundImageSrc={chapter.cardImage ?? ""}
+            href={`/${slug}?chapter=${index}`}
+          />
+        );
+      })}
+    </Box>
   );
 };
 
