@@ -4,7 +4,6 @@ import WhatDoIDoSection from "@/sections/WhatDoIDoSection";
 import HelpRightNowSection from "@/sections/HelpRightNowSection";
 import { Stack } from "@mui/material";
 import PurpleHeading from "@/sections/PurpleHeading";
-import ChapterCardSection, { GradeGroup } from "@/sections/ChapterCardSection";
 
 export default function Home() {
   return (
