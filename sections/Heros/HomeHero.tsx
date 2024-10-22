@@ -44,9 +44,8 @@ const HomeHero = () => {
                 textAlign: { xs: "left", sm: "center" },
               }}
             >
-              Let&apos;s learn about this and more, so that we can create a
-              safer world for ourselves and for others — both online and face to
-              face.
+              Let&apos;s learn together, so that we can create a safer world for 
+              ourselves and for others — both online and face to face.
             </Text>
           </Stack>
         </StandardLayout>

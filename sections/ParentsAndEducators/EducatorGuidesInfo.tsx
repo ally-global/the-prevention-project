@@ -1,33 +1,33 @@
-'use client';
+"use client";
 
-import StandardLayout from '@/components/StandardLayout';
-import { Box, Link, Stack } from '@mui/material';
+import StandardLayout from "@/components/StandardLayout";
+import { Box, Link, Stack } from "@mui/material";
 
-import Image from 'next/image';
+import Image from "next/image";
 
-import Text from '@/components/Text';
-import TwoColumnLayout, { ColumnWrapOrder } from '@/components/TwoColumnLayout';
-import useDevice from '@/hooks/useDevice';
+import Text from "@/components/Text";
+import TwoColumnLayout, { ColumnWrapOrder } from "@/components/TwoColumnLayout";
+import useDevice from "@/hooks/useDevice";
 
 const DownloadGuidesButtons = () => {
 	const linkStyles = {
-		color: 'PrimaryPurple',
-		backgroundColor: 'white',
+		color: "PrimaryPurple",
+		backgroundColor: "white",
 		borderRadius: 12,
 		py: 1,
 		px: 2,
-		textDecoration: 'none',
-		fontSize: '16px',
-		fontWeight: 'bold',
-		maxWidth: '332px',
+		textDecoration: "none",
+		fontSize: "16px",
+		fontWeight: "bold",
+		maxWidth: "332px",
 	};
 
 	return (
-		<Stack spacing={4} sx={{ textAlign: 'center' }} mt={6}>
+		<Stack spacing={4} sx={{ textAlign: "center" }} mt={6}>
 			<Stack
-				direction={{ xs: 'column', sm: 'row' }}
+				direction={{ xs: "column", sm: "row" }}
 				spacing={2}
-				sx={{ marginX: 'auto' }}
+				sx={{ marginX: "auto" }}
 				justifyContent="center"
 				alignItems="center"
 			>
@@ -49,9 +49,9 @@ const DownloadGuidesButtons = () => {
 			<Text
 				variant="body1"
 				sx={{
-					width: { xs: '90%', md: '472px' },
-					marginX: 'auto',
-					textAlign: 'center',
+					width: { xs: "90%", md: "472px" },
+					marginX: "auto",
+					textAlign: "center",
 				}}
 			>
 				Alternatively, browse the library below to download individual assets or
@@ -77,37 +77,37 @@ const EducatorGuidesInfo = () => {
 					leftCol={5}
 					rightCol={6}
 				>
-					{!isMobile ? (
-						<Box
-							sx={{
-								img: {
-									maxWidth: { xs: '50%', md: '100%' },
-									height: 'auto',
-									borderRadius: '16px',
-								},
-							}}
-						>
-							<Image
-								src={'/images/EFG-PDFs-Stacked.png'}
-								alt={'Two PDFs stacked on top of each other'}
-								width={800}
-								height={400}
-							/>
-						</Box>
-					) : (
-						<></>
-					)}
+					<Box
+						sx={{
+							img: {
+								maxWidth: { xs: "50%", md: "100%" },
+								height: "auto",
+								borderRadius: "16px",
+								marginX: "auto",
+								marginBottom: { xs: 4, md: 0 },
+							},
+							display: "flex",
+						}}
+					>
+						<Image
+							src={"/images/EFG-PDFs-Stacked.png"}
+							alt={"Two PDFs stacked on top of each other"}
+							width={800}
+							height={400}
+						/>
+					</Box>
+
 					<Box>
 						<Stack spacing={3}>
 							<Text
 								variant="h6"
 								sx={{
-									backgroundColor: 'PrimaryBlue',
+									backgroundColor: "PrimaryBlue",
 									py: 1,
 									px: 2,
 									borderRadius: 8,
-									width: 'fit-content',
-									fontSize: '16px',
+									width: "fit-content",
+									fontSize: "16px",
 								}}
 							>
 								NOW AVAILABLE!
@@ -123,8 +123,8 @@ const EducatorGuidesInfo = () => {
 							<Text variant="h6">Each guide includes:</Text>
 							<ul
 								style={{
-									listStyleType: 'square',
-									paddingLeft: '20px',
+									listStyleType: "square",
+									paddingLeft: "20px",
 								}}
 							>
 								<li>Essential background information on the topic</li>

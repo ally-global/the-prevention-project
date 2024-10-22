@@ -1,8 +1,8 @@
-import Hero from '@/components/Hero';
-import StandardLayout from '@/components/StandardLayout';
-import Text from '@/components/Text';
-import { Stack } from '@mui/material';
-import { ReactNode } from 'react';
+import Hero from "@/components/Hero";
+import StandardLayout from "@/components/StandardLayout";
+import Text from "@/components/Text";
+import { Stack } from "@mui/material";
+import { ReactNode } from "react";
 
 const ParentsAndEducatorsHero = ({
 	text,
@@ -16,7 +16,7 @@ const ParentsAndEducatorsHero = ({
 	return (
 		<Hero
 			sx={{
-				background: 'linear-gradient(to right, #673BDC, #00B8C5)',
+				background: "linear-gradient(to right, #673BDC, #00B8C5)",
 				pb: {
 					xs: 6,
 					sm: 6,
@@ -28,18 +28,18 @@ const ParentsAndEducatorsHero = ({
 		>
 			<StandardLayout>
 				<Stack
+					spacing={4}
 					sx={{
 						display: 'flex',
-						alignItems: { xs: 'start', sm: 'center' },
+						alignItems: 'center',
 					}}
-					spacing={4}
 				>
 					{title ? (
 						<Text
 							variant="h5"
 							sx={{
+								textAlign: 'center',
 								maxWidth: '900px',
-								textAlign: { xs: 'left', sm: 'center' },
 							}}
 						>
 							{title}
@@ -48,8 +48,8 @@ const ParentsAndEducatorsHero = ({
 					<Text
 						variant="h4"
 						sx={{
-							maxWidth: '700px',
-							textAlign: { xs: 'left', sm: 'center' },
+							textAlign: "center",
+							maxWidth: "700px",
 						}}
 					>
 						{text}
@@ -58,8 +58,8 @@ const ParentsAndEducatorsHero = ({
 						<Text
 							variant="body1"
 							sx={{
-								maxWidth: '700px',
-								textAlign: { xs: 'left', sm: 'center' },
+								textAlign: "center",
+								maxWidth: "700px",
 							}}
 						>
 							{subtext}

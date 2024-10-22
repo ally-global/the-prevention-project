@@ -1,7 +1,7 @@
 "use client";
 import { SxProps } from "@mui/material";
 import Button from "@mui/material/Button";
-import { MouseEvent, ReactNode } from "react";
+import { ReactNode } from "react";
 
 const AllyButton = ({
   text,
@@ -42,7 +42,7 @@ const AllyButton = ({
         ...sx,
       }}
       onClick={(e) => (onClick ? onClick() : () => {})}
-      endIcon={endIcon ?? <></>}
+      endIcon={endIcon ?? null}
     >
       {text ?? children}
     </Button>

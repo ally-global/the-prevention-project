@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { ReactNode, useState } from "react";
 
-import { Chapter } from "@/content/chapters";
+import { Chapter as ChapterType } from "@/content/chapters";
 import ExpandedChapter from "@/components/ExpandedChapter";
 
 const Chapter = ({
@@ -90,7 +90,7 @@ const Chapter = ({
   );
 };
 
-const LibraryChapters = ({ chapters }: { chapters: Chapter[] }) => {
+const LibraryChapters = ({ chapters }: { chapters: ChapterType[] }) => {
   return (
     <>
       <Stack sx={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
