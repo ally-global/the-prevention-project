@@ -375,7 +375,7 @@ export const chapters3to5: Chapter[] = [
     ],
   },
   {
-    title: "Unsafe People and Unhealthy Social Accounts",
+    title: "Unsafe People and Unhealthy Accounts",
     cardImage:
       "/images/chapter-cards/Gr3-5_Ch4_Unsafe People and Unhealthy Social Accounts.jpg",
     downloadUrl: "https://thepreventionproject-gr35-ch4.paperform.co/",
