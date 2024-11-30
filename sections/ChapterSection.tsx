@@ -15,6 +15,7 @@ const ChapterMenu = ({ chapters }: { chapters: string[] }) => {
 
   return (
     <Select
+      id="chapter-menu"
       MenuProps={{
         PaperProps: {
           sx: {

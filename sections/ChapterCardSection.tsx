@@ -73,7 +73,7 @@ const ChapterCardSection = ({
               },
             }}
             backgroundImageSrc={chapter.cardImage ?? ""}
-            href={`/${slug}?chapter=${index}`}
+            href={`/${slug}?chapter=${index}#chapter-menu`}
           />
         );
       })}
