@@ -26,19 +26,23 @@ const ChapterCardSection = ({
   let data: Chapter[] = [];
   let slug: undefined | string;
   let backgroundColor: string;
+  let boxShadowColor: string;
 
   if (showChapters === GradeGroup.GRADES_3_TO_5) {
     data = chapters3to5;
     slug = "grades3-5";
     backgroundColor = "PrimaryBlue";
+    boxShadowColor = "#06919B";
   } else if (showChapters === GradeGroup.GRADES_6_TO_7) {
     data = chapters6to7;
     slug = "grades6-7";
     backgroundColor = "Blue";
+    boxShadowColor = "#1855A0";
   } else {
     data = chapters8to12;
     slug = "grades8-12";
     backgroundColor = "PrimaryPurple";
+    boxShadowColor = "#423591";
   }
 
   return (
@@ -64,7 +68,8 @@ const ChapterCardSection = ({
             sx={{
               backgroundColor,
               "&:hover": {
-                boxShadow: 4,
+                boxShadow: `4px 4px 0px ${boxShadowColor}`,
+                transition: "box-shadow 0.2s ease-in-out"
               },
             }}
             backgroundImageSrc={chapter.cardImage ?? ""}

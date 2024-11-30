@@ -5,11 +5,13 @@ import { GradeGroup } from "./ChapterCardSection";
 const ChooseYourGrade = ({
   text,
   color,
+  boxShadowColor,
   mobile,
   onClick,
 }: {
   text: string;
   color: string;
+  boxShadowColor: string;
   onClick: () => void;
   mobile?: boolean;
 }) => {
@@ -25,6 +27,10 @@ const ChooseYourGrade = ({
         borderRadius: "16px",
         whiteSpace: { xs: "normal", sm: "nowrap" },
         lineHeight: { xs: "20px", sm: "20px", md: "34px" },
+        "&:hover": {
+          backgroundColor: color,
+          boxShadow: `4px 4px 0px ${boxShadowColor}`,
+        },
       }}
       color={color}
       text={text}
@@ -50,16 +56,19 @@ const ChooseYourGradeSection = ({
       <ChooseYourGrade
         text="Grades 3-5"
         color="PrimaryBlue"
+        boxShadowColor="#06919B"
         onClick={() => setActiveGradeGroup(GradeGroup.GRADES_3_TO_5)}
       />
       <ChooseYourGrade
         text="Grades 6-7"
         color="Blue"
+        boxShadowColor="#1855A0"
         onClick={() => setActiveGradeGroup(GradeGroup.GRADES_6_TO_7)}
       />
       <ChooseYourGrade
         text="Grades 8-12"
         color="PrimaryPurple"
+        boxShadowColor="#423591"
         onClick={() => setActiveGradeGroup(GradeGroup.GRADES_8_TO_12)}
       />
     </Box>
