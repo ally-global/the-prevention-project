@@ -48,9 +48,8 @@ const ChapterCardSection = ({
   return (
     <Box
       sx={{
-        display: "flex",
-        justifyContent: "align-left",
-        flexWrap: "wrap",
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
         width: "100%",
         gap: 4,
       }}
