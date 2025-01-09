@@ -1,41 +1,50 @@
 import AllyButton from "@/components/AllyButton";
 import { Box } from "@mui/material";
-import Link from "next/link";
+import { GradeGroup } from "./ChapterCardSection";
 
 const ChooseYourGrade = ({
   text,
   color,
+  boxShadowColor,
   mobile,
-  href,
+  onClick,
 }: {
   text: string;
   color: string;
-  href: string;
+  boxShadowColor: string;
+  onClick: () => void;
   mobile?: boolean;
 }) => {
   return (
-    <Link href={href} style={{ width: "100%", textDecoration: "none" }}>
-      <AllyButton
-        sx={{
-          width: "100%",
-          paddingY: { xs: 4, sm: 4, md: 6 },
-          paddingX: { xs: 2, sm: 4, md: 6 },
-          color: "White",
-          fontSize: { xs: "20px", sm: "20px", md: "34px" },
-          fontWeight: "700px",
-          borderRadius: "16px",
-          whiteSpace: { xs: "normal", sm: "nowrap" },
-          lineHeight: { xs: "20px", sm: "20px", md: "34px" },
-        }}
-        color={color}
-        text={text}
-        wide={mobile}
-      />
-    </Link>
+    <AllyButton
+      sx={{
+        width: "100%",
+        paddingY: { xs: 4, sm: 4, md: 6 },
+        paddingX: { xs: 2, sm: 4, md: 6 },
+        color: "White",
+        fontSize: { xs: "20px", sm: "20px", md: "34px" },
+        fontWeight: "700px",
+        borderRadius: "16px",
+        whiteSpace: { xs: "normal", sm: "nowrap" },
+        lineHeight: { xs: "20px", sm: "20px", md: "34px" },
+        "&:hover": {
+          backgroundColor: color,
+          boxShadow: `4px 4px 0px ${boxShadowColor}`,
+        },
+      }}
+      color={color}
+      text={text}
+      wide={mobile}
+      onClick={onClick}
+    />
   );
 };
 
-const ChooseYourGradeSection = () => {
+const ChooseYourGradeSection = ({
+  setActiveGradeGroup,
+}: {
+  setActiveGradeGroup: any;
+}) => {
   return (
     <Box
       sx={{
@@ -47,13 +56,20 @@ const ChooseYourGradeSection = () => {
       <ChooseYourGrade
         text="Grades 3-5"
         color="PrimaryBlue"
-        href={"/grades3-5"}
+        boxShadowColor="#06919B"
+        onClick={() => setActiveGradeGroup(GradeGroup.GRADES_3_TO_5)}
       />
-      <ChooseYourGrade text="Grades 6-7" color="Blue" href={"/grades6-7"} />
+      <ChooseYourGrade
+        text="Grades 6-7"
+        color="Blue"
+        boxShadowColor="#1855A0"
+        onClick={() => setActiveGradeGroup(GradeGroup.GRADES_6_TO_7)}
+      />
       <ChooseYourGrade
         text="Grades 8-12"
         color="PrimaryPurple"
-        href={"/grades8-12"}
+        boxShadowColor="#423591"
+        onClick={() => setActiveGradeGroup(GradeGroup.GRADES_8_TO_12)}
       />
     </Box>
   );
