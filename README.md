@@ -24,5 +24,5 @@ This project auto-deploys to Vercel on each commit to master, and is hosted at t
 ## Questions
 
 Contact the developer
-Charley Carriero
-carriero.char@gmail.com
+[Charley Carriero](carriero.char@gmail.com)
+
