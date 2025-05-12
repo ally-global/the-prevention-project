@@ -23,21 +23,38 @@ const ContentSection = ({ chapters }: { chapters: Chapter[] }) => {
   const section = sectionParam ? Number(sectionParam) : 1;
 
   const selectedChapterSection = chapters[chapter].content[section - 1];
-	const filteredChapters = chapters[chapter].content.filter((chapter) => chapter.hideOnGradesPage !== true);
+  const filteredChapters = chapters[chapter].content.filter(
+    (chapter) => chapter.hideOnGradesPage !== true
+  );
 
   return (
     <>
       <Box sx={{ backgroundColor: "White", pb: { xs: 4, sm: 10, md: 20 } }}>
         <StandardLayout>
           <Stack spacing={2} sx={{ pt: 2 }}>
-            <VideoMenu
-              content={filteredChapters.map((c) => c.title)}
-            />
+            <VideoMenu content={filteredChapters.map((c) => c.title)} />
             {selectedChapterSection.vimeoId && (
               <VideoPlayer vimeoId={selectedChapterSection.vimeoId} />
             )}
             {selectedChapterSection.pdfUrl && (
-              <PdfViewer pathToFile={selectedChapterSection.pdfUrl} />
+              // <PdfViewer pathToFile={selectedChapterSection.pdfUrl} />
+              <Box
+                sx={{
+                  backgroundColor: "#FFFFC5",
+                  padding: 4,
+                  mt: 4,
+                  mx: { xs: 0, sm: 4 },
+                  borderRadius: "8px",
+                }}
+              >
+                <Text
+                  variant={"body1"}
+                  color={"Grey900"}
+                  sx={{ fontStyle: "italic" }}
+                >
+                  This content is temporarily unavailable
+                </Text>
+              </Box>
             )}
           </Stack>
           <Box
