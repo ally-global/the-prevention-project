@@ -110,13 +110,15 @@ const ExpandedChapter = ({
             <Box
               sx={{
                 mb: 3,
-                ...(content[selected].backgroundImage ? {
-                  backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(${content[selected].backgroundImage})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "top",
-                } : {
-                  backgroundColor: "Grey300",
-                }),
+                ...(content[selected].backgroundImage
+                  ? {
+                      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(${content[selected].backgroundImage})`,
+                      backgroundSize: "cover",
+                      backgroundPosition: "top",
+                    }
+                  : {
+                      backgroundColor: "Grey300",
+                    }),
                 borderRadius: "16px",
                 display: "flex",
                 justifyContent: "center",
@@ -124,7 +126,7 @@ const ExpandedChapter = ({
                 minHeight: { xs: "240px", sm: "396px" },
               }}
             >
-              <Link
+              {/* <Link
                 target="_blank"
                 href={content[selected].pdfUrl!}
                 style={{ textDecoration: "none" }}
@@ -138,7 +140,7 @@ const ExpandedChapter = ({
                   color={"PrimaryBlue"}
                   endIcon={<CloudDownloadOutlinedIcon />}
                 />
-              </Link>
+              </Link> */}
             </Box>
           )}
         </Box>
@@ -158,7 +160,12 @@ const ExpandedChapter = ({
           gap: 1,
         }}
       >
-        {content[selected].vimeoDownloadUrl && (
+        <Box sx={{ backgroundColor: "#FFFFC5", padding: 2, borderRadius: 4 }}>
+          <Text variant={"body2"} color={"Grey800"}>
+            Downloads are temporarily unavailable
+          </Text>
+        </Box>
+        {/* {content[selected].vimeoDownloadUrl && (
           <Link
             target="_blank"
             href={content[selected].vimeoDownloadUrl!}
@@ -170,8 +177,8 @@ const ExpandedChapter = ({
               endIcon={<CloudDownloadOutlinedIcon />}
             />
           </Link>
-        )}
-        {chapterDownloadUrl && (
+        )} */}
+        {/* {chapterDownloadUrl && (
           <Link
             target="_blank"
             href={chapterDownloadUrl}
@@ -183,7 +190,7 @@ const ExpandedChapter = ({
               endIcon={<CloudDownloadOutlinedIcon />}
             />
           </Link>
-        )}
+        )} */}
       </Stack>
     </Box>
   );

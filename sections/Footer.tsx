@@ -183,14 +183,17 @@ const Footer = () => {
                     color={`Grey800`}
                     lineHeight={"24px"}
                   >
-                    Email us at <Typography
+                    Email us at{" "}
+                    <Typography
                       component={"a"}
                       href="mailto:info@thepreventionproject.ca"
                       target="_blank"
                       color="Grey800"
                       variant={"caption"}
                       lineHeight={"24px"}
-                    >info@thepreventionproject.ca</Typography>
+                    >
+                      info@thepreventionproject.ca
+                    </Typography>
                   </Typography>
                   <Box>
                     <Typography
@@ -210,6 +213,16 @@ const Footer = () => {
                       lineHeight={"24px"}
                     >
                       prevention-project.org
+                    </Typography>
+                    <Typography
+                      variant={"caption"}
+                      color={`Grey800`}
+                      lineHeight={"24px"}
+                      display={"block"}
+                      sx={{ mt: 6 }}
+                    >
+                      ALL RIGHTS RESERVED. COPYING, DOWNLOADING, DISTRIBUTION OR
+                      REPRODUCTION OF THE CONTENT ON THIS WEBSITE IS PROHIBITED.
                     </Typography>
                   </Box>
                 </Box>
