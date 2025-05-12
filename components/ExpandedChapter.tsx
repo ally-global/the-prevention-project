@@ -160,6 +160,11 @@ const ExpandedChapter = ({
           gap: 1,
         }}
       >
+        <Box sx={{ backgroundColor: "#FFFFC5", padding: 2, borderRadius: 4 }}>
+          <Text variant={"body2"} color={"Grey800"}>
+            Downloads are temporarily unavailable
+          </Text>
+        </Box>
         {/* {content[selected].vimeoDownloadUrl && (
           <Link
             target="_blank"
