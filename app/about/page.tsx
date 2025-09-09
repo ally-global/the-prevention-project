@@ -21,9 +21,9 @@ export default function About() {
       <Box id={"book-a-presentation"}>
         <LearnMore />
       </Box>
-      <Box id={"donate"}>
+      {/* <Box id={"donate"}>
         <Donate />
-      </Box>
+      </Box> */}
       <Box id={"acknowledgements"}>
         <Acknowledgements />
       </Box>
