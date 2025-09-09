@@ -1,5 +1,4 @@
 import Acknowledgements from "@/sections/Acknowledgements";
-import Donate from "@/sections/Donate";
 import HelpRightNowSection from "@/sections/HelpRightNowSection";
 import GenericHero from "@/sections/Heros/GenericHero";
 import LearnMore from "@/sections/LearnMore";
@@ -21,9 +20,6 @@ export default function About() {
       <Box id={"book-a-presentation"}>
         <LearnMore />
       </Box>
-      {/* <Box id={"donate"}>
-        <Donate />
-      </Box> */}
       <Box id={"acknowledgements"}>
         <Acknowledgements />
       </Box>
