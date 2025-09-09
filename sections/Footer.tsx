@@ -139,7 +139,7 @@ const Footer = () => {
                     text={"Book a Presentation"}
                     href="/about#book-a-presentation"
                   />
-                  <FooterItem text={"Donate"} href="/about#donate" />
+                  {/* <FooterItem text={"Donate"} href="/about#donate" /> */}
                   <FooterItem
                     text={"Acknowledgements"}
                     href="/about#acknowledgements"
