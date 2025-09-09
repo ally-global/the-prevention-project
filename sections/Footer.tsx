@@ -239,7 +239,7 @@ const Footer = () => {
         }}
       >
         <Typography variant={"caption"} color={"Grey800"}>
-          © {new Date().getFullYear()} Ally Global Foundation
+          © 2025 Ally Global Foundation
         </Typography>
         <Box
           sx={{ display: "flex", gap: { xs: 2, sm: 2, md: 4 }, mt: "-10px" }}
