@@ -139,7 +139,7 @@ const Footer = () => {
                     text={"Book a Presentation"}
                     href="/about#book-a-presentation"
                   />
-                  <FooterItem text={"Donate"} href="/about#donate" />
+                  {/* <FooterItem text={"Donate"} href="/about#donate" /> */}
                   <FooterItem
                     text={"Acknowledgements"}
                     href="/about#acknowledgements"
@@ -239,7 +239,7 @@ const Footer = () => {
         }}
       >
         <Typography variant={"caption"} color={"Grey800"}>
-          © 2024 Ally Global Foundation
+          © 2025 Ally Global Foundation
         </Typography>
         <Box
           sx={{ display: "flex", gap: { xs: 2, sm: 2, md: 4 }, mt: "-10px" }}
