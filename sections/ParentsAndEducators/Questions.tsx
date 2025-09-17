@@ -21,10 +21,10 @@ const QuestionsSection = () => {
 				<Text variant={"body1"} color={"Grey900"} sx={{ textAlign: "center" }}>
 					If you need further support, reach out to us by emailing{" "}
 					<Link
-						href="mailto:info@thepreventionproject.ca"
+						href="mailto:info@ally.org"
 						sx={{ color: "PrimaryPurple" }}
 					>
-						info@thepreventionproject.ca
+						info@ally.org
 					</Link>{" "}
 					We&apos;re committed to ensuring you feel equipped and empowered to
 					use The Prevention Project effectively.
