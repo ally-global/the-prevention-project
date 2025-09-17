@@ -89,12 +89,19 @@ const CallOutSection = () => {
 			</Text>
 			<Typography variant="body1" color="Grey800" sx={{ textAlign: 'center' }}>
 				These resources should only be used with their intended audiences, in
-				order to maintain the integrity and safety of the material. Please{' '}
+				order to maintain the integrity and safety of the material. Please contact{' '}
 				<Link
-					href="mailto:info@thepreventionproject.ca"
+					href="mailto:info@ally.org"
 					sx={{ color: 'PrimaryPurple' }}
 				>
-					contact us
+					Ally
+				</Link>{' '}
+				or{' '}
+				<Link
+					href="mailto:hello@exploitationeducation.org"
+					sx={{ color: 'PrimaryPurple' }}
+				>
+					ExEd
 				</Link>{' '}
 				if you wish to distribute them widely or feature them on your website.
 			</Typography>

@@ -177,22 +177,39 @@ const Footer = () => {
                     QUESTIONS?
                   </Typography>
                 </Box>
-                <Box gap={2} sx={{ display: "flex", flexDirection: "column" }}>
+                <Box sx={{ display: "flex", flexDirection: "column" }}>
                   <Typography
                     variant={"caption"}
                     color={`Grey800`}
                     lineHeight={"24px"}
                   >
-                    Email us at{" "}
+                    Email ExEd at{" "}
                     <Typography
                       component={"a"}
-                      href="mailto:info@thepreventionproject.ca"
+                      href="mailto:hello@exploitationeducation.org"
                       target="_blank"
                       color="Grey800"
                       variant={"caption"}
                       lineHeight={"24px"}
                     >
-                      info@thepreventionproject.ca
+                      hello@exploitationeducation.org
+                    </Typography>
+                  </Typography>
+                  <Typography
+                    variant={"caption"}
+                    color={`Grey800`}
+                    lineHeight={"24px"}
+                  >
+                    Email Ally at{" "}
+                    <Typography
+                      component={"a"}
+                      href="mailto:info@ally.org"
+                      target="_blank"
+                      color="Grey800"
+                      variant={"caption"}
+                      lineHeight={"24px"}
+                    >
+                      info@ally.org
                     </Typography>
                   </Typography>
                   <Box>
