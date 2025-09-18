@@ -86,7 +86,8 @@ const Footer = () => {
                 marginTop: "0px",
               }}
             >
-              <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
+              {/* Temporary removed newsletter section */}
+              {/* <Grid item xs={4} sm={4} md={3} lg={3} xl={3}>
                 <Box mb={2}>
                   <Typography
                     color={"PrimaryPurple"}
@@ -117,7 +118,7 @@ const Footer = () => {
                     }}
                   ></div>
                 </Stack>
-              </Grid>
+              </Grid> */}
               <Grid item xs={2} sm={2} md={2} lg={2} xl={2}>
                 <Box mb={2}>
                   <Typography
