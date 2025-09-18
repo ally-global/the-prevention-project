@@ -79,7 +79,13 @@ const Footer = () => {
                 xl: 3,
               }}
               columns={{ xs: 4, sm: 4, md: 12, lg: 12, xl: 12 }}
-              justifyContent="flex-start"
+              justifyContent={{
+                xs: "flex-start",
+                sm: "flex-start",
+                md: "space-around",
+                lg: "space-around",
+                xl: "space-around"
+              }}
               alignItems="flex-start"
               height="100%"
               style={{
