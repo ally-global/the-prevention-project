@@ -63,7 +63,7 @@ const Acknowledgements = () => {
 							>
 								The Laughing Survivor
 							</a>
-							; Sarah Dillon; Carol Todd,{' '}
+							; Eliza Nwachukwu; Carol Todd,{' '}
 							<a
 								href={'https://www.amandatoddlegacy.org/'}
 								target={'_blank'}
